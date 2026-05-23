@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>育儿与教育：屏幕时间与数字素养 — Week 4</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,"SF Pro Display","Noto Sans SC",sans-serif;background:#fff5f0;color:#3a2a3a;line-height:1.75}
+.container{max-width:780px;margin:0 auto;padding:24px 20px 60px}
+header{text-align:center;padding:48px 0 28px;border-bottom:1px dashed #f0c8d8;margin-bottom:32px}
+header .week-tag{display:inline-block;background:#e07a9b;color:#fff;padding:4px 14px;border-radius:20px;font-size:0.78rem;font-weight:700;letter-spacing:1px;margin-bottom:14px}
+header h1{font-size:1.85rem;font-weight:800;color:#c45a8e;line-height:1.35;letter-spacing:0.5px}
+header .date{margin-top:12px;font-size:0.88rem;color:#8a6b7a}
+header .intro{margin-top:18px;font-size:0.95rem;color:#6a4a5a;font-style:italic;max-width:560px;margin-left:auto;margin-right:auto}
+.card{background:#fff;border-radius:18px;padding:30px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-left:4px solid #e07a9b}
+.card .num{display:inline-block;background:#fff5f0;color:#c45a8e;padding:3px 10px;border-radius:10px;font-size:0.78rem;font-weight:700;margin-bottom:10px}
+.card h2{font-size:1.32rem;color:#c45a8e;font-weight:700;margin-bottom:4px;line-height:1.4}
+.card .en-name{font-size:0.92rem;color:#a87a92;font-weight:500;margin-bottom:6px}
+.card .tag{display:inline-block;background:#fce4ed;color:#c45a8e;padding:3px 10px;border-radius:10px;font-size:0.75rem;margin-bottom:16px}
+.section{margin-top:16px}
+.section .label{font-weight:700;color:#c45a8e;font-size:0.92rem;margin-bottom:6px;letter-spacing:0.3px}
+.section p{font-size:0.97rem;color:#3a2a3a;line-height:1.78}
+.dialog{background:#fff5f0;border-radius:10px;padding:14px 16px;margin-top:10px;font-size:0.93rem;color:#5a3a4a}
+.dialog .who{font-weight:700;color:#c45a8e}
+.dialog p{margin-bottom:6px}
+.english{background:#faf3f6;border-left:3px solid #c45a8e;padding:12px 14px;border-radius:8px;font-size:0.9rem;color:#5a3a4a;font-style:italic}
+.practice{background:#fff0e8;border-radius:10px;padding:14px 16px;margin-top:10px;font-size:0.93rem;color:#5a3a4a;border:1px dashed #e07a9b}
+.diagram{background:#fff5f0;border-radius:14px;padding:20px;margin-top:12px;text-align:center}
+.diagram svg{max-width:100%;height:auto}
+.diagram .caption{font-size:0.82rem;color:#8a6b7a;margin-top:8px;font-style:italic}
+.matrix{background:#fff5f0;border-radius:12px;padding:18px 16px;margin-top:12px}
+.matrix .row{display:flex;align-items:flex-start;gap:14px;padding:8px 0;border-bottom:1px dashed #f0c8d8}
+.matrix .row:last-child{border-bottom:none}
+.matrix .age{flex-shrink:0;width:96px;font-weight:700;color:#c45a8e;font-size:0.88rem}
+.matrix .desc{font-size:0.92rem;color:#5a3a4a}
+nav{text-align:center;margin-top:36px;padding:20px 0}
+nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
+nav a:hover{background:#e07a9b;color:#fff}
+@media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}.matrix .row{flex-direction:column;gap:4px}.matrix .age{width:auto}}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+<span class="week-tag">WEEK 4 · 2026.06.10</span>
+<h1>育儿与教育：屏幕时间与数字素养</h1>
+<p class="date">Screen Time · 数字素养 · 内容质量 · 家庭媒体计划</p>
+<p class="intro">"屏幕时间一天不能超过 1 小时"——这个广为流传的红线，在科研文献里其实远比你想象的复杂。本周我们把焦点从"多长时间"挪到"哪种内容、和谁一起、什么时候、替代了什么"，建一套工程师视角的家庭媒体系统。</p>
+</header>
+
+<!-- 1 -->
+<div class="card">
+<span class="num">01</span>
+<h2>"教育 APP"承诺 vs 实际证据 · 大部分早教 APP 不是教育</h2>
+<div class="en-name">Educational App Claims vs Evidence</div>
+<span class="tag">数字早教 · 证据等级</span>
+
+<div class="section">
+<div class="label">【核心原则】</div>
+<p>App Store "教育"分类下的产品，绝大多数没有任何效果研究证明它能教任何东西。市场宣传不是证据。真正符合早期儿童学习科学的应用屈指可数——多数是把电视节目套上交互动画再加内购的"披着教育外衣的娱乐"。</p>
+</div>
+
+<div class="section">
+<div class="label">【研究基础】</div>
+<p>Hirsh-Pasek, Zosh, Golinkoff 等 (Psychological Science in the Public Interest, 2015)《Putting Education in "Educational" Apps》对 100+ 款宣称教育用途的 APP 系统评估，提出真正促学习的"四支柱"：active (积极动脑) / engaged (持续投入但不被干扰) / meaningful (与孩子已有知识连接) / socially interactive (有社交对话)。结论：市场上极少 APP 同时满足四条。Heather Kirkorian (UW-Madison) 关于"video deficit effect"——2.5 岁以下孩子从屏幕学习的效率远低于真人示范——是被多次重复验证的。AAP 2016 媒体声明：18 个月以下避免屏幕 (视频通话除外)；18-24 个月若使用须高质量内容且家长共看；2-5 岁限制每天 1 小时高质量内容。</p>
+</div>
+
+<div class="section">
+<div class="label">【为什么有效】</div>
+<p>早期学习的核心是 contingent interaction (应答性互动)——你说一句、对方真的听见并回应一句。真人对话天然具备；APP 即使有"反馈"，也是预设脚本，不会真的"懂"孩子那一刻在想什么。其次是 transfer (迁移)：屏幕上看到的红色 → 现实里的红色苹果，这个跨情境迁移对幼儿很难，要靠成人桥接。第三是机会成本——任何一个屏幕小时，都挤掉了同样时长的真实世界探索、自由游戏、和大人的对话，而这些是学龄前最有价值的学习。所以问"这个 APP 教了什么"远远不够，要问"它替代了什么"。</p>
+</div>
+
+<div class="section">
+<div class="label">【内容质量自评清单】</div>
+<div class="matrix">
+<div class="row"><div class="age">✅ 主动</div><div class="desc">需要孩子思考、解决问题，不是机械点击。无脑滑动 = 不及格。</div></div>
+<div class="row"><div class="age">✅ 投入</div><div class="desc">没有不停弹窗、奖励动画、刺激音效抢注意力。不靠多巴胺钩子留人。</div></div>
+<div class="row"><div class="age">✅ 有意义</div><div class="desc">内容与孩子真实生活/已有知识能连接。学认字的 APP 若不结合实物，作用有限。</div></div>
+<div class="row"><div class="age">✅ 社交化</div><div class="desc">设计为可以和大人一起用，而不是塞给孩子让你解放。</div></div>
+<div class="row"><div class="age">⚠ 警惕</div><div class="desc">"教育"标签 / 大量内购 / 进度条焦虑 / 算法推荐"再看一集"。</div></div>
+</div>
+</div>
+
+<div class="section">
+<div class="label">【具体话术与场景】</div>
+<div class="dialog">
+<p><span class="who">挑 APP 时问自己：</span>"如果我陪他玩这个 30 分钟，我们之间会发生对话吗？还是他会戴上耳机不理我？"——前者通过，后者跳过。</p>
+<p><span class="who">和孩子一起用时：</span>"你觉得为什么这个小动物饿了？" "这里和我们昨天去的公园那只松鼠像吗？"——把屏幕里的内容拉回真实世界。这叫 joint media engagement，是把屏幕变学习的唯一可靠路径。</p>
+<p><span class="who">面对"我同学都在玩 XX"：</span>"我看看你给我介绍一下？" 先了解，再判断。把审查变成对话，不是禁令。</p>
+</div>
+</div>
+
+<div class="section">
+<div class="label">【常见陷阱】</div>
+<p>① 把 APP 宣传当证据：开发商写"基于蒙特梭利"不等于真有效。② 把"互动"等同于"主动"——点屏幕也是被动行为。③ 用 APP 做电子保姆，自己刷手机——孩子失去的是和你的互动，不是屏幕本身。④ 迷信免费——免费 APP 的盈利模式通常是广告 + 留存设计，对孩子注意力的剥夺更猛。</p>
+</div>
+
+<div class="section">
+<div class="label">【关键资源】</div>
+<p>Hirsh-Pasek 等《Putting Education in "Educational" Apps》(2015 论文，开放获取)。Lisa Guernsey《Screen Time: How Electronic Media—From Baby Videos to Educational Software—Affects Your Young Child》。Common Sense Media (commonsensemedia.org) 提供独立的内容评级。</p>
+</div>
+
+<div class="section">
+<div class="label">【English Summary】</div>
+<div class="english">Most apps labeled "educational" have no efficacy research behind them. Hirsh-Pasek's four pillars (active, engaged, meaningful, socially interactive) filter the noise. The video deficit effect means young children learn poorly from screens versus from people. Ask not what the app teaches but what it replaces.</div>
+</div>
+
+<div class="section">
+<div class="label">【本周练习】</div>
+<div class="practice">挑孩子用得最多的一个 APP，用四支柱清单打分。如果三条不及格，本周直接卸载，把那段时间换成共读或户外。一周后观察孩子的反应与你自己的负担有没有变化。</div>
+</div>
+</div>
+
+<!-- 2 -->
+<div class="card">
+<span class="num">02</span>
+<h2>屏幕时间研究的真相 · 效应量可能比你想象小得多</h2>
+<div class="en-name">What the Screen Time Research Actually Says</div>
+<span class="tag">证据评估 · 反焦虑</span>
+
+<div class="section">
+<div class="label">【核心原则】</div>
+<p>媒体上"屏幕时间毁掉一代人"的说法，被大规模数据反复检验后，效应量其实非常小，跟"吃土豆"对青少年福祉的负向影响差不多。这不等于屏幕没问题，而是说：粗暴的"每天不能超过 X 小时"远不如关注"内容、时机、替代了什么"。</p>
+</div>
+
+<div class="section">
+<div class="label">【研究基础】</div>
+<p>Amy Orben & Andrew Przybylski (Oxford, Nature Human Behaviour 2019)《The association between adolescent well-being and digital technology use》分析三个超 35 万人的国家级数据集，发现屏幕时间对青少年福祉的解释力约 0.4%——比戴眼镜、吃土豆、规律早餐等"对照变量"的影响还小。Przybylski 早前提出"Goldilocks Hypothesis" (2017)：适度屏幕时间 (约 1-2 小时) 反而比完全没有略好——可能因为社交联结。Christakis 等关于电视与 ADHD 关联 (2004) 是相关而非因果，后续 Foster & Watkins (2010) 控制混杂变量后效应大幅缩小。Russell Viner 等 (BMJ Open, 2019) 综述：除极端使用 (每天 5+ 小时) 外，普通屏幕使用与心理健康关系微弱。</p>
+</div>
+
+<div class="section">
+<div class="label">【效应量直观对比】</div>
+<div class="diagram">
+<svg viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg">
+<text x="180" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="#c45a8e">青少年福祉解释力 (R² · Orben &amp; Przybylski 2019)</text>
+<line x1="40" y1="180" x2="340" y2="180" stroke="#c8a8b8" stroke-width="1"/>
+<line x1="40" y1="40" x2="40" y2="180" stroke="#c8a8b8" stroke-width="1"/>
+<rect x="60" y="50" width="36" height="130" fill="#e07a9b"/>
+<text x="78" y="195" text-anchor="middle" font-size="9" fill="#5a3a4a">校园霸凌</text>
+<text x="78" y="46" text-anchor="middle" font-size="9" fill="#5a3a4a">~4%</text>
+<rect x="110" y="120" width="36" height="60" fill="#e07a9b"/>
+<text x="128" y="195" text-anchor="middle" font-size="9" fill="#5a3a4a">大麻使用</text>
+<text x="128" y="116" text-anchor="middle" font-size="9" fill="#5a3a4a">~1.6%</text>
+<rect x="160" y="155" width="36" height="25" fill="#e07a9b"/>
+<text x="178" y="195" text-anchor="middle" font-size="9" fill="#5a3a4a">屏幕时间</text>
+<text x="178" y="151" text-anchor="middle" font-size="9" fill="#5a3a4a">~0.4%</text>
+<rect x="210" y="158" width="36" height="22" fill="#f5b8d0"/>
+<text x="228" y="195" text-anchor="middle" font-size="9" fill="#5a3a4a">吃土豆</text>
+<text x="228" y="154" text-anchor="middle" font-size="9" fill="#5a3a4a">~0.3%</text>
+<rect x="260" y="145" width="36" height="35" fill="#f5b8d0"/>
+<text x="278" y="195" text-anchor="middle" font-size="9" fill="#5a3a4a">早餐规律</text>
+<text x="278" y="141" text-anchor="middle" font-size="9" fill="#5a3a4a">~0.6%</text>
+</svg>
+<div class="caption">屏幕时间的"群体效应"被严重夸大；它和午饭吃土豆对孩子幸福感的影响差不多。</div>
+</div>
+</div>
+
+<div class="section">
+<div class="label">【为什么有效】</div>
+<p>承认这个证据基础不是为屏幕辩护，而是把家庭精力放对地方。当你为孩子今天多看了 20 分钟动画片自责一晚上时，你失去的睡眠和耐心，对孩子的影响远大于那 20 分钟本身。同时，"屏幕"是个大杂烩——FaceTime 奶奶、看 BBC 纪录片、打《我的世界》、刷短视频、深夜偷玩手机——对孩子的影响完全不同。把所有屏幕加总到一个"时长"，等于把蔬菜和糖果都算成"卡路里"做营养判断。研究界过去十年的方向就是从"how much"转向"what, when, with whom, instead of what"。</p>
+</div>
+
+<div class="section">
+<div class="label">【具体话术与场景】</div>
+<div class="dialog">
+<p><span class="who">对自己说：</span>"今天他多看了一小时，不会毁掉他。但我们家最近常常用屏幕替代睡前阅读，这个模式要改。"——区分"单次"与"模式"。</p>
+<p><span class="who">和孩子讨论：</span>"我们家不是说屏幕不好，是说时间有限——一天就这么多小时，看 30 分钟动画就少 30 分钟做别的，你想怎么分？" 让孩子从小理解机会成本。</p>
+<p><span class="who">面对老人/亲戚的"过度反应"：</span>"现在最新的大规模研究发现，时长本身影响很小，关键是看什么和睡前不要看。我们家用这个标准。" 你不是放纵，是基于证据。</p>
+</div>
+</div>
+
+<div class="section">
+<div class="label">【常见陷阱】</div>
+<p>① 用"零屏幕"作为身份认同：真的执行起来全家都累，孩子去同学家反而暴击。② 反过来彻底放弃管理——"反正研究说没事"。极端使用 (每天 5+ 小时) 仍然与睡眠、注意力、情绪问题强相关。③ 忽视青春期的特殊性：社交媒体对女孩 (Twenge 等的争议数据指向) 的影响可能比对小学生更显著，要分龄思考。④ 自己的屏幕时间从不审视：父母平均屏幕时间 (4-6h/day) 才是最该看的数。</p>
+</div>
+
+<div class="section">
+<div class="label">【关键资源】</div>
+<p>Amy Orben《The Sisyphean Cycle of Technology Panics》(Perspectives on Psychological Science, 2020)。Andrew Przybylski 在 Oxford Internet Institute 的开放数据论文。Candice Odgers (UC Irvine) 关于青少年屏幕时间与心理健康的综述。Jonathan Haidt《The Anxious Generation》(2024) 与 Orben/Przybylski 的争论值得对照阅读——两边都不要照单全收。</p>
+</div>
+
+<div class="section">
+<div class="label">【English Summary】</div>
+<div class="english">Orben & Przybylski's analysis of 350,000+ adolescents found screen time explains less than half a percent of well-being variance — comparable to eating potatoes. This doesn't mean screens are harmless; it means crude time limits are the wrong lever. Focus on content, timing, displacement, and extreme use rather than counting minutes.</div>
+</div>
+
+<div class="section">
+<div class="label">【本周练习】</div>
+<div class="practice">本周记录三天孩子的屏幕使用，但不只记时长——记录"看了什么"、"和谁一起"、"替代了什么活动"、"前后睡眠/情绪如何"。一周后你会发现：让你不安的可能不是总时长，而是某一两类内容或时段。</div>
+</div>
+</div>
+
+<!-- 3 -->
+<div class="card">
+<span class="num">03</span>
+<h2>内容质量 &gt; 时长 · 三个维度比"小时数"重要</h2>
+<div class="en-name">Content &gt; Duration: The Three C's</div>
+<span class="tag">内容评估 · 共看</span>
+
+<div class="section">
+<div class="label">【核心原则】</div>
+<p>同样 1 小时屏幕：和爸爸一起看《Planet Earth》讨论企鹅，与睡前躺床上刷算法推荐短视频，对孩子的影响完全不同维度。Lisa Guernsey 提出的 "Three C's" 框架——Content (内容)、Context (情境)、Child (孩子) ——比任何时长红线都更有指导意义。</p>
+</div>
+
+<div class="section">
+<div class="label">【研究基础】</div>
+<p>Lisa Guernsey《Screen Time》(2012)、Guernsey & Levine《Tap, Click, Read》(2015) 综合儿童媒体几十年研究，提出 Three C's。Daniel Anderson (UMass) 几十年实验显示节奏快、画面剪辑频繁的内容 (典型如《海绵宝宝》) 对学龄前儿童执行功能有短期负面影响 (Lillard & Peterson, Pediatrics 2011)。相反，慢节奏、有教学结构的节目 (如《Sesame Street》、《Daniel Tiger》) 在长期追踪 (Kearney & Levine 2019, AEJ Applied) 中显示对低收入家庭儿童的入学准备度有显著正向作用。Heather Kirkorian: 父母旁观与孩子讨论 (joint media engagement) 能显著提升幼儿从视频学到的内容。</p>
+</div>
+
+<div class="section">
+<div class="label">【三 C 模型】</div>
+<div class="matrix">
+<div class="row"><div class="age">Content 内容</div><div class="desc">叙事是否慢节奏、是否有教学结构、是否符合年龄、是否传递家庭认可的价值观。同年龄段动画质量差异巨大。</div></div>
+<div class="row"><div class="age">Context 情境</div><div class="desc">在哪看 (客厅 vs 卧室)？什么时候 (睡前 vs 周末上午)？和谁一起 (大人在场 vs 一个人戴耳机)？替代了什么 (睡眠？户外？阅读？)？</div></div>
+<div class="row"><div class="age">Child 孩子</div><div class="desc">年龄、气质、当下状态。同样的内容对 4 岁和 8 岁影响不同；对易敏感的孩子和钝感孩子不同；累了/饿了的孩子接收效果不同。</div></div>
+</div>
+</div>
+
+<div class="section">
+<div class="label">【为什么有效】</div>
+<p>当代神经科学的共识是：学习是大脑预测+更新的过程 (predictive coding)。慢节奏、可预测、有因果链条的内容给大脑留出处理时间，让前额叶有机会做"主动学习"。快剪辑、强刺激、不断转场的内容则训练的是"被动接收+刺激寻求"，长期下来会改变孩子对"什么算有趣"的基线——读绘本变得"太慢"，户外散步变得"无聊"。这就是为什么短视频对注意力的潜在影响比时长更值得关心：它在重塑大脑的奖励阈值。共看 (co-viewing) 之所以关键，是因为成人的提问把"被动消费"切换到"主动加工"，激活的是完全不同的脑区。</p>
+</div>
+
+<div class="section">
+<div class="label">【具体话术与场景】</div>
+<div class="dialog">
+<p><span class="who">和孩子约定挑选标准：</span>"我们家看节目有三个问题：① 节奏太快闪眼睛吗？② 看完了你能跟我讲发生了什么吗？③ 它会让你做完后还在想？" 把审美训练成孩子自己的能力。</p>
+<p><span class="who">陪看时主动提问：</span>"你猜接下来会怎样？" "这个角色为什么生气？换你你会怎么做？" 把屏幕变成对话锚点。</p>
+<p><span class="who">面对短视频/算法推荐：</span>"算法不知道你是谁，它只想让你别走。我们要替自己挑，而不是被它推着走。" 给孩子讲清楚"为什么"，比禁止有效十倍。</p>
+<p><span class="who">替换而不是禁止：</span>"今天不看那个剪刀手系列短视频，我们一起看一集 BBC《Blue Planet》怎么样？"——给替代品，不只是 NO。</p>
+</div>
+</div>
+
+<div class="section">
+<div class="label">【常见陷阱】</div>
+<p>① 只盯"时长"，对内容质量来者不拒。② 自己也刷算法短视频却要求孩子不刷。③ 把"教育内容"等同于"好内容"——某些"快剪辑+刺激音效+知识填鸭"的所谓教育视频，对注意力损害可能比纯娱乐还大。④ 用"算法推荐什么就看什么"模式——尽量让孩子在 YouTube Kids/Bilibili 儿童模式里也手动选择内容，而不是无尽下滑。⑤ 共看变成"我陪着但在刷自己手机"——那不叫共看，叫两人都在屏幕里。</p>
+</div>
+
+<div class="section">
+<div class="label">【关键资源】</div>
+<p>Lisa Guernsey《Screen Time》《Tap, Click, Read》。Common Sense Media 的分龄内容评级 (按教育价值、积极信息、暴力、广告等多维打分)。Fred Rogers Productions (《Daniel Tiger》制作方) 的内容设计原则公开发表。</p>
+</div>
+
+<div class="section">
+<div class="label">【English Summary】</div>
+<div class="english">Guernsey's Three C's — Content, Context, Child — outperform any minute-counting rule. Slow-paced, narrative content (Daniel Tiger, Sesame Street) shows long-term cognitive benefit; fast-cut entertainment can transiently impair executive function (Lillard 2011). Co-viewing with parental questioning turns passive consumption into learning.</div>
+</div>
+
+<div class="section">
+<div class="label">【本周练习】</div>
+<div class="practice">本周挑一次屏幕时间做"全量共看"：你不刷手机，全程陪看，至少问 5 个问题。看完和孩子聊 5 分钟你们都想到什么。对比和"塞给他自己看"的差异，记录孩子的反应。</div>
+</div>
+</div>
+
+<!-- 4 -->
+<div class="card">
+<span class="num">04</span>
+<h2>家庭媒体计划 · 把规则写下来，比"看情况"管用十倍</h2>
+<div class="en-name">Family Media Plan</div>
+<span class="tag">家庭治理 · 协议</span>
+
+<div class="section">
+<div class="label">【核心原则】</div>
+<p>每天临时谈判"还能看多久"是父母精力流失最严重的战场之一。AAP 推荐的 Family Media Plan——把规则提前协商、写下来、贴在冰箱上——把每天的能量战变成一次性的"立法"会议。规则是孩子参与制定的，会比父母单方面颁布的更稳。</p>
+</div>
+
+<div class="section">
+<div class="label">【研究基础】</div>
+<p>AAP 自 2016 年起推出 healthychildren.org/MediaUsePlan 在线工具，背后是儿科媒体研究 (Jenny Radesky 主导的 AAP Council on Communications) 的临床共识。媒体计划的有效性研究：Gentile et al. (Pediatrics 2014) 显示家庭明确规则的儿童在屏幕时长、暴力内容暴露、学业表现等多项指标显著更好。Self-Determination Theory (Deci & Ryan)：当孩子参与规则制定 (自主性) 并理解原因 (胜任感)，规则的内化程度远高于被强加。Common Sense Media 与多个国家儿科学会都提供模板。</p>
+</div>
+
+<div class="section">
+<div class="label">【家庭媒体计划架构】</div>
+<div class="diagram">
+<svg viewBox="0 0 360 280" xmlns="http://www.w3.org/2000/svg">
+<rect x="20" y="20" width="320" height="40" rx="10" fill="#fce4ed" stroke="#c45a8e" stroke-width="1"/>
+<text x="180" y="44" text-anchor="middle" font-size="13" font-weight="700" fill="#c45a8e">① 屏幕自由区 (任何时候都可以)</text>
+<text x="180" y="58" text-anchor="middle" font-size="10" fill="#6a4a5a">视频通话亲人 · 完成作业查资料 · 与父母共看</text>
+
+<rect x="20" y="75" width="320" height="40" rx="10" fill="#fff5f0" stroke="#e07a9b" stroke-width="1"/>
+<text x="180" y="99" text-anchor="middle" font-size="13" font-weight="700" fill="#c45a8e">② 屏幕规则区 (有限制)</text>
+<text x="180" y="113" text-anchor="middle" font-size="10" fill="#6a4a5a">游戏 · 动画 · YouTube Kids — 每天 30-60 分钟</text>
+
+<rect x="20" y="130" width="320" height="40" rx="10" fill="#f5b8d0" stroke="#a04a78" stroke-width="1"/>
+<text x="180" y="154" text-anchor="middle" font-size="13" font-weight="700" fill="#a04a78">③ 屏幕禁区 (任何时候都不可以)</text>
+<text x="180" y="168" text-anchor="middle" font-size="10" fill="#5a3a4a">吃饭时 · 卧室里 · 睡前 1 小时 · 早晨上学前</text>
+
+<rect x="20" y="190" width="155" height="70" rx="10" fill="#fff" stroke="#c45a8e" stroke-width="1"/>
+<text x="98" y="212" text-anchor="middle" font-size="11" font-weight="700" fill="#c45a8e">④ 替代菜单</text>
+<text x="98" y="230" text-anchor="middle" font-size="9" fill="#5a3a4a">"现在不能看屏幕"</text>
+<text x="98" y="244" text-anchor="middle" font-size="9" fill="#5a3a4a">→ 阅读 / 户外 / 桌游 /</text>
+<text x="98" y="256" text-anchor="middle" font-size="9" fill="#5a3a4a">手工 / 帮忙做饭</text>
+
+<rect x="185" y="190" width="155" height="70" rx="10" fill="#fff" stroke="#c45a8e" stroke-width="1"/>
+<text x="263" y="212" text-anchor="middle" font-size="11" font-weight="700" fill="#c45a8e">⑤ 父母自律</text>
+<text x="263" y="230" text-anchor="middle" font-size="9" fill="#5a3a4a">吃饭不刷手机</text>
+<text x="263" y="244" text-anchor="middle" font-size="9" fill="#5a3a4a">陪孩子时手机翻面</text>
+<text x="263" y="256" text-anchor="middle" font-size="9" fill="#5a3a4a">睡前一起放下设备</text>
+</svg>
+<div class="caption">分区比时长更易执行——孩子记三个红绿灯，比记"今天剩多少分钟"容易得多。</div>
+</div>
+</div>
+
+<div class="section">
+<div class="label">【为什么有效】</div>
+<p>从行为经济学角度，事先承诺 (precommitment) 比临场决策有效得多——临场你和孩子都在低血糖+疲劳状态，谈判一定输。把屏幕规则做成"环境设计"而非"意志力对抗"：路由器定时、卧室无屏幕、餐桌篮子收手机——这些物理设置一旦建立，每天的争吵会减少 80%。心理学上还有"反应阻抗" (reactance) 原理：被强加的规则激发反抗，参与制定的规则被视为自我承诺，遵守度更高。所以"家庭会议"形式比"妈妈宣布"重要。</p>
+</div>
+
+<div class="section">
+<div class="label">【具体话术与场景】</div>
+<div class="dialog">
+<p><span class="who">家庭会议开场：</span>"我们家要定一个屏幕协议，让大家都不用每天为这个吵。爸爸妈妈也要遵守。你的意见很重要。" 把孩子当合伙人，不是被管理对象。</p>
+<p><span class="who">协商替代品：</span>"如果晚上 8 点后不看屏幕了，我们一起做什么？" 让孩子提议三件他想做的事，写在冰箱上。下次他抱怨"无聊"时，指那张清单。</p>
+<p><span class="who">违约时：</span>不要骂"说好的呢！" 而是"我们当时一起定的是 30 分钟。下次怎么提醒会有用？" 把焦点从"你违规"转到"系统怎么改进"。</p>
+<p><span class="who">关于父母自己：</span>"我也定一个：陪你的时候手机翻面。如果你看到我在偷看，你可以提醒我。" 给孩子授权，是最强的承诺机制。</p>
+<p><span class="who">面对"我同学家可以"：</span>"每家不一样很正常，我们家是这样定的。等你长大可以自己重新定。" 不需要说服全世界，只要这个家自洽。</p>
+</div>
+</div>
+
+<div class="section">
+<div class="label">【常见陷阱】</div>
+<p>① 父母单方面颁布——执行率最低。② 规则太复杂——能背出来的规则才是规则。③ 父母不遵守——孩子学的是"规则只针对小孩"，整个权威基础崩溃。④ 把屏幕当奖励/惩罚——"听话就让你多看 10 分钟" / "再不写作业就不能看了"，会让屏幕在孩子心理位置变得过高。⑤ 一次定终身——孩子在长，规则每 3-6 个月应该重新讨论一次。</p>
+</div>
+
+<div class="section">
+<div class="label">【关键资源】</div>
+<p>AAP Family Media Plan 在线工具：healthychildren.org/MediaUsePlan (可生成个性化协议)。Common Sense Media 家庭媒体协议模板。Devorah Heitner《Screenwise》、《Growing Up in Public》——针对青春期数字生活的具体策略。</p>
+</div>
+
+<div class="section">
+<div class="label">【English Summary】</div>
+<div class="english">Daily ad-hoc negotiation drains parents and kids. AAP's Family Media Plan, backed by Gentile's research on household media rules, replaces willpower battles with environmental design and co-created agreements. Self-Determination Theory predicts kids will internalize rules they helped write. Make the rules — and live by them yourself.</div>
+</div>
+
+<div class="section">
+<div class="label">【本周练习】</div>
+<div class="practice">本周开一次 30 分钟的家庭会议，和孩子一起做一张"屏幕协议"贴在冰箱上：写出三个时段不能用屏幕、一份替代活动清单、父母自己的两条承诺。坚持两周后再开一次会复盘。</div>
+</div>
+</div>
+
+<nav>
+<a href="index.html">← 回到所有周刊</a>
+</nav>
+
+</div>
+<script src="https://cissy0802.github.io/comments.js" defer></script>
+<script src="https://cissy0802.github.io/search.js" defer></script>
+<script src="https://cissy0802.github.io/index-button.js" defer></script>
+</body>
+</html>
