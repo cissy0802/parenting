@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parenting: Early Math — Week 6</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,"SF Pro Display","Noto Sans SC",sans-serif;background:#fff5f0;color:#3a2a3a;line-height:1.75}
+.container{max-width:780px;margin:0 auto;padding:24px 20px 60px}
+header{text-align:center;padding:48px 0 28px;border-bottom:1px dashed #f0c8d8;margin-bottom:32px}
+header .week-tag{display:inline-block;background:#e07a9b;color:#fff;padding:4px 14px;border-radius:20px;font-size:0.78rem;font-weight:700;letter-spacing:1px;margin-bottom:14px}
+header h1{font-size:1.85rem;font-weight:800;color:#c45a8e;line-height:1.35;letter-spacing:0.5px}
+header .date{margin-top:12px;font-size:0.88rem;color:#8a6b7a}
+header .intro{margin-top:18px;font-size:0.95rem;color:#6a4a5a;font-style:italic;max-width:560px;margin-left:auto;margin-right:auto}
+.card{background:#fff;border-radius:18px;padding:30px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-left:4px solid #e07a9b}
+.card .num{display:inline-block;background:#fff5f0;color:#c45a8e;padding:3px 10px;border-radius:10px;font-size:0.78rem;font-weight:700;margin-bottom:10px}
+.card h2{font-size:1.32rem;color:#c45a8e;font-weight:700;margin-bottom:4px;line-height:1.4}
+.card .en-name{font-size:0.92rem;color:#a87a92;font-weight:500;margin-bottom:6px}
+.card .tag{display:inline-block;background:#fce4ed;color:#c45a8e;padding:3px 10px;border-radius:10px;font-size:0.75rem;margin-bottom:16px}
+.section{margin-top:16px}
+.section .label{font-weight:700;color:#c45a8e;font-size:0.92rem;margin-bottom:6px;letter-spacing:0.3px}
+.section p{font-size:0.97rem;color:#3a2a3a;line-height:1.78}
+.dialog{background:#fff5f0;border-radius:10px;padding:14px 16px;margin-top:10px;font-size:0.93rem;color:#5a3a4a}
+.dialog .who{font-weight:700;color:#c45a8e}
+.dialog p{margin-bottom:6px}
+.english{background:#faf3f6;border-left:3px solid #c45a8e;padding:12px 14px;border-radius:8px;font-size:0.9rem;color:#5a3a4a;font-style:italic}
+.practice{background:#fff0e8;border-radius:10px;padding:14px 16px;margin-top:10px;font-size:0.93rem;color:#5a3a4a;border:1px dashed #e07a9b}
+.diagram{background:#fff5f0;border-radius:14px;padding:20px;margin-top:12px;text-align:center}
+.diagram svg{max-width:100%;height:auto}
+.diagram .caption{font-size:0.82rem;color:#8a6b7a;margin-top:8px;font-style:italic}
+.matrix{background:#fff5f0;border-radius:12px;padding:18px 16px;margin-top:12px}
+.matrix .row{display:flex;align-items:flex-start;gap:14px;padding:8px 0;border-bottom:1px dashed #f0c8d8}
+.matrix .row:last-child{border-bottom:none}
+.matrix .age{flex-shrink:0;width:110px;font-weight:700;color:#c45a8e;font-size:0.88rem}
+.matrix .desc{font-size:0.92rem;color:#5a3a4a}
+nav{text-align:center;margin-top:36px;padding:20px 0}
+nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
+nav a:hover{background:#e07a9b;color:#fff}
+@media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}.matrix .row{flex-direction:column;gap:4px}.matrix .age{width:auto}}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+<span class="week-tag">WEEK 6 · 2026.06.24</span>
+<h1>Parenting: Early Math</h1>
+<p class="date">Early Numeracy · Number Sense · Math Anxiety · Number Talks · Recursive Thinking</p>
+<p class="intro">"My kid is good at reading, but bad at math." The earlier and more often a parent says this, the more likely it becomes true. Math isn't a question of innate talent — it's a way of being seen and being talked about. This week looks at four foundations of early math: number sense, the quiet transmission of parental anxiety, replacing drill with Number Talks, and a habit of mind that any engineer will recognize — breaking a big problem into smaller versions of itself.</p>
+</header>
+
+<!-- 1 -->
+<div class="card">
+<span class="num">01</span>
+<h2>Number Sense · Math's "Mother Tongue," More Important Than Computation</h2>
+<div class="en-name">Number Sense / Subitizing</div>
+<span class="tag">Early Math · Cognitive Science</span>
+
+<div class="section">
+<div class="label">[Core Principle]</div>
+<p>Number sense isn't being able to count to 100. It's a child's intuitive feel for quantity: knowing 7 is more than 5, and roughly how much more; glancing at a plate and seeing four apples without counting (subitizing); understanding that 8 can be 5+3 or 6+2. The research is remarkably consistent: number sense at ages 5–7 predicts elementary math achievement — and even middle-school math — better than early literacy does. Building number sense matters far more than "getting a head start" on arithmetic.</p>
+</div>
+
+<div class="section">
+<div class="label">[Research Base]</div>
+<p>Stanislas Dehaene's <em>The Number Sense</em> (1997, revised 2011) is foundational — the human brain comes equipped with an Approximate Number System (ANS) that underlies symbolic math. Jordan, Kaplan and colleagues (Developmental Psychology, 2009) tracked 277 children from kindergarten to third grade: early number sense predicted third-grade math achievement far better than IQ or socioeconomic status. Lyons et al. (PLOS ONE, 2014) showed that number sense is the strongest predictor in first grade, while symbolic math knowledge dominates by sixth — but the first builds the second. David Geary's group at the University of Missouri identified number-line estimation as the earliest reliable warning sign of math learning disability. Jo Boaler (Stanford) summarizes in <em>Mathematical Mindsets</em>: drilling computational speed doesn't build number sense — it tends to harm it, by introducing anxiety.</p>
+</div>
+
+<div class="section">
+<div class="label">[Why It Works]</div>
+<p>Computation is a process; number sense is a representation. A child with number sense doesn't try to recall that 7×8 = 56. They see that 7×8 = 7×10 − 7×2 = 70 − 14 = 56 — a shorter, sturdier path that generalizes to any multiplication. A child without number sense can only memorize, and any unfamiliar number breaks them. Neurally, number sense lives in the ANS and the parietal cortex's quantity representations, which develop before symbolic systems. Ages 0–6 are a key window — missed isn't unrecoverable, but it becomes harder. Letting a five-year-old play with how five beads can be split pays off far more than drilling a times table.</p>
+</div>
+
+<div class="section">
+<div class="label">[Number Sense Milestones]</div>
+<div class="matrix">
+<div class="row"><div class="age">2-3 yrs</div><div class="desc">Subitizes 1–3 objects; understands "more / fewer / same."</div></div>
+<div class="row"><div class="age">3-4 yrs</div><div class="desc">Counts to 10; one-to-one correspondence; cardinality (the last number named is the total).</div></div>
+<div class="row"><div class="age">4-5 yrs</div><div class="desc">Subitizes 4–5; sees 5 as 4+1 or 3+2; compares groups using fingers.</div></div>
+<div class="row"><div class="age">5-6 yrs</div><div class="desc">Addition and subtraction within 10; number-line sense (which number sits in the middle of 0–20); estimation ("about how many?").</div></div>
+<div class="row"><div class="age">6-8 yrs</div><div class="desc">Flexible decomposition (8=5+3=6+2=7+1); estimation within 100; place value.</div></div>
+</div>
+</div>
+
+<div class="section">
+<div class="label">[Scripts and Scenarios]</div>
+<div class="dialog">
+<p><span class="who">At the store or table:</span> "How many strawberries do you think are on this plate?" Let them estimate, count, and then talk about how far off they were. Estimation trains number sense more than precise calculation does.</p>
+<p><span class="who">Flash-and-count:</span> Put 5 beans on the table, cover them quickly with paper, then whisk them away. "How many did you see?" This trains subitizing.</p>
+<p><span class="who">Decomposition play:</span> "There are 7 chocolate squares. How could you split them between you and your brother?" Let them find every possibility (1+6, 2+5, 3+4...). This is the core training.</p>
+<p><span class="who">Don't say:</span> "Quick — what's 7+8?" <span class="who">Try:</span> "How did you think about 7+8?" Let the child describe a strategy ("I split 8 into 3 and 5, added 3 to 7 to make 10, then 5 more is 15"). Strategy talk matters more than speed.</p>
+<p><span class="who">Number-line sense:</span> Draw a line from 0 to 100. "Where do you think 37 goes?" Let them point. Geary's research found this is the single strongest early indicator.</p>
+</div>
+</div>
+
+<div class="section">
+<div class="label">[Common Pitfalls]</div>
+<p>(1) Flashcards for speed — research shows no benefit to number sense and a clear cost in anxiety (Boaler). (2) Praising "fast" instead of "correct and flexible" — flexibility is what mathematicians actually have. (3) Skipping concrete objects (beans, fingers, blocks) and jumping to symbols — this collapses Bruner's CRA ladder and leaves number sense unanchored. (4) Banning finger counting — fingers are an extension of working memory; fMRI research (Berteletti & Booth, 2015) shows kids who use their fingers develop math better, not worse. (5) Buying workbooks but leaving no time for the child to actually handle objects.</p>
+</div>
+
+<div class="section">
+<div class="label">[Key Resources]</div>
+<p>Jo Boaler, <em>Mathematical Mindsets</em> (2016), and her free site youcubed.org (especially the Number Talks videos). Stanislas Dehaene, <em>The Number Sense</em>. Douglas Clements & Julie Sarama, <em>Learning and Teaching Early Math: The Learning Trajectories Approach</em> — age-by-age activity guidance. Picture books: Greg Tang's <em>The Grapes of Math</em>, Mitsumasa Anno's <em>Anno's Counting Book</em>.</p>
+</div>
+
+<div class="section">
+<div class="label">[English Summary]</div>
+<div class="english">Number sense — the intuitive feel for quantity and how numbers compose — predicts elementary math achievement better than IQ (Jordan 2009, Geary). Subitizing (instant recognition of small sets), flexible decomposition, and number-line estimation are the three core skills. Don't rush to memorized computation; play with quantities first. And let kids use their fingers.</div>
+</div>
+
+<div class="section">
+<div class="label">[This Week's Practice]</div>
+<div class="practice">Pick one number-sense game each day this week, five minutes only. (1) Flash-and-count: cover 3–6 beans briefly and ask how many. (2) Decomposition challenge: "How many ways can you make 9?" (3) Estimate and verify: "Guess how many books are on the shelf," then count and talk about how you guessed. End with "What was the most interesting number you saw today?" — keep math as something you talk about, not something you drill.</div>
+</div>
+</div>
+
+<!-- 2 -->
+<div class="card">
+<span class="num">02</span>
+<h2>Math Anxiety Is Contagious · Your "I Was Bad at Math Too" Carries</h2>
+<div class="en-name">Math Anxiety Transmission</div>
+<span class="tag">Emotion · Gender</span>
+
+<div class="section">
+<div class="label">[Core Principle]</div>
+<p>A parent's own math anxiety (especially a mother's, in current research samples) measurably lowers a child's math achievement — and the transmission happens through homework help. The more an anxious parent helps, the more it hurts. Gender stereotypes ride the same channel: once "girls aren't naturally good at math" is spoken at home, even as a joke, girls begin to believe it, and their performance drops. This is one of the most underestimated hidden costs in parenting.</p>
+</div>
+
+<div class="section">
+<div class="label">[Research Base]</div>
+<p>Sian Beilock (now president of Barnard) and Susan Levine's team (University of Chicago) published "Intergenerational Effects of Parents' Math Anxiety on Children's Math Achievement and Anxiety" in <em>Psychological Science</em> (2015), following 438 first and second graders for a year. Children of math-anxious parents lost roughly a third of a school year of math growth — but only when those parents helped frequently with homework. When they didn't help, the effect vanished. Beilock's earlier work (2010, PNAS) showed female teachers' math anxiety specifically depresses girls' (not boys') math performance and strengthens the "girls can't do math" stereotype in them. Maloney and Beilock note that math anxiety overlaps with but is distinct from low math ability — anxiety itself occupies working memory, so children who otherwise could solve a problem can't. Carol Dweck's <em>Mindset</em> documents math as the domain where a fixed mindset does the most damage.</p>
+</div>
+
+<div class="section">
+<div class="label">[Why It Works]</div>
+<p>Math anxiety transmits along two channels. (1) Emotional contagion — when a parent sighs, frowns, or tightens their voice during homework, the child's mirror neurons (see Week 3) copy the response and encode "math = tense moment" into situational memory. (2) Belief statements — "I was bad at math too," "math isn't our family's thing" — get heard as "math ability is genetic and fixed," activating a fixed mindset. This is especially potent for girls, because the social stereotype lends the belief a coat of plausibility. Neurally, anxiety activates the amygdala, which suppresses prefrontal working memory — exactly the resource math relies on. So math anxiety isn't merely "psychological"; it's a physiological state that lowers your usable compute.</p>
+</div>
+
+<div class="section">
+<div class="label">[Scripts and Scenarios]</div>
+<div class="dialog">
+<p><span class="who">Don't say:</span> "Mom was bad at math too. You got it from me." <span class="who">Try:</span> "Nobody taught me to think about it this way when I was a kid — let's figure it out together." That one swap replaces genetic determinism with method-is-learnable.</p>
+<p><span class="who">Don't say:</span> "Come on, this one is easy." <span class="who">Try:</span> "Hmm, I have to think about this one too. Let's work it out." Let kids see adults thinking — including being stuck.</p>
+<p><span class="who">If helping makes you anxious:</span> Stop. Beilock's data is unambiguous: an anxious parent who doesn't help beats an anxious parent who does. Tell the child, "Dad (or your teacher) is going to help with this part — I want to hear what you found interesting today." That's not giving up. It's role assignment.</p>
+<p><span class="who">If anyone says "girls aren't as good at math":</span> Don't let it stand, even as a joke. Reframe immediately: "Math is built, not born. Studies show girls often do better on math assessments that emphasize understanding."</p>
+<p><span class="who">When your child gets an answer wrong:</span> Don't sigh. "Mmm — can you tell me how you thought about it?" Usually they catch their own mistake mid-explanation, which is the real learning.</p>
+</div>
+</div>
+
+<div class="section">
+<div class="label">[Self-Check: Anxiety Signals]</div>
+<div class="matrix">
+<div class="row"><div class="age">Verbal</div><div class="desc">"I was always bad at math," "this is so hard," "I can't help you with this," "you take after your dad." Catch one and pay attention.</div></div>
+<div class="row"><div class="age">Nonverbal</div><div class="desc">Sighing, rubbing temples, talking faster, frowning, fidgeting during homework — kids absorb all of it.</div></div>
+<div class="row"><div class="age">Behavioral</div><div class="desc">Avoiding math homework; outsourcing all of it to a partner or tutor; being unusually strict when grading practice problems.</div></div>
+<div class="row"><div class="age">Physical</div><div class="desc">Heart rate up, shoulders tight just at the sight of the math workbook — that's a real amygdala response.</div></div>
+</div>
+</div>
+
+<div class="section">
+<div class="label">[Common Pitfalls]</div>
+<p>(1) Treating "I was bad at math" as humility — it isn't humility, it's a curse you're handing to your child. (2) Fully outsourcing because you yourself find math scary — kids' mirror neurons pick up the avoidance too. (3) Disguising anxiety as care: re-checking every problem, hovering, rushing. The signal received is "Mom is tense about my math." (4) Linking gender and math, even jokingly — stereotype threat (Spencer, Steele & Quinn, 1999) is measurable by third grade. (5) Not working on your own anxiety. Your growth mindset matters more than any tutoring program.</p>
+</div>
+
+<div class="section">
+<div class="label">[Key Resources]</div>
+<p>Sian Beilock's <em>Choke: What the Secrets of the Brain Reveal About Getting It Right When You Have To</em> (2010), and the open-access 2015 paper (search "Beilock parents math anxiety"). Jo Boaler's <em>What's Math Got to Do with It?</em> on the cultural damage done to math. Bedtime Math (a free app from the Overdeck Family Foundation, built on University of Chicago research) is one of the few RCT-validated tools that lowers family math anxiety.</p>
+</div>
+
+<div class="section">
+<div class="label">[English Summary]</div>
+<div class="english">Beilock & Levine (Psych Science 2015): math-anxious parents who help with homework lower their kids' math gains by roughly a third of a school year; math-anxious parents who don't help show no such effect. Stereotype-laden statements ("girls aren't good at math") measurably impair girls by grade 3. Reframe: never say "I'm bad at math" in front of your kid. Outsource what triggers you; talk about ideas instead.</div>
+</div>
+
+<div class="section">
+<div class="label">[This Week's Practice]</div>
+<div class="practice">Run a "math-emotion audit" for three days. Write down your body's response (tense, avoidant, irritable) when math comes up with your child, and any sentences you've said about math. If you spot anxious patterns, do two things this week: (1) Replace "I was bad at math" with "Let's figure it out together." (2) Hand math homework temporarily to your partner or a teacher, and use that time to play something low-stakes like Bedtime Math with your child instead. Re-check in two weeks.</div>
+</div>
+</div>
+
+<!-- 3 -->
+<div class="card">
+<span class="num">03</span>
+<h2>Number Talks · Replace "What's the Answer" with "How Did You Think About It?"</h2>
+<div class="en-name">Number Talks Method</div>
+<span class="tag">Pedagogy · Math Discourse</span>
+
+<div class="section">
+<div class="label">[Core Principle]</div>
+<p>A Number Talk is a 5–15 minute spoken math conversation: present one mental-math problem, the child solves it in their head (no paper), and then everyone discusses how they got there. Every reasonable strategy is heard and drawn. The goal isn't the answer; it's the variety of strategies and the flexibility behind them. Classrooms that use Number Talks consistently for eight weeks or more show significant gains in achievement, reasoning, and attitude. It may be the cheapest and most effective math intervention available at home — you need a pen and five minutes.</p>
+</div>
+
+<div class="section">
+<div class="label">[Research Base]</div>
+<p>Sherry Parrish's <em>Number Talks: Helping Children Build Mental Math and Computation Strategies</em> (2010, revised 2014) is the foundational book, building on Ruth Parker's earlier work. Cathy Humphreys & Ruth Parker's <em>Making Number Talks Matter</em> (2015) extends the method to grades 4–10. Multiple intervention studies via Boaler's team at youcubed.org show that 10–15 minutes of Number Talks daily for a semester reduces math anxiety, broadens strategy use, and raises standardized test scores even without test prep. The U.S. Department of Education's What Works Clearinghouse rates visual and discussion-rich math interventions in its highest evidence tier. Discourse research (Walshaw & Anthony) shows the proportion of student talk in a math classroom correlates strongly with learning depth — and in most classrooms, the adult is still talking 80%+ of the time.</p>
+</div>
+
+<div class="section">
+<div class="label">[Why It Works]</div>
+<p>When a child is asked "how did you think about that?", three things happen at once. (1) They must externalize an implicit strategy — that's metacognition training. (2) They hear other strategies and see that the same problem has many valid paths — which directly attacks fixed mindset and the "one right way" stereotype. (3) When you draw each strategy (Boaler emphasizes visual representation), you light up the brain's visual and quantity systems together, leaving deeper memory traces. Neuroimaging (Boaler & Chen, 2016) shows that students who engage visual, verbal, and quantity regions together do significantly better long-term than those who use just one. Number Talks happen to activate all three — close to the brain's favorite shape of math training.</p>
+</div>
+
+<div class="section">
+<div class="label">[The Five Steps of a Number Talk]</div>
+<div class="diagram">
+<svg viewBox="0 0 360 280" xmlns="http://www.w3.org/2000/svg">
+<rect x="20" y="14" width="320" height="40" rx="10" fill="#fce4ed" stroke="#c45a8e" stroke-width="1"/>
+<text x="180" y="34" text-anchor="middle" font-size="12" font-weight="700" fill="#c45a8e">(1) Pose (write or say one problem, e.g. 18+19)</text>
+<text x="180" y="48" text-anchor="middle" font-size="10" fill="#6a4a5a">No paper. Solve it in your head.</text>
+
+<rect x="20" y="64" width="320" height="40" rx="10" fill="#fff5f0" stroke="#e07a9b" stroke-width="1"/>
+<text x="180" y="84" text-anchor="middle" font-size="12" font-weight="700" fill="#c45a8e">(2) Think (signal with a quiet thumbs-up)</text>
+<text x="180" y="98" text-anchor="middle" font-size="10" fill="#6a4a5a">Thumb to chest, not hand up. No rush, no judgment.</text>
+
+<rect x="20" y="114" width="320" height="40" rx="10" fill="#fff5f0" stroke="#e07a9b" stroke-width="1"/>
+<text x="180" y="134" text-anchor="middle" font-size="12" font-weight="700" fill="#c45a8e">(3) Share answers (each person says their number)</text>
+<text x="180" y="148" text-anchor="middle" font-size="10" fill="#6a4a5a">Don't evaluate. Write them all down.</text>
+
+<rect x="20" y="164" width="320" height="40" rx="10" fill="#fce4ed" stroke="#c45a8e" stroke-width="1"/>
+<text x="180" y="184" text-anchor="middle" font-size="12" font-weight="700" fill="#c45a8e">(4) Explain strategies (one by one)</text>
+<text x="180" y="198" text-anchor="middle" font-size="10" fill="#6a4a5a">Adult draws each strategy on paper — visualize it.</text>
+
+<rect x="20" y="214" width="320" height="40" rx="10" fill="#f5b8d0" stroke="#a04a78" stroke-width="1"/>
+<text x="180" y="234" text-anchor="middle" font-size="12" font-weight="700" fill="#a04a78">(5) Compare (which do you like best? which is fastest?)</text>
+<text x="180" y="248" text-anchor="middle" font-size="10" fill="#5a3a4a">No judging. Just notice strategies differ.</text>
+
+<text x="180" y="272" text-anchor="middle" font-size="10" font-style="italic" fill="#8a6b7a">10 minutes a day. No textbook needed. Walks, meals, bedtime.</text>
+</svg>
+<div class="caption">The five-step Number Talk routine designed by Sherry Parrish (2010), simplified for home use.</div>
+</div>
+</div>
+
+<div class="section">
+<div class="label">[Scripts and Scenarios]</div>
+<div class="dialog">
+<p><span class="who">Sample problems by age:</span> Pre-K: "5+4?" Early elementary: "18+19." Upper elementary: "25×16." Middle school: "125×24." The target is "hard enough to need a moment, easy enough not to despair" — Bjork's desirable difficulty.</p>
+<p><span class="who">The most important question:</span> "How did you think about that?" Not "is that right?" Not "how fast?"</p>
+<p><span class="who">When your child has the wrong answer:</span> Don't correct. "Walk me through your thinking." Most of the time they catch it themselves halfway through. That is the real learning.</p>
+<p><span class="who">If your child only knows one method:</span> "Nice — any other way? Here's how I did it: 18+19 = 18+20−1 = 37. Is your way the same or different?" Show them a second path.</p>
+<p><span class="who">Where it fits:</span> One problem at dinner, one in the car, one before bed. Don't turn it into a "lesson" — keep it as conversation. A week of this beats two workbooks.</p>
+</div>
+</div>
+
+<div class="section">
+<div class="label">[Common Pitfalls]</div>
+<p>(1) Turning a Number Talk into a speed contest — that destroys it and sends you straight back into anxiety. (2) Only letting the "fast/correct" child share — everyone else learns "I'm not good at this." Every reasonable strategy gets aired, including drawing. (3) Skipping the drawing — visualization is what separates Number Talks from generic mental math, and Boaler is emphatic about it. (4) Holding a "best solution" in your head and silently judging your child's against it. Every reasonable method deserves respect. (5) Problems that are too hard or too easy — aim for "solvable in 1–2 minutes," not 10 seconds and not 10 minutes.</p>
+</div>
+
+<div class="section">
+<div class="label">[Key Resources]</div>
+<p>Sherry Parrish's <em>Number Talks</em> (K-5) and Humphreys & Parker's <em>Making Number Talks Matter</em> (grades 4–10). Boaler's youcubed.org has hundreds of free Number Talk videos and problem sets. On X/Twitter, the #MTBoS (Math Twitter Blog-o-Sphere) tag is a daily stream of teacher examples.</p>
+</div>
+
+<div class="section">
+<div class="label">[English Summary]</div>
+<div class="english">Number Talks (Parrish 2010, Boaler) is a 10-minute daily mental-math discussion: pose a problem, kids solve mentally, share all answers, then explain strategies. Visualize each strategy. The goal is flexibility and discourse, not speed. Replaces drill with talk and consistently outperforms it in achievement, attitude, and anxiety reduction.</div>
+</div>
+
+<div class="section">
+<div class="label">[This Week's Practice]</div>
+<div class="practice">Pick a 5–10 minute slot each day this week (car, dinner, bedtime) and do one Number Talk. Pose one age-appropriate mental problem — no paper, solve in head, share answers, explain strategies, and you draw each strategy in a small notebook. Do it seven days running and log every strategy your child used. At the end of the week you'll have a "map of your child's mathematical thinking" — more valuable than any test score.</div>
+</div>
+</div>
+
+<!-- 4 -->
+<div class="card">
+<span class="num">04</span>
+<h2>Decomposition & Recursion · Build the Engineer's Habit of Mind</h2>
+<div class="en-name">Decomposition &amp; Recursive Thinking</div>
+<span class="tag">Mathematical Thinking · Computational Thinking</span>
+
+<div class="section">
+<div class="label">[Core Principle]</div>
+<p>The essence of math is not "calculating." It's breaking a hard problem into smaller versions of itself until each piece is trivial. That's precisely what programmers do every day — recursion, divide and conquer, abstraction. Building this habit in a child early matters more than another hundred drill problems. It has another name: computational thinking. England, Singapore, and Estonia have written it into their national core curricula. For an engineer parent, this is the most natural thing in the world to pass along.</p>
+</div>
+
+<div class="section">
+<div class="label">[Research Base]</div>
+<p>Jeannette Wing's "Computational Thinking" (Communications of the ACM, 2006) named the concept and identified its four pillars: decomposition, pattern recognition, abstraction, and algorithm design — which happen to be the standard moves of working mathematicians too. Seymour Papert's <em>Mindstorms</em> (1980) is the original source — children drawing with the LOGO turtle pick up recursion naturally. Jerome Bruner's CRA model (Concrete-Representational-Abstract), which Singapore Math also draws on, gives the cognitive ladder from physical objects to symbols — the scaffold for any decomposition work. Singapore's Bar Model is the canonical visualization of "decompose the problem," and Singapore's long top-of-table TIMSS rankings reflect it. Resnick and Wilensky's group at MIT found that children using block-based programming (e.g., Scratch) for six months or more significantly outperform controls on tests of problem decomposition.</p>
+</div>
+
+<div class="section">
+<div class="label">[Why It Works]</div>
+<p>Working memory holds about 4±1 chunks at a time (Cowan 2001, refining Miller's classic 7±2). Most "hard" problems aren't actually hard — they overflow working memory. Decomposition swaps one big chunk for a few small ones you can recombine — the only way the brain has of handling complexity. Once a child internalizes "when I'm stuck, ask whether this problem can become a simpler version of itself," it becomes an automatic move and transfers to everything: writing, coding, cooking, planning a birthday party. That's why math is sometimes called gymnastics for the mind.</p>
+</div>
+
+<div class="section">
+<div class="label">[Four Family-Friendly Forms of Decomposition]</div>
+<div class="matrix">
+<div class="row"><div class="age">Numbers</div><div class="desc">"27+58? Split 27 into 25+2. 25+58 = 83, plus 2 is 85." Get used to breaking numbers apart.</div></div>
+<div class="row"><div class="age">Problems</div><div class="desc">"30 kids in the class. 65% like strawberries. How many?" → "10% is 3, 30% is 9, 5% is 1.5, 65% is 9+9+1.5 ≈ 20."</div></div>
+<div class="row"><div class="age">Processes</div><div class="desc">"Plan the birthday party" → guest list + cake + games + timeline. Each item gets broken down further.</div></div>
+<div class="row"><div class="age">Recursion</div><div class="desc">"5 steps to climb — how do we count them? 5 steps = 1 step + 4 steps left = 1 + 1 + 3 steps left ..." Self-reference is the mother tongue of programmers and mathematicians.</div></div>
+</div>
+</div>
+
+<div class="section">
+<div class="label">[Scripts and Scenarios]</div>
+<div class="dialog">
+<p><span class="who">When your child is stuck:</span> Don't explain. Ask, "Can you think of a simpler problem that's like this one?" This is Pólya's central heuristic from <em>How to Solve It</em>.</p>
+<p><span class="who">Big numbers:</span> "Mom, how many ants are out there?" Don't say "a lot." Try, "How could we estimate? Count one square foot, multiply by the area?" That's Fermi estimation, and kids can do it.</p>
+<p><span class="who">Bar Model:</span> "Sam has 12 candies. He has 4 more than Lily. How many does Lily have?" Have your child draw two bars — Sam's long (12), Lily's short, Sam's bar is 4 longer. Decomposition made visual.</p>
+<p><span class="who">Introducing recursion:</span> "Draw a big triangle made of 4 small triangles. Each small triangle is made of 4 even smaller ones — same rule, all the way down." The Sierpinski triangle is the most beautiful direct route to recursion a child can experience.</p>
+<p><span class="who">Daily tasks:</span> "We're doing a big clean-up today — can you split it into 5 smaller tasks for me?" Turn engineer-thinking into a household habit.</p>
+<p><span class="who">Scratch and code.org:</span> Not so they'll become programmers, but because drawing a turtle or building a tiny game forces them to practice decomposition, loops, and abstraction — the best gym for math thinking. Age 8 is a great starting point.</p>
+</div>
+</div>
+
+<div class="section">
+<div class="label">[Common Pitfalls]</div>
+<p>(1) Teaching decomposition as a fixed "five-step problem-solving template" — that's the opposite of the point. The child has to choose their own cut. (2) Rushing to abstract symbols and skipping Bruner's concrete and representational stages — e.g., writing "a+b=c" before letting a child build it with blocks. (3) Treating coding as typing class — it's about decomposition, not syntax. Scratch and LEGO robotics beat Python for that. (4) Not modeling decomposition yourself — when you cook, plan, or fix something, narrate the steps ("first I split this into three parts..."). Kids absorb it faster from that than from any lesson. (5) Treating Bar Model as a word-problem trick — use it for decimals, percentages, ratios too.</p>
+</div>
+
+<div class="section">
+<div class="label">[Key Resources]</div>
+<p>George Pólya, <em>How to Solve It</em> (1945) — still unmatched as a meta-method for problem solving. Jeannette Wing's 2006 paper (open access). Seymour Papert, <em>Mindstorms</em> (1980) — for why children need a way of thinking rather than an answer. Singapore Math textbooks (Marshall Cavendish). Free platforms: code.org, Scratch, Tynker, Khan Academy "Algebra basics."</p>
+</div>
+
+<div class="section">
+<div class="label">[English Summary]</div>
+<div class="english">Math is fundamentally decomposition: break a hard problem into smaller, same-kind problems until they're trivial. This is also computational thinking (Wing 2006) and Pólya's central heuristic. Build the habit at home through bar models, Fermi estimation, recursive patterns (Sierpinski triangles, fractals), and block coding (Scratch). The habit transfers to every domain.</div>
+</div>
+
+<div class="section">
+<div class="label">[This Week's Practice]</div>
+<div class="practice">Do a "decomposition day" with your child. In the morning, decompose a number ("how do you split 47+38?"). At lunch, a Fermi estimate ("how many bottles of water did our family drink this year?"). In the evening, decompose a real task ("we're visiting Grandma this weekend — break it into 5 steps"). At bedtime ask, "Which 'break-it-down' was the most interesting today?" Make decomposition a shared word in your family. Within a month, you'll see your child start reaching for it on their own.</div>
+</div>
+</div>
+
+<nav>
+<a href="index.en.html">← Back to all weekly issues</a>
+</nav>
+
+</div>
+</body>
+</html>
