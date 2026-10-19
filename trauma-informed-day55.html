@@ -40,6 +40,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}.nlabel{flex:0 0 74px}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -182,6 +194,30 @@ nav a:hover{background:#e07a9b;color:#fff}
 <div class="label">【本周练习 + 思考题】</div>
 <div class="practice">这周记录一次「过激反应」，事后只问一个问题：它让我想起了什么？<strong>思考题</strong>：你最不愿从上一代身上复制的是什么？你打算拿什么来替代它？</div>
 </div>
+</div>
+<div class="crossx">
+<h3>越界 · 跨学科的联想</h3>
+<ul>
+<li><b>神经内分泌 · Sapolsky 的斑马</b>：Sapolsky《斑马为什么不得胃溃疡》（1994）：斑马逃过狮子，应激反应随即关掉；人却让它一直开着，毒性压力正是这样。不像的是，斑马自己能关，孩子要靠大人帮着关。</li>
+<li><b>分布式系统 · 最终一致性</b>：副本常常不一致，可靠靠的是事后对账、收敛回同一状态；硬要时时强一致，就得牺牲可用性，和「七成时间不同步、关键在修回来」同构。不像在于，副本按协议自动合并，谁也不必认错；亲子对账得由大人先回头、认下自己那一份，修复本身就在教孩子「关系能修好」。</li>
+<li><b>佛学 · 先止后观</b>：禅修先修「止」让心安住，再修「观」生出洞见；心还翻腾时观照起不来，正如先调节、最后才说理。不像的是，禅修者靠自己安住，失调的孩子还做不到，只能借大人的平静稳住。</li>
+<li><b>佛学 · 第二支箭</b>：《箭经》说，人中了第一支箭（痛），又自己补上第二支（嗔恼）。孩子磨蹭是第一支，旧伤翻起的火是第二支。不像在于，佛陀说第二支是此刻的反应，「幽灵」却提醒这支箭多年前就搭在弦上。</li>
+</ul>
+</div>
+<div class="tk">
+<h3>十条要点</h3>
+<ol class="takeaways">
+<li>童年逆境真正的伤害，在于长期开着的压力警报悄悄改写孩子的身体和大脑。</li>
+<li>1998 年的 ACE 研究（1.7 万名成人）发现，童年逆境越多，成年后身心疾病风险越高。</li>
+<li>压力会不会变成毒性压力，不看事件大小，而看有没有一个安稳的大人帮孩子关掉警报。</li>
+<li>可承受的压力配上大人的支持，不是伤害，而是孩子锻炼韧性的机会。</li>
+<li>健康的亲子关系不是从不冲突，而是冲突后总能修复；真正伤人的是发火后的冷漠。</li>
+<li>静止脸研究显示，正常亲子互动约七成时间不同步，安全依恋靠一次次修回来。</li>
+<li>孩子失控时的出格行为是神经系统在求救，他需要先被帮着平静下来，而不是被惩罚。</li>
+<li>Bruce Perry 的神经序列模型主张先调节、再联结、最后说理，因为失调时理性脑离线。</li>
+<li>父母最易被点燃的点，常是自己童年未处理的旧伤，即 Fraiberg 说的「育婴室里的幽灵」。</li>
+<li>预测孩子安全依恋的，是父母能否连贯理解自己的经历，童年不幸也能「挣来安全」。</li>
+</ol>
 </div>
 <h2 class="deepen-title" data-tts="0e7a96c42d8e1c99">深入思考</h2>
 <details>

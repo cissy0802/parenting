@@ -39,6 +39,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}.matrix .row{flex-direction:column;gap:4px}.matrix .age{width:auto}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -294,6 +306,31 @@ nav a:hover{background:#e07a9b;color:#fff}
 <div class="label">【本周练习】</div>
 <div class="practice">本周开一次 30 分钟的家庭会议，和孩子一起做一张"屏幕协议"贴在冰箱上：写出三个时段不能用屏幕、一份替代活动清单、父母自己的两条承诺。坚持两周后再开一次会复盘。</div>
 </div>
+</div>
+<div class="crossx">
+<h3>越界 · 跨学科的联想</h3>
+<ul>
+<li><b>生物进化 · 超常刺激（Niko Tinbergen）</b>：Tinbergen 发现蛎鹬宁可去孵一枚比自己蛋大得多的假蛋，被放大的信号压过了真实的东西。快剪辑、强音效的内容就是注意力的超常刺激，所以绘本和散步显得「太慢」。不像在于：鸟的偏好是固定的本能程序，孩子的「有趣」基线还能被慢内容和共看重新调回来。</li>
+<li><b>神经科学 · 主动与被动的小猫（Held &amp; Hein，1963）</b>：两只小猫在同一个转盘里看到同样的画面，自己走的那只学会了视觉引导动作，被吊篮带着走的那只没有。像「点屏幕不等于主动」：输入相同，学不学得会看自己有没有在做。不像的是，共看补回主动性靠的是语言提问，而不是身体动作。</li>
+<li><b>经济学 · 统计显著不等于重要（Ziliak &amp; McCloskey）</b>：两位经济学家在《统计显著性崇拜》（2008）里批评学界只问「有没有效应」、不问「效应有多大」。屏幕恐慌是同一个错：35 万人的样本让 0.4% 也显著，却不说明它值得全家焦虑。不同在于，这里的误读多半来自媒体转述，而不是研究者本人。</li>
+<li><b>分布式系统 · 控制面与数据面</b>：网络把「规则怎么定」放在控制面低频决定，数据面只照表转发，不必每个包都协商一次。家庭媒体计划就是把谈判挪进控制面：一次家庭会议定好，每天照协议执行。不像的是，路由器不会反抗，家里的规则得让参与者认同，还要每 3–6 个月重开一次控制面。</li>
+<li><b>哲学 · 尤利西斯与塞壬（Jon Elster）</b>：Elster 在《尤利西斯与塞壬》（1979）里把预先绑住自己当作理性的一种形式。父母「陪孩子时手机翻面」并授权孩子提醒，就是一根桅杆上的绳子。不像在于，尤利西斯只是绑住将来的自己，家里的监督权却交给了孩子。</li>
+</ul>
+</div>
+<div class="tk">
+<h3>十条要点</h3>
+<ol class="takeaways">
+<li>应用商店里标着「教育」的 APP 绝大多数没有效果研究支持，市场宣传不是证据。</li>
+<li>真正促进学习的 APP 要同时满足四支柱：主动动脑、持续投入、有意义、有社交互动。</li>
+<li>视频缺陷效应：2.5 岁以下的孩子从屏幕学东西，效率远低于从真人示范中学。</li>
+<li>评估一段屏幕时间，不能只问它教了什么，更要问它替代了睡眠、游戏还是对话。</li>
+<li>Orben 与 Przybylski 的大样本分析发现，屏幕时间只解释青少年福祉差异约 0.4%，和吃土豆相当。</li>
+<li>效应小不等于放手不管：每天 5 小时以上的极端使用，仍与睡眠、注意力和情绪问题强相关。</li>
+<li>Guernsey 的 Three C's——内容、情境、孩子——比任何「每天几小时」的时长红线更有指导意义。</li>
+<li>快节奏剪辑的节目会短期削弱学龄前儿童的执行功能，慢节奏、有教学结构的节目长期有益。</li>
+<li>家庭媒体计划把每天的临时谈判换成一次性立法，孩子参与制定的规则比父母单方面颁布的更稳。</li>
+<li>父母自己的屏幕自律是规则的权威基础，父母不遵守，孩子学到的就是规则只针对小孩。</li>
+</ol>
 </div>
 <nav>
 <a href="index.html">← 回到所有日刊</a>

@@ -42,6 +42,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -184,6 +196,31 @@ nav a:hover{background:#e07a9b;color:#fff}
 <div class="label">【本周练习 + 思考题】</div>
 <div class="practice">选一个反复冲突的场景，做一次 CPS 翻译：写下孩子「缺了哪个技能」，再写下他<strong>有哪个优势能借来搭桥</strong>。<strong>思考题</strong>：当你从「他不想」切换到「他还不会」，你对他的愤怒和你自己的无力感，各自发生了什么变化？</div>
 </div>
+</div>
+<div class="crossx">
+<h3>越界 · 跨学科的联想</h3>
+<ul>
+<li><b>分布式系统 · 协议不匹配</b>：两个节点各自运转正常，只因序列化格式不同就互相报错，故障记在链路上而不在任一节点，这正是双重共情问题的结构。不像的是，机器之间加一层适配器就完事，人与人之间需要双方都往中间走几步。</li>
+<li><b>复杂性科学 · 简并性（Edelman 与 Gally，2001）</b>：生物系统里结构不同的元件能完成同一功能，所以一条通路受损，别的通路能顶上；读写困难者阅读时调动其他脑区代偿，就是这种冗余在起作用。不同在于，演化留下的简并是现成的备份，孩子的代偿回路却要靠结构化教学一点点练出来，而且更费力。</li>
+<li><b>生物进化 · 镶嵌进化</b>：一个物种的各项性状并不同步演化，早期人类先学会直立行走，脑容量的大幅增长晚得多。资优孩子的智力跑在情绪前面，是同一种「各部件各走各的钟」。不像的是，镶嵌进化以百万年计，孩子的不同步会在成长中慢慢收拢。</li>
+<li><b>东方哲学 · 庄子「鲁侯养鸟」</b>：鲁侯用美酒和九韶款待海鸟，鸟三天就死了，庄子说这是「以己养养鸟」，不是「以鸟养养鸟」。逼孩子「像正常孩子一样」，也是用自己的尺子去养。不同在于，庄子的答案近于放任，神经多样性视角在尊重天性之外仍然主张评估和干预。</li>
+<li><b>领导力 · 德鲁克「让长处发挥作用」</b>：德鲁克在《卓有成效的管理者》（1967）里主张按长处用人，组织的任务是让短处变得无关紧要，和优势取向搭支架同一个思路。不像的是，公司可以把短板外包给别人，孩子总得自己学会读写。</li>
+</ul>
+</div>
+<div class="tk">
+<h3>十条要点</h3>
+<ol class="takeaways">
+<li>神经多样性视角把自闭、多动、读写困难和资优看作大脑发育的自然差异，而不是需要修好的故障。</li>
+<li>回避眼神、重复动作、对声音光线过敏，往往是孩子的应对策略或神经需求，而不是故意作对。</li>
+<li>Damian Milton 的双重共情问题指出，自闭者与非自闭者的误解是双向的，错配在关系之间而不在孩子身上。</li>
+<li>摇晃、拍手这类自我安抚动作（stimming）常是情绪调节工具，强行禁止等于拆掉孩子的减压阀。</li>
+<li>读写困难是基于神经的学习差异，与智力无关，阅读能力和推理、创造力可以完全解耦。</li>
+<li>结构化、多感官的语音教学能重塑阅读回路，越早介入效果越好，「等长大就好了」会错过窗口。</li>
+<li>资优常伴随不同步发展：智力年龄远超实际年龄，情绪调节和社交却可能和同龄人一样甚至落后。</li>
+<li>Ross Greene 的信条是「孩子只要能做好，就会做好」，挑战行为是滞后技能遇上了超出能力的要求。</li>
+<li>优势取向支持用孩子的强项搭支架，去绕过或补偿弱项，而不是只盯着补短板。</li>
+<li>资优和学习障碍可以同时出现，称为双重特殊（2e），两者互相掩盖，常常两头都没被识别。</li>
+</ol>
 </div>
 <div class="deep-title">深入思考</div>
 <details><summary>「神经多样性」会不会被用来否认孩子真实的痛苦和需要帮助？</summary><div>这是真实的争议。接受差异，不等于袖手旁观——有的自闭孩子确实需要大量支持。健康的立场是双轨的：既尊重孩子的神经特质、不把「变正常」当唯一目标，又务实地评估、干预、减轻真实的痛苦。范式转变改的是<strong>为什么支持、怎么支持</strong>——为让孩子过得更好，而不是让他不再显得「怪」。反对的是污名和强行矫正，不是反对帮助。</div></details>

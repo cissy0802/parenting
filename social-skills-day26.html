@@ -39,6 +39,18 @@ details[open] summary::before{content:"▾ "}
 details .answer{padding:0 0 16px;font-size:0.93rem;color:#5a3a4a;line-height:1.8}
 .deep-title{text-align:center;color:#c45a8e;font-size:1.2rem;font-weight:800;margin:40px 0 20px}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -186,6 +198,30 @@ details .answer{padding:0 0 16px;font-size:0.93rem;color:#5a3a4a;line-height:1.8
 <div class="label">【本周练习 + 思考题】</div>
 <div class="practice"><b>动作：</b>这周克制一次"快去打招呼"的冲动，改成提前给孩子"热身预告"："等下到了，你可以先看看，准备好了再说话。"观察他需要多久自己迈出那一步。<br/><b>思考题：</b>你希望孩子更外向，是为了他真正的快乐，还是为了让你自己在他人面前更安心？</div>
 </div>
+</div>
+<div class="crossx">
+<h3>越界 · 跨学科的联想</h3>
+<ul>
+<li><b>进化生物学 · 重复囚徒困境（Axelrod，1984）</b>：Selman 的「晴天友谊」很像以牙还牙策略：你合作我就合作，你背叛一次我就翻脸。Nowak 与 Sigmund 1992 年的模拟显示，在会出错的世界里，偶尔原谅一次背叛的「慷慨以牙还牙」更能把合作维持下去，成熟友谊多的正是这份容错。不像在于，博弈里的策略是写死的程序，孩子的宽容要靠心智理论慢慢长出来。</li>
+<li><b>分布式系统 · 瞬时故障与持续故障</b>：稳健的系统对偶发超时先重试，对反复失败的节点才用熔断器隔离，和 Olweus 的「重复、蓄意、力量不对等」一样是先分类再反应。不像的是，故障节点没有意图，而欺凌的定义恰恰离不开「蓄意」。</li>
+<li><b>行为生态学 · 太阳鱼的害羞-大胆连续体（David Sloan Wilson，1993）</b>：幼年太阳鱼有稳定的害羞与大胆之分，牵动食性和被捕食的风险，和 Kagan 的高反应型一样是气质而非缺陷。不像的是，这种差异关进实验室就淡了，Coleman 与 Wilson 1998 年还发现它随情境而变。</li>
+<li><b>佛学 · 八风</b>：佛教把利、衰、毁、誉、称、讥、苦、乐称作「八风」。害羞正是被毁誉称讥这类评价之风吹动，内向只是能量从哪里来的偏好，两者本不是一回事。不像在于，修行求的是八风吹不动，育儿只求温和支持，不要求孩子不在乎别人怎么看。</li>
+</ul>
+</div>
+<div class="tk">
+<h3>十条要点</h3>
+<ol class="takeaways">
+<li>孩子对「朋友」的理解随认知发展分阶段升级，用成人的忠诚标准去要求低阶的孩子是发展错配。</li>
+<li>Selman 以角色采择为基础提出友谊五阶段：短暂玩伴、单向帮助、晴天友谊、亲密共享、成熟自主。</li>
+<li>友谊升级的底层引擎是心智理论：孩子先想到别人有和自己不同的想法，才谈得上互惠的友谊。</li>
+<li>预测孩子幸福感的是友谊的深度而非广度，一两个能说真心话的朋友比社交圈的大小更重要。</li>
+<li>Olweus 给欺凌的定义有三个特征：重复、蓄意、力量不对等，不是所有的不愉快都算欺凌。</li>
+<li>普通冲突要留给孩子练习自己解决，真欺凌才需要成人坚定介入；敢发声求助的旁观者是终止欺凌的关键变量之一。</li>
+<li>社交能力是加入游戏、轮流、读懂表情、修复冲突等可拆解的技能，孩子社交吃力多半是缺技能而非性格不好。</li>
+<li>父母当「友谊教练」，把「好好玩」拆成具体的微行为，能提升孩子被同伴接纳的程度；一对一玩伴时间更容易练成功。</li>
+<li>内向是从独处中恢复能量的气质偏好，害羞是对社交评价的恐惧；Kagan 发现约 15–20% 的婴儿天生属于高反应型。</li>
+<li>对谨慎的孩子，尊重节奏加温和的渐进暴露才能拓展舒适区，硬推和当众贴「害羞」标签只会拉高焦虑。</li>
+</ol>
 </div>
 <div class="deep-title">深入思考</div>
 <details>

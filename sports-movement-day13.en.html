@@ -33,6 +33,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -215,6 +227,30 @@ nav a:hover{background:#e07a9b;color:#fff}
 </div>
 </div>
 
+<div class="crossx">
+<h3>Crossovers</h3>
+<ul>
+<li><b>Reinforcement learning · Explore vs. exploit</b>: Facing a row of options with unknown payoffs, an algorithm should explore more the longer its horizon, and only commit to the best-known option near the end. Sampling in childhood and focusing in adolescence is the same arithmetic: with a long horizon ahead, exploiting too early locks you into a local optimum. The difference is that a child trying sports is not only searching for the best one; play is itself the payoff.</li>
+<li><b>Neuroscience · Daniel Wolpert</b>: He argues the brain exists, fundamentally, to produce flexible movement, citing the sea squirt, which has a brain while it swims as a larva and absorbs its nerve ganglion once it fixes itself to a rock. If he is right, exercise feeding cognition is not a side benefit but the brain doing its original job.</li>
+<li><b>Complexity science · Brian Arthur's increasing returns</b>: Arthur showed in 1989 that in systems with increasing returns, small early accidents get amplified by positive feedback until a path locks in. The "skilled, so I move more, so I get more skilled" spiral has exactly that shape; unlike a technology standard, though, a child's lock-in can loosen in a low-comparison setting.</li>
+<li><b>Philosophy of risk · Taleb's antifragility</b>: In <em>Antifragile</em> (2012) Taleb argues that some systems need small doses of stress and volatility to grow stronger, and removing all volatility makes them more fragile. The bit of risk on a climbing frame is such a dose, but the child should raise it by testing, not have adults administer it.</li>
+</ul>
+</div>
+<div class="tk">
+<h3>Ten takeaways</h3>
+<ol class="takeaways">
+<li>Most elite athletes specialize late: they sample many sports in childhood and focus on one only in adolescence.</li>
+<li>Early single-sport specialization is linked to overuse injuries, burnout, and dropping out of sport.</li>
+<li>Playing several sports builds a wider library of movement patterns and protects a child's intrinsic motivation.</li>
+<li>Aerobic exercise boosts BDNF, nicknamed "fertilizer for the brain," which promotes new neurons in the hippocampus.</li>
+<li>After a single bout of moderate aerobic exercise, children's attention and academic test scores improve right away.</li>
+<li>Exercise works best as a warm-up before hard tasks, not as a reward handed out after homework.</li>
+<li>Team sport is a low-risk social laboratory where children rehearse cooperation, compromise, and bouncing back from defeat.</li>
+<li>After a lost game, acknowledge the child's pain first, praise specific effort next, then let the child decide whether to keep going.</li>
+<li>Running, jumping, throwing, catching, climbing, and balancing are the fundamental movement skills, the "alphabet" of all later sport.</li>
+<li>Motor competence and lifelong activity reinforce each other, and risky play like climbing and hanging trains risk assessment.</li>
+</ol>
+</div>
 <div class="deep">
 <h3>Going Deeper</h3>
 <details><summary>Gymnastics, figure skating, ballet almost require early specialization — how to weigh that?</summary><div>"Early-peak" sports (where the window for aesthetics and flexibility opens young) are a legitimate exception to the no-early-specialization rule. Even so, stay alert to two things: the overuse injuries and developmental effects of overtraining, and the psychological risk of staking one's whole identity on a single sport. A workable middle ground: keep some free play and other physical activity alongside the specialty, and check in honestly with the child periodically — is this still what you want? Identity shouldn't be monopolized by one sport.</div></details>

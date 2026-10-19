@@ -39,6 +39,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}.nlabel{flex:0 0 74px}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -208,6 +220,30 @@ nav a:hover{background:#e07a9b;color:#fff}
 </div>
 </div>
 
+<div class="crossx">
+<h3>Crossovers</h3>
+<ul>
+<li><b>Neuroendocrinology · Sapolsky's zebras</b>: In <i>Why Zebras Don't Get Ulcers</i> (1994), Robert Sapolsky notes that a zebra that escapes a lion switches its stress response off; humans leave it running, and that is what makes us sick. Toxic stress has the same shape. The difference: the zebra turns the alarm off by itself, while a child needs an adult to help turn it off.</li>
+<li><b>Distributed systems · Eventual consistency</b>: Replicas drift out of sync all the time; reliability comes from reconciling afterward and converging on one state, and insisting on strong consistency at every moment costs availability. That is nearly the same structure as "out of sync seventy percent of the time; what matters is coming back." The difference: replicas merge by protocol and no one has to admit fault, whereas in a family the adult has to turn back first and own their part, and the repair itself teaches the child that relationships can be mended.</li>
+<li><b>Buddhism · Calm before insight</b>: Meditation training puts <i>samatha</i> (settling the mind) before <i>vipassana</i> (insight); while the mind is churning, insight cannot arise. That is the same order as regulate first, reason last. The difference: a meditator learns to settle on their own, while a dysregulated child cannot yet, and has to borrow an adult's calm to steady.</li>
+<li><b>Buddhism · The second arrow</b>: The <i>Sallatha Sutta</i> says a suffering person is struck by a first arrow (pain) and then fires a second into themselves (anger, distress). A dawdling child is the first arrow; the fury rising from an old wound is the second. The difference: the Buddha treats the second arrow as a reaction in the moment, while "ghosts in the nursery" reminds us it was nocked on the string many years ago.</li>
+</ul>
+</div>
+<div class="tk">
+<h3>Ten takeaways</h3>
+<ol class="takeaways">
+<li>The real harm of childhood adversity is a stress alarm left on for years, quietly reshaping a child's body and brain.</li>
+<li>The 1998 ACE Study of 17,000 adults found a dose-response link: more childhood adversity, more adult physical and mental illness.</li>
+<li>Whether stress turns toxic depends less on the size of the event than on whether a steady adult helps switch the alarm off.</li>
+<li>Tolerable stress paired with adult support is not damage; it is where a child builds resilience.</li>
+<li>Healthy parent-child relationships are not conflict-free but always repaired; what hurts most is coldness and avoidance after a blowup.</li>
+<li>Tronick's Still Face research shows ordinary parent-infant interaction is out of sync about 70% of the time; secure attachment is built by repeated repair.</li>
+<li>A child's out-of-control behavior is a nervous system calling for help, and it needs calming first, not punishment.</li>
+<li>Bruce Perry's Neurosequential Model says to regulate, then relate, then reason, because the thinking brain is offline during dysregulation.</li>
+<li>The spot where a child most easily sets a parent off is often the parent's own unprocessed childhood wound, Fraiberg's "ghosts in the nursery."</li>
+<li>The best predictor of a child's secure attachment is how coherently parents make sense of their own past, which makes "earned security" possible.</li>
+</ol>
+</div>
 <h2 class="deepen-title">Going Deeper</h2>
 
 <details>

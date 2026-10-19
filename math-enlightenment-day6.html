@@ -39,6 +39,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}.matrix .row{flex-direction:column;gap:4px}.matrix .age{width:auto}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -282,6 +294,33 @@ nav a:hover{background:#e07a9b;color:#fff}
 <div class="practice">本周和孩子做一次"分解练习日"：早上一道分解数字 (例如 "47+38 你怎么拆")；中午一道 Fermi 估算 ("我们家这一年大概喝了多少瓶水"); 晚上一个生活任务分解 ("周末我们要去外婆家，把要做的事拆成 5 步")。睡前问 ta："今天哪个'拆'最有意思？" 把"分解"变成你们家共同的语言。一个月后，你会发现孩子开始主动这么想。</div>
 </div>
 </div>
+<div class="crossx">
+<h3>越界 · 跨学科的联想</h3>
+<ul>
+<li><b>生物进化 · 乌鸦的数量神经元</b>：Nieder 团队 2015 年在乌鸦端脑里找到按"几个"选择性放电的神经元，而鸟类和哺乳类三亿多年前就分家了。像在这里：数感比符号古老得多，是演化早早装好的底层；不像的是，动物停在"大约"，人类能在上面再搭一层精确符号。</li>
+<li><b>佛学 · 第二支箭</b>：《箭经》说，身体的痛是第一支箭，随之而起的忧恼是自己补射的第二支。题难是第一支，"我数学不行"的念头是第二支，真正挤占工作记忆的是它。不同在于佛陀只教人看清自己的第二支箭，父母还得多做一步：别把这支箭递给孩子。</li>
+<li><b>物理学 · 费曼的"六七种表述"</b>：费曼在《物理定律的本性》里说，好的理论物理学家对同一套物理都掌握六七种表述，换一种常能看出新东西。Number Talks 收集的正是同一道题的多种表征；不同在于物理学家最后按方便挑一种用，Number Talks 刻意不给策略排名。</li>
+<li><b>分布式系统 · MapReduce</b>：Google 2004 年的 MapReduce 把大任务切成小块并行算、再归并结果，和 Fermi 估算"先数一小块再乘总面积"是同一个结构。不像的是，MapReduce 要求子任务互不依赖；孩子拆生日会时，蛋糕和时间表常常互相牵扯，拆完还得协调。</li>
+<li><b>西方哲学 · 笛卡尔的第二条规则</b>：《谈谈方法》(1637) 的第二条规则，就是把每个难题分成尽可能多的小部分，这和本篇的分解习惯同出一辙。复杂性科学则提醒它的边界：整体会涌现出部分没有的性质，拆完了要记得合回去再看一遍。</li>
+</ul>
+</div>
+
+<div class="tk">
+<h3>十条要点</h3>
+<ol class="takeaways">
+<li>数感是对数量的直觉：一眼识数、灵活拆数、在数线上估位置，比会数到 100 重要得多。</li>
+<li>5–7 岁的数感水平比早期识字水平更能预测整个小学阶段的数学表现。</li>
+<li>有数感的孩子把 7×8 想成 70−14，没有数感的孩子只能死记，遇到新数就卡住。</li>
+<li>扳手指不是坏习惯，手指是大脑的扩展工作记忆，禁止扳手指反而拖累数学发育。</li>
+<li>Beilock 的研究显示，父母数学焦虑只在频繁辅导作业时拖慢孩子进步，不辅导反而没事。</li>
+<li>数学焦虑激活杏仁核、挤占工作记忆，是真实降低算力的生理状态，像佛学说的自己补射的第二支箭。</li>
+<li>"我数学也不好""女生不擅长数学"哪怕当玩笑说，也会让孩子相信数学能力天生不可改。</li>
+<li>Number Talks 是每天几分钟的心算对话：问"你怎么想的"而不是"答案是几"，并把每种策略画出来。</li>
+<li>数学的本质是分解：把复杂问题拆成更简单的同类问题，直到能直接解决，这也就是计算思维。</li>
+<li>孩子卡在难题时，先问能不能找到一道更简单的同类题，这是 Pólya 解题法的核心策略。</li>
+</ol>
+</div>
+
 <nav>
 <a href="index.html">← 返回首页</a>
 </nav>

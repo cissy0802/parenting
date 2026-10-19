@@ -38,6 +38,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}.matrix .row{flex-direction:column;gap:4px}.matrix .age{width:auto}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -326,6 +338,33 @@ nav a:hover{background:#e07a9b;color:#fff}
 <div class="label">[This Week's Practice]</div>
 <div class="practice">Do a "decomposition day" with your child. In the morning, decompose a number ("how do you split 47+38?"). At lunch, a Fermi estimate ("how many bottles of water did our family drink this year?"). In the evening, decompose a real task ("we're visiting Grandma this weekend — break it into 5 steps"). At bedtime ask, "Which 'break-it-down' was the most interesting today?" Make decomposition a shared word in your family. Within a month, you'll see your child start reaching for it on their own.</div>
 </div>
+</div>
+
+<div class="crossx">
+<h3>Crossovers</h3>
+<ul>
+<li><b>Evolutionary biology · number neurons in crows</b>: In 2015 Andreas Nieder's lab found neurons in the crow endbrain that fire selectively for "how many," even though the bird and mammal lineages split over 300 million years ago. The likeness: number sense is far older than symbols, a layer evolution installed early. The difference: animals stop at "roughly," while humans build a layer of exact symbols on top.</li>
+<li><b>Buddhism · the second arrow</b>: The Sallatha Sutta says bodily pain is the first arrow, and the distress that follows is a second arrow we shoot into ourselves. A hard problem is the first arrow; "I'm bad at math" is the second, and it's the one that eats working memory. The difference: the Buddha only asks you to see your own second arrow, while a parent also has to avoid handing it to the child.</li>
+<li><b>Physics · Feynman's "six or seven representations"</b>: In The Character of Physical Law, Feynman says a good theoretical physicist knows six or seven different representations of the same physics, and switching often reveals something new. Number Talks collects exactly that: many representations of one problem. The difference: physicists eventually pick the handiest one, while Number Talks deliberately refuses to rank strategies.</li>
+<li><b>Distributed systems · MapReduce</b>: Google's 2004 MapReduce splits a big job into chunks computed in parallel, then merges the results, the same shape as a Fermi estimate that counts one patch and multiplies by the whole area. The difference: MapReduce requires independent subtasks, but when a child breaks down a birthday party, the cake and the schedule pull on each other and still need coordinating.</li>
+<li><b>Western philosophy · Descartes's second rule</b>: The second rule in the Discourse on Method (1637) is to divide each difficulty into as many parts as possible, the same habit this issue teaches. Complexity science marks its limit: wholes can show emergent properties their parts lack, so after breaking a problem down, put it back together and look again.</li>
+</ul>
+</div>
+
+<div class="tk">
+<h3>Ten takeaways</h3>
+<ol class="takeaways">
+<li>Number sense is an intuitive feel for quantity: instant recognition of small sets, flexible decomposition, and placing numbers on a number line matter far more than counting to 100.</li>
+<li>Number sense at ages 5 to 7 predicts math achievement across elementary school better than early literacy does.</li>
+<li>A child with number sense sees 7×8 as 70−14; a child without it can only memorize and stalls on unfamiliar numbers.</li>
+<li>Counting on fingers isn't a bad habit: fingers act as extended working memory, and banning them can hold math development back.</li>
+<li>Beilock's research shows parental math anxiety slows a child's progress only when the parent helps often with homework; anxious parents who don't help show no such effect.</li>
+<li>Math anxiety activates the amygdala and crowds out working memory, a real physiological drain on computing power, like the self-inflicted second arrow in Buddhism.</li>
+<li>Lines like "I'm bad at math too" or "girls aren't good at math," even as jokes, teach children that math ability is innate and fixed.</li>
+<li>Number Talks is a few minutes of daily mental-math conversation: ask "how did you think about it?" instead of "what's the answer?" and draw every strategy.</li>
+<li>Math at its core is decomposition: break a hard problem into simpler problems of the same kind until each can be solved directly, which is computational thinking.</li>
+<li>When a child is stuck, ask whether they can find a simpler problem of the same kind, the central strategy in Pólya's How to Solve It.</li>
+</ol>
 </div>
 
 <nav>

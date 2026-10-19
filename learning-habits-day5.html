@@ -39,6 +39,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}.matrix .row{flex-direction:column;gap:4px}.matrix .age{width:auto}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -287,6 +299,30 @@ nav a:hover{background:#e07a9b;color:#fff}
 <div class="label">【本周练习】</div>
 <div class="practice">本周做一个"角色降级"实验：明确告诉孩子"妈妈这周不坐你旁边陪写作业了。如果你需要我，叫我；卡 5 分钟以上再来找我，告诉我你试过什么。" 然后真的退出。一周后，和孩子一起回顾：作业准时完成了几天？错题多了还是少了？你自己的情绪如何？大多数家庭会发现，结果比"全程陪坐"好——而你拿回了一整段属于自己的时间。</div>
 </div>
+</div>
+<div class="crossx">
+<h3>越界 · 跨学科的联想</h3>
+<ul>
+<li><b>神经科学 · 记忆再巩固（Nader、Schafe &amp; LeDoux，2000）</b>：大鼠实验显示，已经稳定的恐惧记忆一旦被唤起，会暂时回到可塑状态，必须重新巩固才能存下来。这和「每提取一次就加固一次」是同一个结构：记忆不是存进去就完事，而是每次调用都重写一遍。不像的是，再巩固也意味着提取时记忆可能被改坏，这恰好说明自测之后为什么必须马上对答案。</li>
+<li><b>分布式系统 · 反熵与读修复（anti-entropy）</b>：Amazon Dynamo 这类系统要靠定期对账和读时修复，才能把慢慢漂移的副本拉回一致，没人读的数据会悄悄坏掉。间隔复习就是给记忆排一份对账日程。不像的是，副本修完只是恢复原样，大脑每修一次，痕迹都比原来更牢。</li>
+<li><b>行为经济学 · 「罚款就是价格」（Gneezy &amp; Rustichini，2000）</b>：以色列海法的托儿所对迟到接孩子的家长开始罚款，迟到反而变多；罚款取消后，迟到也没降回来。外部激励把一件事从「该做的事」改写成「买卖」，和奖励把兴趣改写成「工作」是同一种挤出。不像的是，那里被挤掉的是愧疚，这里被挤掉的是喜欢。</li>
+<li><b>中国哲学 · 孟子「揠苗助长」</b>：宋人嫌苗长得慢，亲手往上拔，回家还说「今日病矣」，第二天苗全枯了。全程陪坐、替孩子改错，就是作业版的拔苗。孟子同时批评另一头：觉得没用就撂下不管、连草都不锄的人，正对应「完全不参与」那个陷阱。不像的是，苗不会把思考外包给农夫，孩子会。</li>
+</ul>
+</div>
+<div class="tk">
+<h3>十条要点</h3>
+<ol class="takeaways">
+<li>同样的总学习时长，分散到多天复习比一次集中突击，长期留存可高出两到三倍。</li>
+<li>间隔效应是认知心理学最稳健的效应之一，「每天少量、跨多天」几乎是免费的学习升级。</li>
+<li>刚学完立刻重看只会唤起熟悉感，过了一晚还能主动想起来才算真的学会。</li>
+<li>读一遍再合书自测，一周后的保留率比反复重读高出 50% 以上（Roediger 与 Karpicke，2006）。</li>
+<li>自测时觉得吃力、学得差，往往正是学得最好的时候，重读带来的流畅感是元认知错觉。</li>
+<li>提取练习要每天做、用默写或口述这类主动产出，而且提取之后必须马上对答案。</li>
+<li>给孩子本来就有兴趣的事发物质奖励，奖励一停兴趣往往跟着消失，这就是过度合理化效应。</li>
+<li>自我决定理论认为内驱力靠自主、胜任、关联三种需求撑起，其中自主最关键。</li>
+<li>父母帮做、帮查作业与成绩多为零相关或负相关，聊上学、谈对未来的期望才显著正向。</li>
+<li>父母陪坐会让孩子把思考外包，作业陪伴的最佳角色是环境设计师加元认知教练。</li>
+</ol>
 </div>
 <nav>
 <a href="index.html">← 返回首页</a>

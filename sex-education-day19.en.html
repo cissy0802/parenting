@@ -40,6 +40,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}.stage-age{width:62px}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -213,6 +225,31 @@ nav a:hover{background:#e07a9b;color:#fff}
 </div>
 </div>
 
+<div class="crossx">
+<h3>Crossovers</h3>
+<ul>
+<li><b>Philosophy · Wittgenstein's limits of language</b>: The Tractatus (1921) says the limits of my language mean the limits of my world. A child who only has "down there" lacks a way to report what happened. The difference: Wittgenstein meant the logical structure of language and world; here the question is whether a child can describe an incident and be understood.</li>
+<li><b>Psychology · Learned helplessness (Seligman and Maier, 1967)</b>: Dogs given shocks they could not escape later stopped trying even when escape was possible. A child repeatedly made to endure hugs "to be polite" learns the same lesson: my refusal does nothing. Unlike the lab, the loss of control is partial, limited to moments with adults around, yet it can quietly generalize.</li>
+<li><b>Distributed systems · Leases (Gray and Cheriton, 1989)</b>: In distributed caches a grant carries an expiry and must be renewed; no holder may treat one grant as permanent. Consent is likewise revocable and needs ongoing confirmation. The difference: a lease lapses by the clock, while consent lapses the moment someone says stop and you actually stop.</li>
+<li><b>Social psychology · Social comparison theory (Festinger, 1954)</b>: Without objective standards, people measure themselves against others, and filtered influencer bodies become the child's yardstick. The difference: Festinger assumed comparison serves accurate self-evaluation, but algorithmic comparison targets are retouched, so each comparison makes the picture less accurate.</li>
+<li><b>Buddhism · Mindfulness of the body</b>: The first of the four foundations of mindfulness observes breath, posture and movement as they are, without judgment, the same turn from appearance to function and sensation. The difference: Buddhist body contemplation leads toward impermanence and non-self, loosening attachment to the body, while sex education first needs the child to feel "this body is mine."</li>
+</ul>
+</div>
+<div class="tk">
+<h3>Ten takeaways</h3>
+<ol class="takeaways">
+<li>Sex education is not one big talk at puberty but countless small, age-graded conversations woven into daily life from early childhood.</li>
+<li>UNESCO's review finds comprehensive sex education delays first sex and reduces risk behavior, while abstinence-only programs are ineffective or even harmful.</li>
+<li>When a child asks about bodies or birth, first ask what they think, then answer only the layer asked and add more when they follow up.</li>
+<li>Using correct anatomical names such as penis and vulva lowers shame and makes children more willing to ask questions and seek help.</li>
+<li>Children who can name body parts precisely report inappropriate touch more clearly; vague nicknames create a communication gap abusers can exploit.</li>
+<li>The core of the NSPCC's Underwear Rule is that a child's body belongs to them: others need consent to touch them, and they must ask before touching others.</li>
+<li>Being repeatedly made to endure unwanted touch for politeness teaches a child their refusal does not count, much like learned helplessness.</li>
+<li>Consent is not a one-time rule but a revocable process needing ongoing confirmation, like a lease in distributed systems that must be renewed.</li>
+<li>Parents' own fat talk, such as complaining about their weight, dieting, or judging others' bodies, is among the strongest family predictors of a child's body dissatisfaction.</li>
+<li>When a child worries about their body, first ask how they see it, then shift the focus from appearance to what the body can do and feel.</li>
+</ol>
+</div>
 <div class="deep-title">Going Deeper</div>
 
 <details>

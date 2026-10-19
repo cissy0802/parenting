@@ -39,6 +39,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -213,6 +225,31 @@ nav a:hover{background:#e07a9b;color:#fff}
 <div class="label">【本周练习 + 思考题】</div>
 <div class="practice"><strong>练习：</strong>记一周（而非一天）的饮食流水账。周末回看，多数孩子的"营养拼图"在七天里会比你想象的完整。<br/><strong>思考：</strong>我对"吃得好"的标准，是来自孩子的真实需要，还是来自我自己的焦虑和他人的眼光？</div>
 </div>
+</div>
+<div class="crossx">
+<h3>越界 · 跨学科的联想</h3>
+<ul>
+<li><b>东方哲学 · 老子「治大国若烹小鲜」</b>：煎小鱼不能老翻，翻多了就碎；治国少折腾，和父母搭好结构、退出「吃多少」战场是同一种克制。不像的是，无为没划清谁管什么，喂养责任分工把边界写得清清楚楚：供给全归你，吃不吃一点不碰。</li>
+<li><b>生物进化 · Garcia 效应（味觉厌恶学习）</b>：John Garcia 在 1950–60 年代的大鼠实验发现，吃下某种味道后只要难受一次，动物就会长期回避它，一次足矣，不用反复。逼吃换来的反胃很像这条古老的回路：一次就把食物钉上「危险」标签，之后要十几次安全接触才拆得掉。不像在于，大鼠是真被毒到，孩子承受的「毒」多半是餐桌上的压力。</li>
+<li><b>社会心理学 · 单纯曝光效应（Robert Zajonc，1968）</b>：人对只是多见几次的陌生字词、面孔会更有好感，熟悉本身就生出喜欢，和反复暴露是同一个底层。不像在于，食物光看不够，要真尝一小口才起效：味觉是要入口的感官，入口前的警戒也更高。</li>
+<li><b>分布式系统 · 最终一致性</b>：副本在任一时刻可能互相矛盾，只要不再有新冲突，过一阵就会收敛到一致；按周看营养也是这样，单顿失衡，七天收敛。不像的是，系统的收敛有协议保证，孩子的收敛前提是你持续供给多样的食物。</li>
+<li><b>经济学 · 古德哈特定律（Charles Goodhart，1975）</b>：常见的说法是，指标一旦变成目标，就不再是好指标。「要见 8–15 次」本是研究里的观察，家长拿去当 KPI 计数，计数的焦虑变成压力，反过来破坏了它要测的东西。不像的是，经济里走样的是被考核的人，这里走样的是考核者自己。</li>
+</ul>
+</div>
+<div class="tk">
+<h3>十条要点</h3>
+<ol class="takeaways">
+<li>喂养责任分工：父母决定吃什么、何时吃、在哪吃，孩子决定吃不吃、吃多少。</li>
+<li>压力性喂养反而与孩子吃得更少、更挑食、对食物更焦虑相关。</li>
+<li>把「吃多少」的控制权还给孩子，既消解餐桌权力斗争，也保住他与生俱来的饥饱感知。</li>
+<li>用甜点当吃青菜的筹码，会抬高甜点、贬低青菜。</li>
+<li>不做短期厨师：全家吃同一桌菜，其中至少有一样孩子通常能接受的安全食物。</li>
+<li>孩子一拒绝就换成他爱吃的，等于奖励拒绝，可接受的食物会越缩越窄。</li>
+<li>2 岁左右出现的食物恐新是进化来的保护机制，接受一样新食物常要反复接触 8–15 次。</li>
+<li>反复暴露要无压力，并且真正尝一小口比光看见更有效；把探索而不是吞咽当目标。</li>
+<li>Clara Davis 的自助餐研究显示，幼儿单顿吃得杂乱，拉长到数周整体营养相当均衡，所以营养按周衡量。</li>
+<li>体重下降或停滞、可接受食物极少、吞咽异常、强烈感官回避，是挑食该就医的红旗信号。</li>
+</ol>
 </div>
 <h3 data-tts="9ce2b9e72d605b6f">【深入思考】</h3>
 <details><summary>"光盘"教育与尊重孩子饱腹信号，矛盾吗？</summary><div>东亚家庭常把"吃光"视为美德。但逼孩子吃完，是在训练他忽略饱腹信号——这与儿童肥胖、失调进食相关。两者可调和：减少浪费靠"少盛、不够再添"，而非要求把已盛的吃光。把节俭放在"盛多少"（大人可控）这端，"吃多少"留给孩子的身体。教孩子尊重食物，不必以牺牲他的自我调节为代价。</div></details>

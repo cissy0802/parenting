@@ -38,6 +38,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}.matrix .row{flex-direction:column;gap:4px}.matrix .age{width:auto}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -340,6 +352,31 @@ nav a:hover{background:#e07a9b;color:#fff}
 </div>
 </div>
 
+<div class="crossx">
+<h3>Crossovers</h3>
+<ul>
+<li><b>Evolution · Supernormal stimuli (Niko Tinbergen)</b>: Tinbergen found oystercatchers would try to brood a fake egg far bigger than their own; the exaggerated signal beat the real thing. Fast cuts and loud sound effects are supernormal stimuli for attention, which is why picture books and walks start to feel too slow. The difference: the bird's preference is a fixed instinct, while a child's baseline for "fun" can be reset by slow content and co-viewing.</li>
+<li><b>Neuroscience · Active and passive kittens (Held &amp; Hein, 1963)</b>: Two kittens in the same carousel saw the same scenes; the one that walked learned visually guided movement, the one carried in a gondola did not. Same input, different learning, just as tapping a screen is not active thinking. Unlike the kittens, co-viewing restores activity through spoken questions, not movement.</li>
+<li><b>Economics · Significant is not the same as important (Ziliak &amp; McCloskey)</b>: In The Cult of Statistical Significance (2008), two economists attacked the habit of asking whether an effect exists but not how big it is. Screen panic makes the same error: with 350,000 people, even 0.4% is significant, yet that says nothing about whether a family should worry. Here, though, the misreading mostly comes from press coverage, not the researchers.</li>
+<li><b>Distributed systems · Control plane and data plane</b>: Networks settle the rules in a slow control plane so the data plane just forwards packets without negotiating each one. A family media plan moves the bargaining into the control plane: one meeting sets the rules, and daily use follows them. Unlike routers, family members can resist, so the rules need their buy-in and a fresh control-plane session every 3 to 6 months.</li>
+<li><b>Philosophy · Ulysses and the Sirens (Jon Elster)</b>: In Ulysses and the Sirens (1979), Elster treats binding yourself in advance as a form of rationality. A parent who keeps the phone face down with the kids, and invites them to call it out, is tied to the mast. The difference: Ulysses only bound his future self, while here the children hold the rope.</li>
+</ul>
+</div>
+<div class="tk">
+<h3>Ten takeaways</h3>
+<ol class="takeaways">
+<li>Most apps sold as "educational" have no efficacy research behind them; marketing is not evidence.</li>
+<li>Apps that truly support learning meet four pillars at once: active, engaged, meaningful and socially interactive.</li>
+<li>The video deficit effect: children under two and a half learn far less from a screen than from a live person showing them.</li>
+<li>When judging screen time, ask not only what it teaches but what it replaces: sleep, play or conversation.</li>
+<li>Orben and Przybylski's large-sample analysis found screen time explains about 0.4% of teen well-being, roughly as much as eating potatoes.</li>
+<li>A small average effect is no excuse to stop managing: extreme use of 5+ hours a day is still strongly tied to sleep, attention and mood problems.</li>
+<li>Guernsey's Three C's, content, context and child, guide families better than any daily hour limit.</li>
+<li>Fast-cut shows briefly impair preschoolers' executive function, while slow, well-structured programs show long-term benefits.</li>
+<li>A family media plan replaces daily ad-hoc bargaining with one round of rule-making, and rules children help write hold up better.</li>
+<li>Parents' own screen discipline is the basis of the rules' authority; if parents ignore them, children learn the rules only apply to kids.</li>
+</ol>
+</div>
 <nav>
 <a href="index.en.html">← Back to all daily issues</a>
 </nav>

@@ -42,6 +42,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -200,6 +212,30 @@ nav a:hover{background:#e07a9b;color:#fff}
 <div class="label">【本周练习 + 思考题】</div>
 <div class="practice"><strong>动作：</strong>本周固定全家起床时间 (周末波动不超过 1 小时)，起床后 10 分钟接触自然光。<br/><strong>思考：</strong>你家现在是"早上随便、晚上死磕"，还是反过来？哪头更好撬动？</div>
 </div>
+</div>
+<div class="crossx">
+<h3>越界 · 跨学科的联想</h3>
+<ul>
+<li><b>社会心理学 · 基本归因错误（Lee Ross，1977）</b>：看别人的行为时，人们习惯高估性格、低估处境；把睡不够的孩子判成「浮躁、不听话」正是这个偏差。不像在于：通常被忽略的处境在外部环境里，这里的处境藏在孩子自己的身体里，更容易被当成性格。</li>
+<li><b>佛学 · 丛林清规的日课</b>：禅寺用晨钟暮鼓和固定的作息顺序安住心，不必每天靠意志重新决定做什么；睡前仪式同样是让序列本身带出状态。不像的是，禅修的日课要把觉知调亮，睡前仪式要把唤醒一点点调暗。</li>
+<li><b>生物进化 · 哨兵假说（David Samson 等，2017）</b>：对坦桑尼亚哈扎狩猎采集者的追踪发现，20 天里全体成员同时入睡的时间只有 18 分钟；年轻人偏夜猫、年长者偏早起，作者认为混龄的作息差异替群体守了夜。若此说成立，青春期的相位后移在祖先环境里可能是一种分工；不像的地方在于，今天的早课铃声没把这份分工算进去。</li>
+<li><b>分布式系统 · 时钟同步（NTP）</b>：每台机器的本地时钟都会漂移，要定期向可信的参考源对时；视交叉上核靠晨光对时，是同一个结构。NTP 通常小步慢调、避免时间突然跳变，而周末睡到中午的「社交时差」，等于让生物钟每周硬跳一次。</li>
+</ul>
+</div>
+<div class="tk">
+<h3>十条要点</h3>
+<ol class="takeaways">
+<li>学龄儿童睡眠不足很少表现为困，更多是多动、易怒、冲动和注意力涣散，和 ADHD 症状高度重叠。</li>
+<li>美国睡眠医学会建议 6–12 岁儿童每天睡 9–12 小时，13–18 岁青少年每天睡 8–10 小时。</li>
+<li>睡眠中大脑靠胶质淋巴系统清理代谢废物，同时把白天海马区的学习转入皮层长期存储。</li>
+<li>平日欠睡、周末猛补无法完全偿还睡眠债，还会打乱生物钟。</li>
+<li>固定、可预测、刺激递减的睡前流程本身就是大脑的入睡信号，关键是每天顺序相同。</li>
+<li>Jodi Mindell 2009 年的研究发现，规律睡前程序让孩子入睡更快、夜醒更少，且越规律改善越明显。</li>
+<li>青春期生物钟自然后移 1–3 小时，源于褪黑素分泌推迟和睡眠压力累积变慢，不是懒惰或叛逆。</li>
+<li>美国儿科学会 2014 年建议中学不早于 8:30 上课，推迟上学时间的地区出勤、成绩和驾车安全都有改善。</li>
+<li>晨光是生物钟最强的授时因子，固定的起床时间比固定的入睡时间更能稳定整个昼夜节律。</li>
+<li>把睡不够的孩子当成性格有问题来管教，是基本归因错误：高估性格、低估了身体的处境。</li>
+</ol>
 </div>
 <div class="deep-title">深入思考</div>
 <details>

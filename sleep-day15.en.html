@@ -41,6 +41,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -230,6 +242,30 @@ nav a:hover{background:#e07a9b;color:#fff}
 </div>
 </div>
 
+<div class="crossx">
+<h3>Crossovers</h3>
+<ul>
+<li><b>Social psychology · The fundamental attribution error (Lee Ross, 1977)</b>: when judging others, we overweight character and underweight circumstance; labeling a sleep-deprived child "restless" or "defiant" is exactly this bias. The difference: the overlooked circumstance usually sits in the environment, while here it hides inside the child's own body, which makes it even easier to mistake for personality.</li>
+<li><b>Buddhism · The Chan monastery's daily rule</b>: Zen monasteries settle the mind with a fixed order of bells, drums and practice, so no one has to decide the day afresh by willpower; a bedtime routine likewise lets the sequence itself produce the state. The difference: the monastic schedule aims to brighten awareness, while the bedtime routine dims arousal step by step.</li>
+<li><b>Evolution · The sentinel hypothesis (David Samson et al., 2017)</b>: tracking Hadza hunter-gatherers in Tanzania, researchers found that over 20 days everyone was asleep at the same time for only 18 minutes; younger adults ran late and older ones early, and the authors argue mixed-age sleep timing kept watch for the group. If so, the teenage phase delay may once have been a division of labor; the mismatch is that today's early school bell makes no room for it.</li>
+<li><b>Distributed systems · Clock synchronization (NTP)</b>: every machine's local clock drifts and must check in with a trusted reference; the suprachiasmatic nucleus uses morning light the same way. NTP usually corrects in small, gradual adjustments to avoid sudden jumps, whereas sleeping until noon on weekends, "social jetlag," forces the body clock to leap every week.</li>
+</ul>
+</div>
+<div class="tk">
+<h3>Ten takeaways</h3>
+<ol class="takeaways">
+<li>In school-age children, sleep loss rarely looks like sleepiness; it shows up as hyperactivity, irritability, impulsivity and poor focus that closely mimic ADHD.</li>
+<li>The American Academy of Sleep Medicine recommends 9–12 hours a day for ages 6–12 and 8–10 hours for ages 13–18.</li>
+<li>During sleep the brain clears metabolic waste through the glymphatic system and moves the day's hippocampal learning into long-term cortical storage.</li>
+<li>Short sleep on weekdays cannot be fully repaid by weekend catch-up sleep, which also disrupts the body clock.</li>
+<li>A fixed, predictable, wind-down bedtime routine is itself the brain's signal to sleep; what matters is the same order every night.</li>
+<li>Jodi Mindell's 2009 study found that regular bedtime routines mean faster sleep onset and fewer night wakings, with more consistency bringing bigger gains.</li>
+<li>At puberty the body clock naturally shifts 1–3 hours later because melatonin release is delayed and sleep pressure builds more slowly, not because of laziness.</li>
+<li>The American Academy of Pediatrics recommended in 2014 that middle and high schools start no earlier than 8:30, and later start times improved attendance, grades and driving safety.</li>
+<li>Morning light is the body clock's strongest zeitgeber, and a fixed wake time stabilizes circadian rhythm more than a fixed bedtime does.</li>
+<li>Disciplining a sleep-deprived child for bad character is the fundamental attribution error: blaming personality while missing the body's circumstances.</li>
+</ol>
+</div>
 <div class="deep-title">Going Deeper</div>
 
 <details>

@@ -38,6 +38,18 @@ details[open] summary::before{content:"▾ "}
 details .answer{padding:0 0 16px;font-size:0.93rem;color:#5a3a4a;line-height:1.8}
 .deep-title{text-align:center;color:#c45a8e;font-size:1.2rem;font-weight:800;margin:40px 0 20px}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -208,6 +220,31 @@ details .answer{padding:0 0 16px;font-size:0.93rem;color:#5a3a4a;line-height:1.8
 </div>
 </div>
 
+<div class="crossx">
+<h3>Crossovers</h3>
+<ul>
+<li><b>Complexity science · Explore vs. exploit</b>: The textbook strategy for the multi-armed bandit is to sample widely first, then gradually bet on the best-paying machine: the same shape as a sampling period before specialization. The difference: a bandit's odds stay fixed, while a "wicked" environment keeps changing its rules, which argues for a longer exploration phase and for keeping the option to go back and try again.</li>
+<li><b>Evolution · Specialists and generalists</b>: The giant panda eats almost nothing but bamboo, superbly efficient in a stable world and fragile when it shifts; rats and crows eat anything and survive anywhere. That is the kind-versus-wicked split. Unlike a species, though, a child can change strategy.</li>
+<li><b>Network science · Preferential attachment</b>: Barabási and Albert showed in 1999 that new nodes prefer to link to already well-connected ones, so a few hubs snowball: the same curve as the relative age effect. Unlike nodes, teachers and coaches can notice the bias and correct it.</li>
+<li><b>Biology · Hormesis</b>: Small doses of stress (exercise, brief fasting) switch on cellular repair, while large doses cause damage; benefit follows an inverted U. "Moderate challenge builds resilience, chronic pressure harms regulation" is the same structure. But cells only register the dose; a child also registers whether someone is standing beside them.</li>
+<li><b>Daoism · Wu wei</b>: Laozi likened governing a large state to cooking a small fish: the more you poke it, the more it falls apart, much like TEAM's minimal interference. The difference: wu wei asks rulers to hold back, while Doucleff also asks adults to actively invite children into real work; you withhold the correction, not the invitation.</li>
+</ul>
+</div>
+<div class="tk">
+<h3>Ten takeaways</h3>
+<ol class="takeaways">
+<li>In fields with unstable rules and fast change, early specialization is a handicap; most top performers had a broad sampling period first.</li>
+<li>"Kind" environments with fixed rules reward early practice; "wicked" ones reward analogy and far transfer, where breadth pays.</li>
+<li>Broad sampling is exploration, quitting at the first difficulty is avoidance; when a child wants to quit, first tell which one it is.</li>
+<li>The relative age effect: the oldest children in a grade start slightly ahead, get picked for training, and the advantage snowballs.</li>
+<li>The "10,000-hour rule" is Gladwell's simplification of Ericsson; what sets skill level is the quality of deliberate practice, not hours.</li>
+<li>Honestly naming birth timing, opportunity and luck, then refocusing on what a child controls, is truer than "effort always wins."</li>
+<li>Non-cognitive skills like self-control, curiosity and resilience grow out of safe relationships and supported experience, not lectures.</li>
+<li>Meta-analyses find that grit predicts achievement no better than conscientiousness, a long-established personality trait.</li>
+<li>Chronic pressure harms the regulation system rather than building resilience; moderate challenge, broken into steps with an adult nearby, works.</li>
+<li>Toddlers around two or three go through an eager-helper window; repeatedly turning them away as too slow or messy snuffs out their motivation to cooperate.</li>
+</ol>
+</div>
 <div class="deep-title">Going deeper</div>
 
 <details>

@@ -38,6 +38,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}.matrix .row{flex-direction:column;gap:4px}.matrix .age{width:auto}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -333,6 +345,30 @@ nav a:hover{background:#e07a9b;color:#fff}
 </div>
 </div>
 
+<div class="crossx">
+<h3>Crossovers</h3>
+<ul>
+<li><b>Neuroscience · Memory reconsolidation (Nader, Schafe &amp; LeDoux, 2000)</b>: In rats, a consolidated fear memory that is reactivated becomes labile again and has to be re-stabilized to persist. Same structure as "every retrieval strengthens": a memory isn't stored once and done, it is rewritten each time it is used. The difference: reconsolidation also means retrieval can corrupt a memory, which is exactly why self-testing needs immediate feedback.</li>
+<li><b>Distributed systems · Anti-entropy and read repair</b>: Systems like Amazon's Dynamo rely on periodic reconciliation and repair-on-read to pull drifting replicas back into agreement; data nobody reads quietly rots. Spaced review is a reconciliation schedule for memory. Unlike a replica, which is merely restored, the brain's trace comes back stronger after each repair.</li>
+<li><b>Behavioral economics · "A Fine Is a Price" (Gneezy &amp; Rustichini, 2000)</b>: When daycare centers in Haifa, Israel, started fining late parents, lateness went up, and it stayed up after the fine was removed. An external incentive recast a duty as a transaction, the same crowding-out by which rewards recast interest as work. What gets crowded out differs: guilt there, enjoyment here.</li>
+<li><b>Chinese philosophy · Mencius and the man who pulled up his seedlings</b>: A farmer from Song, impatient with his crop, tugged every sprout upward to help it grow; by morning they had all withered. Sitting beside a child and fixing every error is the homework version. Mencius also faulted the opposite mistake, abandoning the field and not even weeding, which matches the "not involved at all" trap. Unlike seedlings, children can outsource their thinking to the farmer.</li>
+</ul>
+</div>
+<div class="tk">
+<h3>Ten takeaways</h3>
+<ol class="takeaways">
+<li>With the same total study time, spreading review across several days can retain two to three times more than one cramming session.</li>
+<li>The spacing effect is one of the most robust findings in cognitive psychology; small daily doses across days are a nearly free upgrade.</li>
+<li>Re-reading right after learning only triggers a feeling of familiarity; you truly know something when you can recall it after a night's sleep.</li>
+<li>Reading once and then self-testing with the book closed beats repeated re-reading by over 50% in one-week retention (Roediger and Karpicke, 2006).</li>
+<li>Feeling that self-testing is hard and unproductive often signals the best learning; the fluency of re-reading is a metacognitive illusion.</li>
+<li>Retrieval practice should happen daily, use active output like writing from memory or explaining aloud, and be followed immediately by checking answers.</li>
+<li>Tangible rewards for activities a child already enjoys often kill the interest once the rewards stop; this is the overjustification effect.</li>
+<li>Self-Determination Theory holds that intrinsic motivation rests on autonomy, competence and relatedness, with autonomy the most critical.</li>
+<li>Parents doing or checking homework shows near-zero or negative links to achievement, while talking about school and the future shows positive ones.</li>
+<li>Sitting beside a child during homework invites cognitive offloading; the best roles are environment designer and metacognitive coach.</li>
+</ol>
+</div>
 <nav>
 <a href="index.en.html">← Back to all daily issues</a>
 </nav>

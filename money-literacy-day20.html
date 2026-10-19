@@ -45,6 +45,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}.jars{flex-wrap:wrap}.jar{min-width:90px}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -202,6 +214,30 @@ nav a:hover{background:#e07a9b;color:#fff}
 <div class="label">【本周练习 + 思考题】</div>
 <div class="practice"><strong>练习：</strong>本周捕捉自己一句脱口而出的金钱话语（"买不起""太贵了""我们穷"），把它改写成一句"选择句"。同时留意：你谈钱时身体是放松的还是紧绷的？<br/><strong>思考题：</strong>你最深的那条"金钱脚本"是什么？它来自你的父母吗？这一条，你愿意原样传给孩子，还是想在你这里改写？</div>
 </div>
+</div>
+<div class="crossx">
+<h3>越界 · 跨学科的联想</h3>
+<ul>
+<li><b>投资 · 折现率与违约风险</b>：借款方越可能赖账，放贷人要的利率越高，越想现钱落袋。Kidd 实验里立刻吃掉棉花糖的孩子，就是给一个不可靠的承诺打了高折现率。不像的是，市场给一国信用重新定价往往要很多年，孩子心里的这个"利率"，只要大人一次次说到做到就能降下来。</li>
+<li><b>佛学 · 渴爱与观照</b>：佛教把对可欲之物的抓取叫渴爱（taṇhā），修法是看清念头只是念头、不随它走；把棉花糖想成一朵白云，也是松开"想要"的那只手。不像在于：孩子靠的是把注意力移开，正念要的恰恰是不移开，如实看着那份想要。</li>
+<li><b>行为经济学 · 罚款就是价格（Gneezy &amp; Rustichini，2000）</b>：以色列几家托儿所对晚接孩子的家长罚款后，迟到反而增多，愧疚被一笔小钱买断了。这和家务明码标价是同一个结构；更刺眼的是撤掉罚款后迟到也没回落，被货币化的规范很难复原。</li>
+<li><b>分布式系统 · 舱壁隔离（bulkhead）</b>：把线程池、连接按用途分舱，一个服务耗尽资源也拖不垮别的，像船舱隔板防止一处进水沉了全船。三罐法同理：花罐见底，存罐和分罐不受牵连。不像的是，罐子之间的隔板只是约定，父母一偷偷补钱就塌了。</li>
+</ul>
+</div>
+<div class="tk">
+<h3>十条要点</h3>
+<ol class="takeaways">
+<li>孩子能不能延迟满足，取决于他是否相信等待会兑现，以及有没有转移注意力的具体策略。</li>
+<li>Watts 等人 2018 年用近 900 名儿童重做棉花糖实验，预测力大幅缩水，很大程度可由家庭社会经济背景解释。</li>
+<li>在承诺常常落空的环境里，立刻吃掉棉花糖才是理性选择，所以父母守信是延迟满足的地基。</li>
+<li>Mischel 发现等得久的孩子靠的是认知策略，比如扭开头、唱歌、把棉花糖想成白云，自控力是可教的注意力技巧。</li>
+<li>零用钱是让孩子安全犯错的金钱练习场，最好与家务脱钩，固定、可预期地发放。</li>
+<li>家务一旦明码标价，过度理由效应会让孩子把本分货币化，内在动机被外部奖励挤走。</li>
+<li>孩子花光零用钱时既不羞辱也不补钱，让"没钱了"这个自然后果替父母完成教育。</li>
+<li>存、花、分三个透明罐子让抽象的钱看得见，降低具象思维阶段的孩子延迟满足的心理成本。</li>
+<li>给予本身就是奖赏：花钱给别人比花给自己更幸福，不到两岁的幼儿给予时也比收到时更开心。</li>
+<li>父母的金钱脚本会无意识地代际传递，把"买不起"换成"我们选择把钱花在别处"，传的是选择而不是匮乏。</li>
+</ol>
 </div>
 <div class="deep-title">深入思考</div>
 <details>
