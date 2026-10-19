@@ -31,6 +31,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -215,6 +227,30 @@ nav a:hover{background:#e07a9b;color:#fff}
 </div>
 </div>
 
+<div class="crossx">
+<h3>Crossovers</h3>
+<ul>
+<li><b>Investing · "Time in the market"</b>: Investors like to say returns depend on how long you stay in the market, not on the day you get in; language likewise rewards accumulated hours over an early start, and dropping out hurts most. The difference: compounding is exponential, while language input adds up roughly linearly, so a late start can be made up with more input.</li>
+<li><b>Ecology · Competitive exclusion (Gause, 1934)</b>: When two species compete for the same niche, the stronger one eventually crowds out the weaker; species that coexist long-term usually each hold a niche of their own. Tying the weaker language to dedicated scenes like bedtime reading or video calls with Grandpa carves out its niche. Unlike species, though, parents can choose to protect the weaker side.</li>
+<li><b>Distributed systems · TCP acknowledgments</b>: TCP waits for an ACK after each segment and resends if none comes back; UDP just broadcasts and never checks whether anything arrived. Live conversation is TCP, screens are UDP. The mismatch: a child needs more than "received" back, namely eye contact and emotion, which no protocol carries.</li>
+<li><b>Philosophy · Wittgenstein's language games</b>: In Philosophical Investigations (1953), the later Wittgenstein argued that a word's meaning lies in how it is used within a form of life. Chatting with Grandma about her childhood is a language game only this language can play. The difference: he asked where meaning comes from; this week asks why a child would want to learn.</li>
+</ul>
+</div>
+<div class="tk">
+<h3>Ten takeaways</h3>
+<ol class="takeaways">
+<li>The sensitive period for language closes gradually; it is a soft window, not a hard cutoff at age 7.</li>
+<li>An online grammar test of 670,000 people found the window for near-native grammar stays open until about age 17.4.</li>
+<li>Accumulated hours of input, not the starting age, predict final fluency; an early start that stops often loses to a late start kept up for ten years.</li>
+<li>De Houwer's survey of 1,899 Belgian bilingual families found about a quarter of children raised with one-parent-one-language (OPOL) ended up speaking only the majority language.</li>
+<li>A language with less than about 20% of input rarely develops active speech; the weaker language usually needs 25-30% of waking hours to hold.</li>
+<li>Children drift toward the majority language, so the weaker language must be protected by tying it to emotionally rich activities like shared reading, games, and calls with grandparents.</li>
+<li>In Kuhl's experiment, 9-month-olds who had 12 live sessions with a Mandarin speaker learned to tell Mandarin sounds apart; the same exposure by video did nothing.</li>
+<li>The social gating hypothesis holds that language learning is switched on by eye contact, turn-taking, and emotional response; passive background audio does far less than advertised.</li>
+<li>Claims that bilingualism boosts executive function have been hard to replicate in large meta-analyses; the sturdier payoff is emotional connection to family and culture.</li>
+<li>Wong Fillmore found that immigrant children who lose their heritage language can no longer talk deeply with grandparents: language loss is relationship loss.</li>
+</ol>
+</div>
 <!-- Deeper questions -->
 <div class="card">
 <span class="num">Deeper</span>

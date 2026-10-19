@@ -30,6 +30,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -260,6 +272,30 @@ nav a:hover{background:#e07a9b;color:#fff}
 </div>
 </div>
 
+<div class="crossx">
+<h3>Crossovers</h3>
+<ul>
+<li><b>Buddhism · No fixed self, dependent arising</b>: A fixed mindset treats "smart" or "dumb" as a person's unchanging essence, the clinging to inherent nature that Buddhism warns against; a growth mindset looks more like dependent arising, ability coming and going with practice, method and setting. The difference: Buddhism would let go even of the "self that is growing," while a growth mindset is still cultivating a better self.</li>
+<li><b>Distributed systems · Blameless postmortems</b>: Google's SRE teams write incident reviews that ask which part of the system failed and how to prevent it next time, not who deserves blame, so people report honestly. That is the same structure as turning mistakes into data. Unlike it, an engineering postmortem takes the person out of the causal chain, while a family debrief is precisely about how the child adjusts.</li>
+<li><b>Investing · Decision quality vs. "resulting" (Annie Duke)</b>: In <em>Thinking in Bets</em> (2018), former poker player Annie Duke calls judging a decision by its outcome "resulting." Praising only the score trains a child to be a resulter. The difference: luck is a big share of a poker hand, while homework and practice are far more controllable.</li>
+<li><b>Evolutionary biology · Norm of reaction</b>: The same genotype can produce very different phenotypes in different environments, a concept Woltereck introduced in 1909 working with water fleas. A mindset intervention is likewise the same seed in different soil, its effect tracking the beliefs of the surrounding adults. The difference: a genotype stays fixed, while a child's mindset gets rewritten by the soil.</li>
+</ul>
+</div>
+<div class="tk">
+<h3>Ten takeaways</h3>
+<ol class="takeaways">
+<li>Whether a child believes ability is fixed or can grow is an implicit belief that decides whether they flee or engage when a challenge shows up.</li>
+<li>In Dweck and Mueller's 1998 experiment, fifth graders praised as "smart" gave up on hard problems sooner; those praised for effort took on more challenges.</li>
+<li>A growth mindset matches neuroplasticity: children who believe challenge grows the brain are the ones willing to enter the hard zone where it grows.</li>
+<li>A growth mindset as a slogan does nothing; a parent who says "I've just never been good at math" is teaching the opposite.</li>
+<li>Praising talent ties a child's self-worth to the "smart" label, while praising strategy and focus attributes success to things they can control.</li>
+<li>A longitudinal study found that the more process praise parents gave at 14 to 38 months, the more likely children held a growth mindset at seven or eight.</li>
+<li>Moser's EEG research shows that people with a growth mindset have a stronger brain attention signal after making a mistake.</li>
+<li>When a child fails, empathize first, debrief second, break the loss into concrete data, and hand the next choice back to the child.</li>
+<li>Yeager and Dweck's national experiment found two short online mindset sessions raised low achievers' grades, but the effect depended on the surrounding mindset ecosystem.</li>
+<li>Treating mistakes as data rather than verdicts has the same structure as an engineering team's blameless postmortem, which asks about the system, not who is at fault.</li>
+</ol>
+</div>
 <nav>
 <a href="index.en.html">← Back to all days</a>
 </nav>

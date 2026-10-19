@@ -35,6 +35,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -215,6 +227,30 @@ nav a:hover{background:#e07a9b;color:#fff}
 </div>
 </div>
 
+<div class="crossx">
+<h3>Crossovers</h3>
+<ul>
+<li><b>Distributed systems · Backpressure</b>: When a downstream service can't keep up, a well-built system makes the upstream slow to its pace instead of flooding it until it crashes; "ten minutes of homework, two minutes of moving" rate-limits the task to the child's throughput. The difference: a system can drop packets and retry, while an overloaded child keeps the lesson "something is wrong with me."</li>
+<li><b>Western philosophy · Aristotle's akrasia (weakness of will)</b>: Knowing what is right and still not doing it is exactly Barkley's "knows what to do but can't make himself do it." Where it differs: Aristotle discusses it as a matter of character, and this issue is precisely about taking it out of character and handing it to executive function and external scaffolding.</li>
+<li><b>Evolutionary biology · DRD4 and the nomadic Ariaal</b>: In a 2008 study of the Ariaal of Kenya, Dan Eisenberg and colleagues found that the ADHD-linked DRD4 7R allele went with better nutritional status among nomads but worse among settled villagers. The same trait turns from burden to asset when the environment changes, much like Hallowell's "engine." The limit: it is a small correlational study and cannot show that ADHD was kept by natural selection as an adaptation.</li>
+<li><b>Investing · Graham's voting machine and weighing machine</b>: In the short run the market is a voting machine, in the long run a weighing machine; in the MTA study medication's short-term edge was clear, yet it narrowed over long-term follow-up, so a decision should separate short-term readings from long-term weight. Unlike a stock, a narrowing edge doesn't mean the medicine stopped working; dose management and adherence may have changed during follow-up.</li>
+</ul>
+</div>
+<div class="tk">
+<h3>Ten takeaways</h3>
+<ol class="takeaways">
+<li>Attention is a capacity that develops gradually; a rough rule of thumb puts a child's focus span at age times 2 to 5 minutes, with wide individual variation.</li>
+<li>The prefrontal executive-function network behind attention keeps maturing into the twenties, and the alerting, orienting and executive-control systems mature at different rates.</li>
+<li>Cutting tasks down to what a child can handle right now and supporting focus with external structure works better than demanding willpower.</li>
+<li>Modern research understands ADHD as a developmental difference in executive function and self-regulation, not a lack of effort or of discipline.</li>
+<li>Barkley holds that the core of ADHD is impaired response inhibition: the child often knows what to do but struggles to make himself do it.</li>
+<li>ADHD is highly heritable; sugar, screens and lax parenting are not its causes, and intense focus on interesting things (hyperfocus) is actually a common ADHD trait.</li>
+<li>ADHD is both overdiagnosed and underdiagnosed, quiet daydreaming girls are especially likely to be missed, and diagnosis must come from a professional assessment.</li>
+<li>The MTA study found medication beat behavioral treatment alone for short-term symptom control, but that edge narrowed over long-term follow-up, and combined treatment did better on functioning.</li>
+<li>Hallowell likens the ADHD brain to a Ferrari engine with bicycle brakes: the job is to strengthen the brakes, not to reject the engine.</li>
+<li>Having at least one adult who believes in the child unconditionally and sees his strengths is among the strongest protective factors for long-term mental health in ADHD.</li>
+</ol>
+</div>
 <div class="deep-title">Going Deeper</div>
 
 <details>

@@ -34,6 +34,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -187,6 +199,30 @@ nav a:hover{background:#e07a9b;color:#fff}
 <div class="label">【本周练习 + 思考题】</div>
 <div class="practice">给自己定一条规则：<strong>"焦虑值高的时候，不和孩子谈他的学业，也不做教育相关的重大决定。"</strong>先把自己降到情绪基线，再开口、再决定。<br/><strong>思考题：</strong>你最近一次为孩子学业做的决定，是从"平静"里做出来的，还是从"慌"里做出来的？</div>
 </div>
+</div>
+<div class="crossx">
+<h3>越界 · 跨学科的联想</h3>
+<ul>
+<li><b>生物进化 · 烟雾探测器原理（Randolph Nesse，2001）</b>：报警系统宁可误报也不能漏报，因为漏掉一头狮子的代价远大于虚惊一场，所以焦虑天生偏向过度触发，家长对成绩的警报用的是同一套装置。不像的是：草原上的虚惊转瞬即过，教育焦虑却是慢性误报，还会经由表情传给孩子，误报不再便宜。</li>
+<li><b>投资 · 市场先生（Benjamin Graham，《聪明的投资者》，1949）</b>：市场先生每天报一个价，时而狂喜时而绝望，你不必跟着他买卖，只看内在价值；家长的内在坐标就是这张价值表。不像在于：股票的价值终能折现算清，孩子的成长没有报价，也没有差价可赚。</li>
+<li><b>复杂性科学 · 信息级联（Bikhchandani、Hirshleifer、Welch，1992）</b>：每个人看到前面的人都选了 A，就放下自己的判断跟上，一群人可以整齐地走错方向；「别人都报了奥数」正是这样滚起来的。不像的是：模型里别人的选择至少是真信号，家长群流通的却是挑过的高光。</li>
+<li><b>分布式系统 · 熔断器（Michael Nygard，《Release It!》，2007）</b>：下游出故障时熔断器先跳闸，不让错误沿调用链级联放大；「焦虑高时不谈学业、不做决定」就是给自己装一个熔断器。不像在于：熔断只是切断，家长还得像容器一样把焦虑消化完再交出去。</li>
+</ul>
+</div>
+<div class="tk">
+<h3>十条要点</h3>
+<ol class="takeaways">
+<li>孩子判断一件事危不危险，主要读父母的表情、语气和身体紧张，而不是听父母说了什么。</li>
+<li>视崖实验中，母亲露出恐惧时婴儿几乎不敢爬过去，母亲露出微笑时多数婴儿会爬过去。</li>
+<li>父母反复传递「考不好就天塌了」，孩子学到的往往是学习很可怕，于是回避、拖延或考试时僵住。</li>
+<li>内卷环境里的定力来自一套不依赖排名的内在价值坐标，而不是和环境硬碰硬地对抗。</li>
+<li>自我决定理论认为，长期幸福和内在动力来自自主、胜任、联结三种需要被满足，而非外部排名。</li>
+<li>经济学家 Emily Oster 提醒：单次考试、某个班报没报，对成年后结果的影响通常小到测不出来。</li>
+<li>社交媒体和家长群只展示别人的高光，向上比较会系统性拉低自我评价，让孩子正常的进步也显得不够。</li>
+<li>家长的焦虑很难根除，但可以截断传导：在自己的焦虑和对孩子的言行之间装一道闸。</li>
+<li>情绪调节研究显示重新评价优于压抑，硬憋着的焦虑反而更容易从表情和语气里泄漏出去。</li>
+<li>按 Bion 的容器概念，父母要先把自己的焦虑消化成可承受的信息，再交给孩子，而不是原样倾倒。</li>
+</ol>
 </div>
 <!-- 深入思考 -->
 <div class="deep">

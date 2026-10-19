@@ -41,6 +41,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -188,6 +200,30 @@ nav a:hover{background:#e07a9b;color:#fff}
 <div class="label">【本周练习 + 思考题】</div>
 <div class="practice">这周给孩子讲一个「我们家挺过难关」的真实故事，带上具体细节和当时的情绪。<strong>思考题</strong>：你家常讲的故事里，是只有「我们很成功」，还是也有「我们跌倒过、又站起来」？哪一种能给孩子更多力量？</div>
 </div>
+</div>
+<div class="crossx">
+<h3>越界 · 跨学科的联想</h3>
+<ul>
+<li><b>分布式系统 · 静默失败与可观测性</b>：隐瞒收养来历，像系统把错误吞掉不报：表面一切正常，状态却在悄悄偏离，直到某天一次性崩出来。像在于伤害来自信息被藏起来，而不是故障本身；不像在于系统补上日志就能修，孩子需要的是提问时父母不防御的态度。</li>
+<li><b>领导力 · Google 亚里士多德计划</b>：Google 2012 年起研究上百支团队，发现谁在队里远不如成员怎么互动重要，排第一的是心理安全感。这和「结构不是命运、过程才是」同构：名单（家庭形状）是起点，冲突水平和关系温度才决定结果。不像的是，团队可以重组换人，家庭基本只能接受既定的结构，把力气全放在过程上。</li>
+<li><b>量子力学 · 玻尔的互补性</b>：玻尔说波和粒子两种描述都不可少，缺一个就看不全；双文化整合也拒绝二选一。不像在于：玻尔的两种图景互斥，同一次实验只能看到一种；双文化的孩子却能同时持有两套框架，按情境灵活切换。</li>
+<li><b>佛学 · 缘起与无我</b>：代际自我说「我属于比我更大、更长久的东西」，佛学也说自我由因缘聚合、没有孤立的自性。像在都把「我」放回一条更长的因果链里；不像在用途相反：佛学借它松开对自我的执着，家庭故事借它给身份扎根。</li>
+</ul>
+</div>
+<div class="tk">
+<h3>十条要点</h3>
+<ol class="takeaways">
+<li>谈收养来历，关键是从小、反复、按孩子能懂的方式讲，而不是保密或某天一次性摊牌。</li>
+<li>Brodzinsky 区分结构性开放与沟通式开放，家里能自在谈论收养，比是否联系原生家庭更能预测孩子适应。</li>
+<li>伤害收养孩子的往往不是收养这件事，而是秘密本身，隐瞒常在青春期以信任危机爆发。</li>
+<li>决定孩子发展的是家庭过程（冲突、经济稳定、养育质量、关系温度），不是单亲、离异、重组这类结构标签。</li>
+<li>Amato 的元分析显示离异的平均影响不大，高冲突的完整家庭对孩子的伤害往往大于低冲突的离异家庭。</li>
+<li>Berry 涵化模型按保留原文化与融入新文化两轴分出四种策略，整合适应最好，边缘化最差。</li>
+<li>双文化孩子能在不同情境间切换文化框架，这是一种能力，不是身份分裂。</li>
+<li>Duke 与 Fivush 的「你知道吗」量表发现，知道更多家庭故事的孩子自尊更高、焦虑更低、抗挫力更强。</li>
+<li>最有力量的家庭叙事是摇摆式叙事：有好有坏，但一家人挺了过来，只讲成功的故事教不会孩子度过失败。</li>
+<li>代际自我让孩子觉得自己属于更大更长久的东西，和佛学的缘起同样把「我」放回因果链，只是用来扎根而非放下。</li>
+</ol>
 </div>
 <div class="deep-title">深入思考</div>
 <details><summary>说「结构不重要」，会不会被误读成「离异、单亲无所谓」？</summary><div>会，所以要说清楚。「平均效应不大」不等于「零」，更不等于对每个孩子都没影响。而且结构和过程并非无关——单亲更容易遭遇经济紧张、照护者精力透支，这些「过程」变量本身部分由结构决定。真正的意思是：与其在无法改变的「形式」上内耗自责，不如把力气放到可以改变的「过程」上——降低冲突、稳住经济、保住关系温度。结构划定了起点，过程决定了走向。</div></details>

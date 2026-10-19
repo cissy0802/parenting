@@ -31,6 +31,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -222,6 +234,30 @@ nav a:hover{background:#e07a9b;color:#fff}
 <div class="label">【本周练习】</div>
 <div class="practice">本周把"今天考得怎么样"换成"今天遇到的最难一道题是什么？" 连续问七天，观察孩子放学回家时的表情和回应变化。</div>
 </div>
+</div>
+<div class="crossx">
+<h3>越界 · 跨学科的联想</h3>
+<ul>
+<li><b>佛学 · 无自性与缘起</b>：固定型心态把「聪明」「笨」当成一个人不变的本质，佛学叫执著自性；成长型心态更像缘起：能力随练习、方法和环境而生灭。不像在于：佛学连那个「在成长的我」也要放下，成长型心态仍在经营一个更好的自我。</li>
+<li><b>分布式系统 · 无责复盘（blameless postmortem）</b>：Google SRE 团队写事故复盘，只问系统哪一环出了错、下次怎么防，不追究谁该挨骂，人才敢如实上报，这和「把错误变成数据」是同一个结构。不像的是，工程复盘把人从因果链里拿掉，家庭复盘的主角恰恰是孩子自己怎么调整策略。</li>
+<li><b>投资 · 决策质量与「结果论」（Annie Duke）</b>：前扑克牌手 Annie Duke 在《Thinking in Bets》（2018）里把按结果好坏评判决策叫作 resulting；只夸分数、不看过程，就是把孩子教成结果论者。不像的是，牌桌上运气占比很大，作业和练习里可控的部分多得多。</li>
+<li><b>进化生物学 · 反应规范（norm of reaction）</b>：同一个基因型放在不同环境里，长出的表型可以很不一样，Woltereck 1909 年用水蚤提出这个概念。心态干预也是同一颗种子换土壤，效果跟着周围成年人的信念走。不像在于：基因型本身不变，孩子的心态却会被土壤反过来改写。</li>
+</ul>
+</div>
+<div class="tk">
+<h3>十条要点</h3>
+<ol class="takeaways">
+<li>孩子相信能力是天生固定还是可以增长，这个隐性信念决定他面对挑战时是逃跑还是投入。</li>
+<li>Dweck 与 Mueller 1998 年的实验里，被夸「聪明」的五年级孩子更容易放弃难题，被夸「努力」的更愿意挑战。</li>
+<li>成长型心态和大脑的神经可塑性一致：相信大脑会因挑战而成长的孩子，才肯进入让大脑成长的困难区。</li>
+<li>成长型心态挂在嘴上不算数，父母自己说「我数学就不好」，孩子全看在眼里。</li>
+<li>表扬天赋会把孩子的自我价值和「聪明」标签绑在一起，表扬策略和专注则把成功归因于可控变量。</li>
+<li>纵向追踪发现，父母在孩子 14 到 38 个月时过程表扬越多，孩子七八岁时越倾向成长型心态。</li>
+<li>Moser 的脑电研究显示，成长型心态者犯错后大脑对错误的注意信号更强。</li>
+<li>处理孩子的失败要先共情、再复盘，把「输」拆成具体数据，最后把下一步的选择权交回孩子。</li>
+<li>Yeager 与 Dweck 的全美实验显示，两次短短的在线心态课能帮低成就学生提分，但效果取决于周围的成长心态生态。</li>
+<li>把错误当数据而不是当审判，和工程团队「只问系统、不问责」的无责复盘是同一个结构。</li>
+</ol>
 </div>
 <nav>
 <a href="index.html">← 回到所有日刊</a>

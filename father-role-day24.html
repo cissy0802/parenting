@@ -39,6 +39,18 @@ details[open] summary::before{content:"▾ "}
 details .answer{padding:0 0 16px;font-size:0.93rem;color:#5a3a4a;line-height:1.8}
 .deep-title{text-align:center;color:#c45a8e;font-size:1.2rem;font-weight:800;margin:40px 0 20px}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -190,6 +202,30 @@ details .answer{padding:0 0 16px;font-size:0.93rem;color:#5a3a4a;line-height:1.8
 <div class="label">【本周练习 + 思考题】</div>
 <div class="practice"><b>动作：</b>和伴侣私下花十分钟，列出 2-3 条<strong>非协商的共同底线</strong>(如不打人、睡前刷牙)，其余允许各有各的风格。下次孩子搬"救兵"，就用"我们先商量"挡回去。<br/><b>思考题：</b>你和伴侣最近一次冲突，孩子若在场，他从中学到的是"冲突很可怕"，还是"冲突能被修好"？</div>
 </div>
+</div>
+<div class="crossx">
+<h3>越界 · 跨学科的联想</h3>
+<ul>
+<li><b>计算机科学 · 探索与利用的权衡</b>：强化学习和多臂老虎机问题里，智能体总要在"利用已知的好选项"和"探索未知"之间取舍：太保守学不到新东西，太冒进会把本钱输光。"安全基地"和"发射台"正是这对张力的家庭版。不像的是：算法里是一个智能体自己调比例，家里可以由两个大人分工，各守一头。</li>
+<li><b>神经科学 · Panksepp 的玩耍回路</b>：Jaak Panksepp 发现幼鼠打闹、被挠痒时会发出约 50 kHz 的超声"笑声"，说明打闹游戏是哺乳动物皮层下就有的古老系统。像在都靠玩来练读信号、控力度；不像在人类孩子还会给打闹加上语言和规则。</li>
+<li><b>群体遗传学 · Lewontin 1972</b>：Richard Lewontin 测算出人类遗传变异约 85% 落在同一族群内部，族群之间只占一小部分，和"群体内差异远大于群体间"同一个结构。不像的是：后来有人指出多个特征叠加仍能区分群体，所以这句话管的是"预测个体"，不是"差异不存在"。</li>
+<li><b>分布式系统 · 单主节点瓶颈</b>：所有写入都必须经过唯一主节点的系统，主节点一忙就整体卡住，还成了单点故障；母职守门就是把家变成单主架构。"开门"像允许多个副本各自写入、接受最终一致，标准是"80 分能用"。不像在：节点不会因为被驳回而心灰意冷、从此不再写。</li>
+</ul>
+</div>
+<div class="tk">
+<h3>十条要点</h3>
+<ol class="takeaways">
+<li>父亲参与的价值不在复制妈妈，而在提供另一种更激烈、更有挑战性的互动。</li>
+<li>Lamb 几十年的研究显示，起作用的是参与的温度与质量，而不是"父亲"这个性别标签。</li>
+<li>Paquette 的激活关系理论：母亲常像让孩子回来被安抚的"安全基地"，父亲常像推孩子出去探索的"发射台"。</li>
+<li>打闹游戏是社交训练场，孩子在里面学读对方信号、控制力度、找兴奋与失控之间的边界。</li>
+<li>男女孩确有平均差异，但群体内的个体差异远大于群体间差异，平均值预测不了某个具体孩子。</li>
+<li>"男孩不善表达情绪"多半是教出来的：父母和女儿谈情绪更多，男孩的亲密友谊常在青春期被文化掐灭。</li>
+<li>母职守门指批评、重做、接管伴侣的育儿方式，它会显著降低父亲的参与度和胜任感。</li>
+<li>守门会陷入"批评、他退场、你超载、怨气、更想接管"的循环，打破它要容忍"用他的方式做到 80 分"。</li>
+<li>情绪安全理论区分两种冲突：破坏性冲突让孩子持续警觉焦虑，建设性冲突反而教会孩子冲突能被修好。</li>
+<li>父母不必事事统一风格，但要守住两三条共同底线，并绝不把孩子拉进三角化去选边、传话、当裁判。</li>
+</ol>
 </div>
 <div class="deep-title">深入思考</div>
 <details>

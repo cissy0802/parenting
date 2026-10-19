@@ -40,6 +40,18 @@ details[open] summary::before{content:"▾ "}
 details .answer{padding:0 0 16px;font-size:0.93rem;color:#5a3a4a;line-height:1.8}
 .deep-title{text-align:center;color:#c45a8e;font-size:1.2rem;font-weight:800;margin:40px 0 20px}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -188,6 +200,30 @@ details .answer{padding:0 0 16px;font-size:0.93rem;color:#5a3a4a;line-height:1.8
 <div class="label">【本周练习 + 思考题】</div>
 <div class="practice"><strong>练习：</strong>给自己设计一句"暂停咒语"（比如"他在学，不是在害我"），怒气一冒就默念，并允许自己离开现场 1 分钟。<br/><strong>思考题：</strong>你小时候是被怎么管教的？此刻哪些反应其实是"自动播放"了上一代的脚本？看见它，是改写的第一步。</div>
 </div>
+</div>
+<div class="crossx">
+<h3>越界 · 跨学科的联想</h3>
+<ul>
+<li><b>分布式系统 · 背压（backpressure）</b>：孩子一坐到作业桌就崩溃，很像服务收到的请求超过处理能力时发出的过载信号。成熟系统的做法是限流、降载，而不是往上游加更多压力，这正是 Plan C 和 Self-Reg 的思路。不像的是：服务器的容量是固定的，孩子的处理能力会随着平静时的练习慢慢长出来。</li>
+<li><b>商业谈判 · Fisher &amp; Ury《Getting to Yes》（1981）</b>：区分「立场」和「利益」，和 Plan B 前两步同构——「不关 iPad」是立场，「想存个档」才是关切。不像在：谈判双方大致对等、可以走开；亲子权力不对称，界限最后由大人兜底。</li>
+<li><b>生物进化 · Trivers 亲子冲突理论（1974）</b>：父母和子女的利益只部分重合，分歧是进化写定的，不是谁出了毛病。所以孩子说「不」不必当成挑衅。不像在：Trivers 讲的是资源分配（如断奶），而育儿里的「不」更多是在练自主。</li>
+<li><b>佛学 · 第二支箭（《箭经》）</b>：被激怒是第一支箭，「他就是故意气我」的念头是自己补射的第二支。暂停、默念「他在学」，就是不射第二支。不像在：佛陀讲的是对自身痛苦的觉察，父母平静之后还得回头守住界限。</li>
+</ul>
+</div>
+<div class="tk">
+<h3>十条要点</h3>
+<ol class="takeaways">
+<li>「孩子做得好，是因为他能」：反复的对抗多半是缺技能，而不是缺动机。</li>
+<li>滞后技能（灵活性、挫折耐受、情绪调节）撞上没被满足的期待，就会表现为对抗行为。</li>
+<li>惩罚能压住行为，却教不出孩子本来没有的能力；技能只能在平静时教。</li>
+<li>面对反复冲突有三种处理：Plan A 强加、Plan B 协作、Plan C 暂放，Ross Greene 主张多用 Plan B。</li>
+<li>Plan B 三步是探明孩子的关切、说出大人的关切、邀请孩子先提方案，并且要在平静时提前做。</li>
+<li>学龄期孩子说「不」多半是在练习自主；守住界限不等于要赢下每一次争论。</li>
+<li>有限选择把「做不做」换成「何时、怎么做」，界限照常生效，自主权还给孩子。</li>
+<li>管教的本义是教导而非惩罚；在盛怒中镇压孩子，等于在教他「情绪大的人赢」。</li>
+<li>父母先稳住自己的神经系统，才能共同调节压力超载的孩子，必要时先离开现场暂停。</li>
+<li>Baumrind 的权威型养育高要求又高回应，长期结果最好；让孩子钻空子的是界限飘忽，不是态度温和。</li>
+</ol>
 </div>
 <div class="deep-title">深入思考</div>
 <details>

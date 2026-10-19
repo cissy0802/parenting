@@ -39,6 +39,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}.timeline .row{flex-direction:column;gap:4px}.timeline .age{width:auto}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -268,6 +280,31 @@ nav a:hover{background:#e07a9b;color:#fff}
 <div class="practice">本周记录孩子每晚实际入睡时间和起床时间，算出平均睡眠时长，对照年龄推荐值。如果差 1 小时以上，把睡前 30 分钟改成无屏幕固定仪式，连做 7 天，看孩子白天情绪和注意力有没有变化。</div>
 </div>
 </div>
+<div class="crossx">
+<h3>越界 · 跨学科的联想</h3>
+<ul>
+<li><b>计算机科学 · 模拟退火</b>：Kirkpatrick 等 1983 年在 Science 提出的优化算法，开局「温度」高、敢走坏棋跳出局部最优，再慢慢降温收敛。边缘系统先熟、前额叶晚熟的少年脑，也是先高温探索、后降温定型。不像在哪：算法的降温由人设定，大脑靠髓鞘化按自己的时间表降温，父母催不快，只能守住护栏。</li>
+<li><b>佛学 · 第二支箭</b>：《箭经》（相应部 36.6）说，凡夫中了第一支箭（痛受），又给自己补上第二支（嗔恼）。孩子崩溃是第一支，父母跟着下脑大喊就是第二支。不像在哪：佛学求的是自己不起第二箭，育儿在不起箭之后还得主动伸手，替孩子把电闸合上。</li>
+<li><b>复杂性科学 · 惠更斯的摆钟</b>：1665 年惠更斯发现挂在同一根木梁上的两座摆钟会自发同步。亲子神经系统也是耦合振子，父母的平静能把孩子拉回节拍。不像在哪：摆钟对称互拉，亲子耦合不对称，大人那一摆必须更稳；大人先乱，同步到的就是乱。</li>
+<li><b>分布式系统 · LSM 树的压实</b>：数据库先把写入记进快速的日志，后台再合并、去重、压进主存储。白天海马暂存、深睡时上传新皮层，是同一种「先记账、后整理」。不像在哪：数据库压实力求无损，睡眠巩固会主动挑选、丢弃和重组记忆。</li>
+</ul>
+</div>
+<div class="tk">
+<h3>十条要点</h3>
+<ol class="takeaways">
+<li>负责自控、计划和判断后果的前额叶皮层是大脑最晚成熟的区域，要到 25 岁左右才完全成熟。</li>
+<li>情绪驱动的边缘系统比理性调控的前额叶早成熟好几年，这是「明知不对还是做了」的硬件基础。</li>
+<li>孩子疲劳、饥饿或情绪激动时会降级到更原始的反应，先解决这三件事再讲道理。</li>
+<li>共同调节先于自我调节：父母要反复充当孩子的「外接前额叶」，直到孩子自己长出来。</li>
+<li>Siegel 的上脑/下脑模型：情绪崩溃时下脑掌权、上脑断线，这时讲道理听不进去。</li>
+<li>压力激素会生理性削弱前额叶的工作记忆和抑制控制，所以要先连接、再引导，顺序不能倒。</li>
+<li>共情不等于妥协，父母可以接住孩子的难过，同时坚持作业照写、东西不买。</li>
+<li>孩子学共情和情绪调节主要靠看大人怎么做，父母在压力下的反应方式就是隐形课程。</li>
+<li>示范不需要完美，父母发火后能主动修复，本身就是最好的情绪调节示范。</li>
+<li>睡眠是大脑巩固学习的时间，Sadeh 的实验里孩子每晚少睡 1 小时，三天后认知表现退步约两岁。</li>
+</ol>
+</div>
+
 <nav>
 <a href="index.html">← 回到所有日刊</a>
 </nav>

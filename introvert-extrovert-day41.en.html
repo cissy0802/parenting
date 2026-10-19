@@ -35,6 +35,18 @@ header .intro{margin-top:18px;font-size:0.95rem;color:#6a4a5a;font-style:italic;
 .deep summary{font-weight:600;color:#c45a8e;cursor:pointer;font-size:0.95rem}
 .deep details div{margin-top:10px;font-size:0.92rem;color:#5a3a4a;line-height:1.75}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}.matrix{grid-template-columns:1fr}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -209,6 +221,32 @@ header .intro{margin-top:18px;font-size:0.95rem;color:#6a4a5a;font-style:italic;
 </div>
 
 <!-- Deep Thinking -->
+<!-- Crossovers -->
+<div class="crossx">
+<h3>Crossovers</h3>
+<ul>
+<li><b>Neuroscience · The dopamine theory of extraversion (Depue &amp; Collins, 1999)</b>: They argued that the core of extraversion is not low cortical arousal but a dopamine reward system more sensitive to incentives, so a lively crowd feels more like a prize. Alike in grounding temperament in the brain; unlike in that Eysenck asks how much stimulation feels comfortable, while this asks how rewarding it feels.</li>
+<li><b>Evolutionary biology · Personality in great tits (Dingemanse et al., 2004)</b>: In wild Dutch great tits, fast, bold explorers and slow, cautious ones each had their advantages, and which type survived and bred better flipped from year to year with the size of the beech-mast crop. Same structure as orchids and dandelions: no better temperament, only a better-fitting environment. The difference is that birds rely on selection across generations, while parents can change the environment directly.</li>
+<li><b>Distributed systems · Backpressure</b>: When a downstream stage cannot keep up, it signals upstream to slow down, or queues overflow and the whole pipeline fails. An introverted child retreating to recharge after socializing is backpressure. The difference: a system just drops messages, while an overloaded child melts down in tears on the way home.</li>
+<li><b>Eastern philosophy · Confucius teaching to the student (Analects, Book 11)</b>: Zilu and Ran You asked him the same question, whether to act at once on what they had heard, and got opposite answers: Ran You held back, so he was urged on; Zilu charged ahead, so he was reined in. Same structure as goodness of fit; unlike it, Confucius pulled both toward the middle way, while goodness of fit does not ask every child to end up the same.</li>
+</ul>
+</div>
+<!-- Ten takeaways -->
+<div class="tk">
+<h3>Ten takeaways</h3>
+<ol class="takeaways">
+<li>Introversion or extroversion is a child's inborn neural temperament, not a character flaw and not a parenting failure.</li>
+<li>Kagan's longitudinal research found about 15–20% of infants are high-reactive, more sensitive to novelty and quicker to withdraw.</li>
+<li>Eysenck's arousal theory holds that introverts have higher baseline cortical arousal, so a little stimulation is enough, while extroverts need more.</li>
+<li>Temperament is continuous but not fixed: about a third of high-reactive children no longer withdraw as they grow up.</li>
+<li>Introversion is a preference about where energy comes from; shyness is a fear of being judged; the two are independent dimensions.</li>
+<li>When a child holds back socially, first ask whether it is preference or fear: respect a preference, and meet fear with small, gentle steps of exposure.</li>
+<li>The Yerkes–Dodson law says everyone has an optimal arousal point, and introverts' is lower than extroverts'.</li>
+<li>An introverted child's need to be alone after socializing is the nervous system pulling arousal back into its comfort zone, not aloofness.</li>
+<li>Thomas and Chess's goodness of fit says a child's development depends on how well temperament matches the environment and parents' expectations.</li>
+<li>The orchid-and-dandelion hypothesis: highly sensitive children are hurt more by harsh environments but flourish more than others in nurturing ones.</li>
+</ol>
+</div>
 <div class="deep">
 <h3>Going Deeper</h3>
 

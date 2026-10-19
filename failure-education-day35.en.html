@@ -30,6 +30,18 @@ header .intro{margin-top:18px;font-size:0.95rem;color:#6a4a5a;font-style:italic;
 .deep summary{font-weight:600;color:#c45a8e;cursor:pointer;font-size:0.95rem}
 .deep details div{margin-top:10px;font-size:0.92rem;color:#5a3a4a;line-height:1.75}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -192,6 +204,31 @@ header .intro{margin-top:18px;font-size:0.95rem;color:#6a4a5a;font-style:italic;
 </div>
 
 <!-- Deeper thinking -->
+<div class="crossx">
+<h3>Crossovers</h3>
+<ul>
+<li><b>Complexity science · Simulated annealing (Kirkpatrick et al., 1983)</b>: The optimizer starts "hot," wandering and even accepting worse solutions so it can escape local optima, then cools slowly to converge. Productive failure has the same shape: the detours keep a child from locking into a shallow understanding too early. The difference: annealing converges on its own as it cools, while a child's struggle needs instruction afterward to close the loop.</li>
+<li><b>Psychology · The Rescorla–Wagner model (1972)</b>: Learning scales with surprise: the bigger the gap between prediction and outcome, the bigger the update. When a child tries first, they have made a prediction, so the explanation that follows lands as a large error and a large update. Unlike the model, where error simply arrives from outside, the child also has to notice what they do not understand.</li>
+<li><b>Biology · Hormesis</b>: Small doses of a stressor, like exercise or mild fasting, trigger cellular repair and leave the system stronger; large doses do harm, tracing an inverted U. Optimal frustration and the window of tolerance are that curve. The difference: a cell's threshold is roughly fixed, while a child's window widens through co-regulation with a parent.</li>
+<li><b>Distributed systems · Chaos engineering (Netflix Chaos Monkey, made public 2011)</b>: It randomly kills production servers during staffed daytime hours, so the system rehearses recovery when the stakes are low rather than meeting failure for the first time at 3 a.m. That is the logic of childhood as the cheapest place to fail. Unlike engineers, who inject faults on purpose, this issue rejects manufactured setbacks and only asks parents not to block the natural ones.</li>
+<li><b>Leadership · Psychological safety (Amy Edmondson, 1999)</b>: Studying work teams, Edmondson found that when members believe mistakes will not be punished, they report errors more and learn more; what drives learning is how leaders react to error, not the slogans. It mirrors how a parent's reaction to failure shapes a child's mindset. The difference: teammates are adult peers, while a child is still calibrating the world by reading a parent's face.</li>
+</ul>
+</div>
+<div class="tk">
+<h3>Ten takeaways</h3>
+<ol class="takeaways">
+<li>In Manu Kapur's productive failure, children struggle with a hard problem, even get it wrong, before instruction, and end up with deeper understanding and transfer.</li>
+<li>Struggle helps because it activates prior knowledge and exposes real gaps, making a child unusually alert to the explanation that follows.</li>
+<li>Productive failure is not neglect: the struggle must happen in a safe, supported setting and be followed by guidance.</li>
+<li>Self-determination theory separates autonomy support from control, and over-involved helicopter parenting is linked to lower competence and higher anxiety in children.</li>
+<li>Good scaffolding gives just enough support and is gradually removed as the child grows more capable, rather than replacing the child for good.</li>
+<li>The urge to do it for them often soothes the parent's own discomfort at watching a child struggle, so notice it before deciding to step in.</li>
+<li>Dan Siegel's window of tolerance: a challenge slightly beyond ability is where learning happens, while one far beyond it only causes a meltdown.</li>
+<li>Deliberately knocking a child down in the name of resilience training is a mistake, because manufactured setbacks shrink the window of tolerance.</li>
+<li>Haimovitz and Dweck found that a child's growth mindset depends on whether parents treat failure as a disaster or as a chance to grow.</li>
+<li>Childhood is the cheapest place to fail, and repeated cycles of messing up, reviewing and retrying build resilience that transfers.</li>
+</ol>
+</div>
 <div class="deep">
 <h3>Deeper Thinking</h3>
 

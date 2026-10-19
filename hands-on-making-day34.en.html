@@ -30,6 +30,18 @@ header .intro{margin-top:18px;font-size:0.95rem;color:#6a4a5a;font-style:italic;
 .deep summary{font-weight:600;color:#c45a8e;cursor:pointer;font-size:0.95rem}
 .deep details div{margin-top:10px;font-size:0.92rem;color:#5a3a4a;line-height:1.75}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -188,6 +200,32 @@ header .intro{margin-top:18px;font-size:0.95rem;color:#6a4a5a;font-style:italic;
 <div class="label">This Week's Practice + Reflection</div>
 <div class="practice"><strong>Practice:</strong> Pick one real tool you've felt your child is "still too young" for (peeler, stapler, screwdriver), teach the correct use this week, and supervise one full use.<br><strong>Reflect:</strong> How much of my "too dangerous" is that the child truly can't — and how much is that I can't let go?</div>
 </div>
+</div>
+
+<div class="crossx">
+<h3>Crossovers</h3>
+<ul>
+<li><b>Neuroscience · Penfield's homunculus</b>: In the figure Penfield drew by how much motor and sensory cortex each body part claims, the hands and lips are absurdly large; the brain really does reserve prime territory for the hand, echoing "the hand is the brain reaching outward." Where it differs: a big map only shows the hand needs fine control; whether hand practice transfers to math and reading still takes longitudinal studies to show.</li>
+<li><b>Evolution · Jacob's "evolution as tinkerer"</b>: In 1977 François Jacob argued that evolution is not an engineer working from blueprints but a tinkerer cobbling together whatever parts lie at hand, the same structure as tinkering: no answer key, just trial and error on old stuff. Where it differs: evolution seeks no understanding, while a child tinkers precisely to grow a causal model.</li>
+<li><b>Distributed systems · Chaos engineering</b>: Netflix's Chaos Monkey deliberately kills live servers at random, forcing engineers to see where the system is brittle and how it recovers, the same move as letting a child take apart an old gadget: break things on purpose, buy understanding. It also insists on containing the "blast radius," which maps onto keeping risk while removing hazard. Where it differs: servers feel no pain; a child's cut needs an adult present to talk it through.</li>
+<li><b>Eastern philosophy · Cook Ding carving the ox</b>: In the Zhuangzi, Cook Ding's blade follows the ox's natural seams and stays sharp as new after nineteen years; the skill lives in the hand, honed by real use of a real knife, mirroring "real tools build competence." Where it differs: Zhuangzi uses it to teach nurturing life and going with the grain, aiming at a skill so deep it forgets itself, not a child's "I can do it."</li>
+</ul>
+</div>
+
+<div class="tk">
+<h3>Ten takeaways</h3>
+<ol class="takeaways">
+<li>Fine motor actions like cutting, pinching, threading, and folding are linked to later attention and school performance; the hand is the brain reaching outward.</li>
+<li>Grissmer and colleagues (2010) found that fine motor skills and attention at school entry predict later math and reading achievement.</li>
+<li>Pinching beans, kneading dough, and buttoning all build the fine motor foundation, so fine motor work need not shrink to early handwriting drills.</li>
+<li>Taking things apart and fixing them shows children how objects work inside, building causal reasoning and a curiosity unafraid of breaking things.</li>
+<li>Research on "productive failure" shows that children who struggle on their own first, then get guidance, understand more deeply.</li>
+<li>A dedicated box of old take-apart objects protects a child's curiosity while setting clear limits on what can be dismantled.</li>
+<li>Papert's constructionism holds that children learn most deeply while creating a work that matters to them.</li>
+<li>When a block tower keeps falling, asking questions instead of giving answers hands the debugging and the engineering thinking back to the child.</li>
+<li>Real scissors and hammers instead of plastic imitations give real weight, resistance, and consequences, and with them real competence.</li>
+<li>Separate visible, learnable risk from invisible hazard: remove the hazard, keep the risk, stay present without taking over.</li>
+</ol>
 </div>
 
 <!-- Deeper Reflection -->

@@ -39,6 +39,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}.matrix{grid-template-columns:1fr}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -215,6 +227,30 @@ nav a:hover{background:#e07a9b;color:#fff}
 </div>
 </div>
 <!-- Deep Reflection -->
+<div class="crossx">
+<h3>Crossovers</h3>
+<ul>
+<li><b>Neuroscience · Predictive processing</b>: Karl Friston and others describe the brain as a prediction machine that guesses the world from a prior model and corrects itself with error signals. The internal working model is a child's prior about "will you be there when I need you," and earned security is a prior rewritten by enough new evidence. The difference: perceptual errors update in milliseconds; a relational model needs years of repeated experience.</li>
+<li><b>Distributed systems · Heartbeats and retries</b>: A client judges a server by how predictable its responses are, not how fast. A steady node lets callers get on with other work; a flaky one provokes frantic retries and timeout storms, like the ambivalent child who amplifies distress and clings; a node that never answers gets circuit-broken and is no longer called, like the avoidant child who suppresses bids for help. The difference: a tripped breaker stops consuming resources, while the avoidant child's stress hormones keep rising. Only the outward signal has been switched off.</li>
+<li><b>Buddhism · Mindful noticing</b>: Insight meditation trains you to see a thought without being carried off by it, the same move that turns an old childhood wound from a trigger into an observable memory: opening space between stimulus and response. The difference: Buddhism ultimately loosens attachment to the self-narrative, while attachment research asks you to make that narrative more coherent.</li>
+<li><b>Ethology · Imprinting</b>: Konrad Lorenz's greylag goslings took the first moving object they saw after hatching as their mother, and imprinting has a narrow, nearly irreversible critical period. Attachment is likewise an evolved "stay close to the caregiver" program, but it has no such hard window: a human's internal working model stays revisable for life.</li>
+</ul>
+</div>
+<div class="tk">
+<h3>Ten takeaways</h3>
+<ol class="takeaways">
+<li>An attachment pattern describes a child's strategy for using a caregiver under stress, not a fixed label pinned on the child.</li>
+<li>In Ainsworth's Strange Situation, the real measure is not whether a child cries at separation but how the child reacts at reunion.</li>
+<li>An avoidant child looks indifferent at reunion while physiological stress runs high, so that "independence" may be defense rather than autonomy.</li>
+<li>Attachment serves two functions, safe haven and secure base, and the better a child is soothed, the farther that child dares to explore.</li>
+<li>The Minnesota longitudinal study found attachment security at age one predicts later social competence and emotion regulation, but it predicts rather than determines.</li>
+<li>Sensitive responsiveness is about accuracy, not volume: over-responding by doing everything for the child weakens security as much as under-responding.</li>
+<li>Tronick's Still Face research shows healthy interaction is in sync only about 30% of the time, so security comes from repair after mismatch.</li>
+<li>The Adult Attachment Interview found that a child's attachment is predicted not by whether the parent's childhood was happy but by how coherently the parent tells it.</li>
+<li>Parents with insecure childhoods can become "earned secure" by reflecting coherently on the past, and can still raise secure children.</li>
+<li>Attachment has no hard critical period like animal imprinting; the internal working model stays revisable through middle childhood, adolescence and adulthood.</li>
+</ol>
+</div>
 <div class="deep">
 <h3>Deeper Reflection</h3>
 <details><summary>Can an attachment pattern really predict a whole life? Amid psychology's replication crisis, how large is the original effect?</summary><div>Sroufe's longitudinal work shows attachment at age one has moderate predictive power into adulthood — but it is far from deterministic. Later relationships, temperament, and major life events all revise the internal working model; "earned security" is itself proof against determinism. Treat attachment as a "tendency," not a "verdict" — a first draft, not a sentence.</div></details>

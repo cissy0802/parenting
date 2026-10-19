@@ -38,6 +38,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}.timeline .row{flex-direction:column;gap:4px}.timeline .age{width:auto}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -305,6 +317,31 @@ nav a:hover{background:#e07a9b;color:#fff}
 <div class="label">This Week's Practice</div>
 <div class="practice">Track your child's actual bedtime and wake time every night this week. Calculate the average and compare it to the age-based recommendation. If you're off by more than an hour, replace the 30 minutes before bed with a screen-free fixed routine for 7 straight days, and see whether daytime mood and attention shift.</div>
 </div>
+</div>
+
+<div class="crossx">
+<h3>Crossovers</h3>
+<ul>
+<li><b>Computer science · Simulated annealing</b>: The optimization method Kirkpatrick and colleagues published in Science in 1983 starts "hot," accepting bad moves to escape local optima, then cools slowly until it settles. A young brain with early-maturing limbic circuits and a late prefrontal cortex looks like a machine that explores hot and sets as it cools. Where it differs: the algorithm's cooling schedule is chosen by a programmer; the brain cools through myelination on its own timetable, which parents can't speed up. They can only hold the guardrails during the hot phase.</li>
+<li><b>Buddhism · The second arrow</b>: In the Sallatha Sutta (SN 36.6), an untrained person struck by one arrow of pain shoots himself with a second arrow of aversion. A child's meltdown is the first arrow; a parent who flips downstairs and yells back is the second. Where it differs: Buddhism asks you not to fire the second arrow; parenting then asks you to reach out and switch the child's power back on.</li>
+<li><b>Complexity science · Huygens' clocks</b>: In 1665 Huygens noticed that two pendulum clocks hung on the same wooden beam fell into sync on their own. Parent and child nervous systems are coupled oscillators too, and a calm parent pulls the child back into rhythm. Where it differs: the clocks pull each other equally; the parent-child coupling is lopsided, so the adult swing has to be steadier. If the adult goes chaotic first, chaos is what gets synced.</li>
+<li><b>Distributed systems · LSM-tree compaction</b>: A database writes first to a fast log, then merges, deduplicates and compacts it into main storage in the background. The hippocampus holding the day and deep sleep moving it to the cortex follow the same log-now, tidy-later pattern. Where it differs: compaction aims to lose nothing, while sleep consolidation actively selects, discards and reorganizes memories.</li>
+</ul>
+</div>
+<div class="tk">
+<h3>Ten takeaways</h3>
+<ol class="takeaways">
+<li>The prefrontal cortex, which handles self-control, planning and weighing consequences, is the last brain region to mature, finishing around age 25.</li>
+<li>Emotion-driven limbic circuits mature years before the regulating prefrontal cortex, the hardware behind "knew it was wrong, did it anyway."</li>
+<li>Tired, hungry or emotionally flooded children drop to more primitive reactions, so fix those three before reasoning.</li>
+<li>Co-regulation precedes self-regulation: parents act as the child's external prefrontal cortex, again and again, until the child grows one.</li>
+<li>In Siegel's upstairs/downstairs brain model, a meltdown means the downstairs brain is in charge and reasoning can't get through.</li>
+<li>Stress hormones physically impair prefrontal working memory and impulse control, so connect first and redirect second, never the reverse.</li>
+<li>Empathy is not giving in: a parent can hold a child's disappointment and still keep the homework or the no-buy rule.</li>
+<li>Children learn empathy and emotion regulation mostly by watching adults, so how parents react under stress is the hidden curriculum.</li>
+<li>Modeling doesn't require perfection; a parent who loses their temper and then repairs it gives the strongest lesson in regulation.</li>
+<li>Sleep is when the brain consolidates learning; in Sadeh's study, one hour less sleep a night for three days set children back about two years cognitively.</li>
+</ol>
 </div>
 
 <nav>

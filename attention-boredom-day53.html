@@ -40,6 +40,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}.flabel{flex:0 0 74px}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -183,6 +195,31 @@ nav a:hover{background:#e07a9b;color:#fff}
 <div class="label">【本周练习 + 思考题】</div>
 <div class="practice">这周做个观察员：留意孩子最容易「忘记时间」的是哪件事——那就是他的心流入口，值得为它多留白、少打断。<strong>思考题</strong>：你自己上一次进入心流是在做什么？你有没有为它守住过一段不被打扰的时间，还是早就把它让给了碎片切换？</div>
 </div>
+</div>
+<div class="crossx">
+<h3>越界 · 跨学科的联想</h3>
+<ul>
+<li><b>神经科学 · 冥想与默认模式网络（Judson Brewer，2011）</b>：Brewer 团队在 PNAS 报告，资深冥想者的默认模式网络活动明显更低。像的是，两者都要人待在一段没有外部刺激的空白里、不逃走；不像的是，冥想练的是不随念头漂走，无聊的价值却恰恰在放任心思漂流、自己联想。</li>
+<li><b>分布式系统 · 上下文切换</b>：CPU 切换进程要保存寄存器、换页表，缓存随之变冷，切得越勤吞吐越低，这是「注意力税」的机器版。不像的是，机器能把旧状态存得一字不差再清空，人脑做不到，上一件事会以注意力残留的形式漏进下一件。</li>
+<li><b>复杂性科学 · 混沌边缘（Chris Langton）</b>：Langton 用元胞自动机论证，有序与混沌之间的窄带最利于计算；心流也是夹在无聊（太有序）和焦虑（太混乱）之间的一条带。不像的是，混沌边缘描述系统动力学，心流是主观体验，而且难度可以由旁人来调。</li>
+<li><b>生物进化 · 边际价值定理（Eric Charnov，1976）</b>：觅食动物在一块地的收益率跌到整片环境的平均水平时就该离开，无聊像是这个「该换地方了」的信号。不像的是，动物只能往外走，孩子在无聊里还多一条路：转向内部，自己生成新的玩法。</li>
+<li><b>商业 · 创造者日程（Paul Graham，2009）</b>：Graham 说写代码这类创造者以半天为单位用时间，一个会议就能把整个下午切碎；保护孩子整块不被打断的时间是同一个道理。不像的是，成年人能自己推掉会议，孩子的时段得靠大人替他守。</li>
+</ul>
+</div>
+<div class="tk">
+<h3>十条要点</h3>
+<ol class="takeaways">
+<li>无聊不是要立刻扑灭的故障，而是大脑切换到默认模式网络、自己生成想法的入口。</li>
+<li>Sandi Mann 的实验发现，先做一段枯燥任务的人，随后的创意测试表现反而更好。</li>
+<li>孩子一喊无聊就递上屏幕，剥夺的正是从无聊走到自己创造的那段练习。</li>
+<li>保护专注力，比刻意训练更关键的是不打断，给孩子整块不被切碎的时间。</li>
+<li>蒙台梭利观察到，儿童经历深度专注后会进入情绪平和、更有秩序感的「正常化」状态。</li>
+<li>频繁的提问、表扬和拍照是善意的打断，长期下来训练出的是浅层注意。</li>
+<li>没有真正的多任务，只有在两件事之间不停切换，每次切换都要交一笔注意力税。</li>
+<li>斯坦福 Clifford Nass 团队发现，重度媒体多任务者在过滤无关信息和切换任务上反而更差。</li>
+<li>切换任务后上一件事的思绪会滞留在脑中，这种注意力残留会拖慢手头的事。</li>
+<li>心流发生在挑战与能力刚好匹配的地带，太难则焦虑，太易则无聊，父母的角色是调节难度。</li>
+</ol>
 </div>
 <h2 class="deepen-title" data-tts="3be9ce5d60238746">深入思考</h2>
 <details>

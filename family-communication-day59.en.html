@@ -34,6 +34,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -190,6 +202,30 @@ nav a:hover{background:#e07a9b;color:#fff}
 </div>
 </div>
 
+<div class="crossx">
+<h3>Crossovers</h3>
+<ul>
+<li><b>Distributed systems · Periodic sync vs. interrupt-driven</b>: If every node broadcast each disagreement the instant it arose, the network would drown in messages, so many systems switch to regular heartbeats and batched reconciliation. A family meeting does the same, saving up blow-anytime interrupts for one weekly sync. The difference: machines reconcile only for consistent state, while the meeting opens with appreciation so everyone wants to agree.</li>
+<li><b>Eastern philosophy · Zhuangzi's "fasting of the heart"</b>: In "In the World of Men," Confucius tells Yan Hui not to listen with the ears but with the heart, then not with the heart but with qi: empty out your preconceptions and you can receive the other person. Active listening likewise starts by setting aside the urge to correct. Unlike it, the fasting of the heart empties out the self, while a listener reflects the feeling back and stays present.</li>
+<li><b>Evolutionary biology · Chimpanzee reconciliation (de Waal, 1979)</b>: Frans de Waal and Angeline van Roosmalen saw chimpanzees seek out former opponents after fights to kiss and embrace them, and reconciliation has since been found in many group-living primates. Repair, then, is not an invention of human parenting but a mechanism evolved by groups that must keep cooperating. The difference: apes rely on touch, while a human apology can say what went wrong and whether the limit still stands.</li>
+<li><b>Buddhism · Noting in insight meditation</b>: In the Burmese Mahasi Sayadaw lineage, meditators label each arising mental event, "thinking, thinking," "pain, pain"; with a word attached, you go from being swept along to watching, the same distance that naming a feeling creates. Unlike emotional granularity, noting deliberately uses coarse words, aiming to see events arise and pass, not to sort them ever more finely.</li>
+</ul>
+</div>
+<div class="tk">
+<h3>Ten takeaways</h3>
+<ol class="takeaways">
+<li>Whether a home is easy to talk in depends not on perfect lines but on a system: family meetings, listening, repair after conflict, and an emotion vocabulary.</li>
+<li>A family meeting happens at a fixed time each week: appreciate each other first, then solve a problem together, then plan something fun.</li>
+<li>In the Adler and Dreikurs view of the democratic family, much misbehavior comes from unmet needs for belonging and influence.</li>
+<li>Children whose families keep stable routines and rituals fare better in academics, emotional health, and family cohesion.</li>
+<li>Active listening means reflecting the child's feeling back in your own words before giving any advice or lecture.</li>
+<li>Emotional security theory holds that what harms children is destructive conflict, like insults and cold wars, not conflict itself.</li>
+<li>Repairing openly after a conflict teaches a child that broken relationships can be mended; an apology repairs the bond while the rule still stands.</li>
+<li>People with finer emotional granularity regulate better, and Barrett argues emotions are largely constructed by the brain from concepts.</li>
+<li>Chimpanzees also reconcile after fights, suggesting repair is a mechanism evolved by groups that must keep cooperating.</li>
+<li>Emotion words are the raw material, listening the everyday interface, repair the fault tolerance, and the family meeting the container that institutionalizes them.</li>
+</ol>
+</div>
 <h2 class="deepen-title">Going Deeper</h2>
 <details>
 <summary>1. Family meetings sound very "American democracy" — do they fit a Chinese family that values seniority and order?</summary>

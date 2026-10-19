@@ -38,6 +38,18 @@ details[open] summary::before{content:"▾ "}
 details .answer{padding:0 0 16px;font-size:0.93rem;color:#5a3a4a;line-height:1.8}
 .deep-title{text-align:center;color:#c45a8e;font-size:1.2rem;font-weight:800;margin:40px 0 20px}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -217,6 +229,30 @@ details .answer{padding:0 0 16px;font-size:0.93rem;color:#5a3a4a;line-height:1.8
 </div>
 </div>
 
+<div class="crossx">
+<h3>Crossovers</h3>
+<ul>
+<li><b>Computer science · The explore-exploit trade-off</b>: In reinforcement learning and multi-armed bandit problems, an agent must balance exploiting options it already knows are good against exploring the unknown: too cautious and it never learns, too bold and it burns its stake. The "secure base" and the "launchpad" are the household version of that tension. The difference: an algorithm tunes the ratio inside one agent, while a family can split the two jobs between two adults.</li>
+<li><b>Neuroscience · Panksepp's PLAY circuit</b>: Jaak Panksepp found that young rats emit roughly 50 kHz ultrasonic "laughter" during rough play and tickling, evidence that rough-and-tumble play is an ancient subcortical system in mammals. Alike: play trains signal reading and force control. Unlike: children layer language and rules on top.</li>
+<li><b>Population genetics · Lewontin 1972</b>: Richard Lewontin estimated that about 85% of human genetic variation lies within populations, with only a small share between them: the same shape as "within-group variation dwarfs between-group gaps." The caveat: critics later showed that many traits combined can still sort groups, so the point is about predicting individuals, not denying differences.</li>
+<li><b>Distributed systems · The single-leader bottleneck</b>: When every write must pass through one leader node, the whole system stalls when that node is busy, and it becomes a single point of failure. Maternal gatekeeping turns a family into a single-leader architecture. Gate-opening is like letting replicas accept writes and settling for eventual consistency at "80% good." The difference: a rejected node does not get discouraged and stop writing.</li>
+</ul>
+</div>
+<div class="tk">
+<h3>Ten takeaways</h3>
+<ol class="takeaways">
+<li>A father's involvement matters not because it copies the mother's, but because it offers a different, more vigorous and challenging kind of interaction.</li>
+<li>Decades of Lamb's research show that what matters is the warmth and quality of involvement, not the label "father."</li>
+<li>Paquette's activation relationship theory: mothers often serve as a "secure base" for comfort, fathers as a "launchpad" that pushes children out to explore.</li>
+<li>Rough-and-tumble play is a social training ground where children learn to read signals, control their strength, and find the line between excitement and losing control.</li>
+<li>Boys and girls differ on average, but variation within each group far exceeds the gap between groups, so averages cannot predict an individual child.</li>
+<li>"Boys aren't good with feelings" is largely taught: parents talk about emotions more with daughters, and boys' close friendships are often squeezed out by culture in adolescence.</li>
+<li>Maternal gatekeeping means criticizing, redoing, or taking over a partner's parenting, and it markedly lowers fathers' involvement and sense of competence.</li>
+<li>Gatekeeping feeds a cycle of criticism, withdrawal, overload, resentment, and more takeover; breaking it means accepting "his way, done to 80%."</li>
+<li>Emotional security theory separates destructive conflict, which keeps children anxious and on alert, from constructive conflict, which teaches them conflict can be repaired.</li>
+<li>Parents need not share one style, but they should hold two or three common bottom lines and never triangulate the child into taking sides, carrying messages, or judging.</li>
+</ol>
+</div>
 <div class="deep-title">Going Deeper</div>
 
 <details>

@@ -31,6 +31,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -212,6 +224,31 @@ nav a:hover{background:#e07a9b;color:#fff}
 </div>
 </div>
 
+<div class="crossx">
+<h3>Crossovers</h3>
+<ul>
+<li><b>Neuroscience · Prediction error</b>: The brain updates its model from the gap between what it expected and what happened; no error signal, no learning. Desirable difficulty has the same shape: getting stuck and getting it wrong is the teaching signal. Where it differs: the brain wants to drive error to zero, while learning needs a reachable margin of error kept open on purpose.</li>
+<li><b>Eastern philosophy · The finger pointing at the moon</b>: The Surangama Sutra warns that whoever stares at the pointing finger misses the moon and misreads the finger too. An AI answer is the finger; understanding is the moon. Where it differs: Chan lets go of concepts altogether, while metacognition uses concepts to watch one's own thinking.</li>
+<li><b>Distributed systems · Chaos engineering</b>: From 2011 Netflix used Chaos Monkey to kill production services at random, forcing the system to prove it survives losing a dependency. "Try on your own for 15 minutes first" is a household chaos drill: pull the AI now and then and see whether the skill lives in the child or only in the dependency. Where it differs: a system can buy redundancy, but a brain's redundancy only comes from using the skill yourself, again and again; it cannot be bought or installed.</li>
+<li><b>Evolutionary biology · The cavefish's eyes</b>: Mexican tetras living in dark caves lost their eyes over many generations; organs that go unused get dropped. Cognitive offloading is the same use-it-or-lose-it logic. Where it differs: evolution needs dozens of generations, while a child's ability can grow or wither within one school term, and can still be won back.</li>
+<li><b>Philosophy of mind · The extended mind</b>: In 1998 Clark and Chalmers imagined Otto, a man with Alzheimer's who finds his way with a notebook that functions as part of his mind. That vindicates the scaffold: tools can become part of cognition. Where it differs: Otto wrote his notebook himself and trusts it; AI output is not the child's own, so it has to be checked before it counts.</li>
+</ul>
+</div>
+<div class="tk">
+<h3>Ten takeaways</h3>
+<ol class="takeaways">
+<li>Learning happens during the struggle; what makes learning easier often makes memory more fragile, which is the idea of desirable difficulty.</li>
+<li>Generating an answer yourself beats reading someone else's, the generation effect, which is why AI should not simply hand over answers.</li>
+<li>In Bastani and colleagues' 2024 study, students practicing math with GPT-4 scored far higher in practice but about 17% worse on the exam once the AI was removed.</li>
+<li>Treat AI output as a draft to be tested, not an endpoint: have the child explain it without the screen, then hunt for errors together.</li>
+<li>AI can be a scaffold that gets removed or a crutch leaned on forever; the difference lies in how it is used, not in the tool.</li>
+<li>Cognitive offloading boosts short-term efficiency but erodes independent ability; heavy GPS users show faster decline in spatial memory.</li>
+<li>Try first, name the exact step you are stuck on, then ask for help and review afterward; putting the problem into words is half the learning.</li>
+<li>When answers are nearly free, metacognition is the durable edge; in the same GPT study, a Socratic-hint version preserved learning.</li>
+<li>Coding education is about computational thinking, not syntax: decomposition, patterns, abstraction and algorithms, the same skills behind a good prompt.</li>
+<li>Coding transfers reliably to other programming tasks but only weakly to math or language, so treat it as thinking training in its own right.</li>
+</ol>
+</div>
 <!-- Deeper questions -->
 <div class="card">
 <span class="num">Deeper</span>

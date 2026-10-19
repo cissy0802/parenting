@@ -39,6 +39,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}.flabel{flex:0 0 88px}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -209,6 +221,31 @@ nav a:hover{background:#e07a9b;color:#fff}
 </div>
 </div>
 
+<div class="crossx">
+<h3>Crossovers</h3>
+<ul>
+<li><b>Neuroscience · Meditation and the default mode network (Judson Brewer, 2011)</b>: Brewer's team reported in PNAS that experienced meditators show markedly lower default mode network activity. The likeness: both ask you to stay inside a stimulus-free blank without fleeing it. The difference: meditation trains you not to drift with your thoughts, while the value of boredom lies precisely in letting the mind wander and make its own associations.</li>
+<li><b>Distributed systems · Context switching</b>: when a CPU switches processes it saves registers and swaps page tables, the cache goes cold, and the more often it switches the lower the throughput: the machine version of the attention tax. The difference: a machine stores the old state perfectly before clearing it; a brain cannot, so the last task leaks into the next as attention residue.</li>
+<li><b>Complexity science · The edge of chaos (Chris Langton)</b>: using cellular automata, Langton argued that the narrow band between order and chaos is where computation thrives; flow is likewise a band squeezed between boredom (too orderly) and anxiety (too chaotic). The difference: the edge of chaos describes system dynamics, flow is a subjective experience, and someone else can tune the difficulty.</li>
+<li><b>Evolutionary biology · The marginal value theorem (Eric Charnov, 1976)</b>: a forager should leave a patch once its rate of return falls to the average of the whole habitat, and boredom looks like that "time to move on" signal. The difference: an animal can only move outward; a bored child has another route, turning inward to invent a new game.</li>
+<li><b>Business · The maker's schedule (Paul Graham, 2009)</b>: Graham wrote that makers such as programmers use time in half-day units, so a single meeting can shatter an afternoon; protecting a child's unbroken blocks of time is the same logic. The difference: adults can decline the meeting themselves, while a child's time has to be guarded by a grown-up.</li>
+</ul>
+</div>
+<div class="tk">
+<h3>Ten takeaways</h3>
+<ol class="takeaways">
+<li>Boredom is not a fault to extinguish at once but the doorway through which the brain shifts into its default mode network and generates its own ideas.</li>
+<li>Sandi Mann found that people who first did a dull task then scored higher on a creativity test.</li>
+<li>Handing a child a screen the moment they say they are bored takes away the practice of turning boredom into creation.</li>
+<li>Protecting attention matters more than training it: the key is not interrupting and giving children unbroken blocks of time.</li>
+<li>Montessori observed that after deep concentration children enter a calmer, more ordered state she called normalization.</li>
+<li>Frequent questions, praise and photos are well-meant interruptions, and over time they train shallow attention.</li>
+<li>There is no true multitasking, only constant switching between tasks, and every switch charges an attention tax.</li>
+<li>Clifford Nass's team at Stanford found that heavy media multitaskers are worse, not better, at filtering out irrelevant information and switching tasks.</li>
+<li>After a task switch, thoughts about the previous task linger, and this attention residue slows down the task at hand.</li>
+<li>Flow happens where challenge matches skill: too hard brings anxiety, too easy brings boredom, and the parent's role is to adjust the difficulty.</li>
+</ol>
+</div>
 <h2 class="deepen-title">Going Deeper</h2>
 
 <details>

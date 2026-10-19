@@ -31,6 +31,18 @@ header .intro{margin-top:18px;font-size:0.95rem;color:#6a4a5a;font-style:italic;
 .deep summary{font-weight:600;color:#c45a8e;cursor:pointer;font-size:0.95rem}
 .deep details div{margin-top:10px;font-size:0.92rem;color:#5a3a4a;line-height:1.75}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -165,6 +177,31 @@ header .intro{margin-top:18px;font-size:0.95rem;color:#6a4a5a;font-style:italic;
 <div class="label">【本周练习 + 思考题】</div>
 <div class="practice"><strong>练习：</strong>这周刻意让孩子看见你的一次小失败，以及你平静复盘的过程。<br/><strong>思考：</strong>当孩子失败时，我的第一反应——是好奇"发生了什么"，还是焦虑"这下糟了"？</div>
 </div>
+</div>
+<div class="crossx">
+<h3>越界 · 跨学科的联想</h3>
+<ul>
+<li><b>复杂性科学 · 模拟退火（Kirkpatrick 等，1983）</b>：优化算法先在「高温」下乱走，连更差的解也接受，才跳得出局部最优，再慢慢降温收敛。生产性失败的先挣扎是同一个结构：走弯路是为了不早早卡死在浅理解里。不像在于，退火靠降温自己收敛，孩子的挣扎之后必须有人讲解收束。</li>
+<li><b>心理学 · Rescorla–Wagner 学习模型（1972）</b>：这个模型说，学到多少取决于「意外」有多大：预测和结果差得越远，更新越多。孩子先试错，等于先下了一个预测，随后的讲解才成了大误差、大更新。不像的是，模型里的误差纯靠外界给出，孩子还得自己意识到「我哪里不懂」。</li>
+<li><b>生物学 · 毒物兴奋效应（hormesis）</b>：小剂量的压力源（运动、轻度断食）会让细胞启动修复、变得更强，剂量一大就变成伤害，曲线是倒 U 形。恰到好处的挫折和耐受窗口正是这条曲线。不像在于，细胞的阈值大致固定，孩子的窗口却会因父母的共同调节而变宽。</li>
+<li><b>分布式系统 · 混沌工程（Netflix Chaos Monkey，2011 年公开）</b>：在白天、有人值守时随机关掉线上服务器，逼系统在低风险时段练复原力，免得半夜真出事时第一次面对。这和「童年是失败成本最低的练习场」同构。不像的是，工程师是主动制造故障，而本篇明确反对人为制造挫败，只主张不替孩子挡掉自然的挫折。</li>
+<li><b>领导力 · 心理安全（Amy Edmondson，1999）</b>：Edmondson 研究工作团队发现，成员相信「犯错不会被惩罚」时，团队更愿意报告错误、更会学习；决定学习的是领导对错误的反应，而不是口号。和父母对失败的反应决定孩子心态是同一个结构。不像在于，团队成员是平级的成年人，孩子还在拿父母的脸色校准世界。</li>
+</ul>
+</div>
+<div class="tk">
+<h3>十条要点</h3>
+<ol class="takeaways">
+<li>Manu Kapur 的生产性失败：先让孩子在难题里挣扎甚至做错，再讲解，换来的概念理解和迁移能力更强。</li>
+<li>挣扎之所以有用，是因为它激活已有知识、暴露真正不懂的地方，让孩子对随后的讲解格外敏感。</li>
+<li>生产性失败不等于放任不管，挣扎要发生在安全、被支持的环境里，之后必须有引导。</li>
+<li>自我决定理论区分自主支持与控制，过度介入的直升机育儿与孩子更低的胜任感、更高的焦虑相关。</li>
+<li>脚手架的精髓是给刚好够的支持，并随孩子能力增长逐步撤除，而不是永久代劳。</li>
+<li>父母急着代劳，常常是在缓解自己看孩子受挫时的不适，先觉察这股冲动再决定帮不帮。</li>
+<li>Dan Siegel 的耐受窗口：难度略高于能力是学习区，远超能力只会崩溃，什么也学不进。</li>
+<li>打着挫折教育旗号故意打击孩子是误区，人为制造的挫败只会让耐受窗口变窄。</li>
+<li>Haimovitz 和 Dweck 发现，孩子形成成长心态，取决于父母把失败当灾难还是当成长机会。</li>
+<li>童年是失败成本最低的练习场，反复经历搞砸、复盘、再来，长出的是可迁移的复原力。</li>
+</ol>
 </div>
 <!-- 深入思考 -->
 <div class="deep">

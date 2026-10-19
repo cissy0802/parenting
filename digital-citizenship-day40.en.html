@@ -32,6 +32,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -235,6 +247,30 @@ nav a:hover{background:#e07a9b;color:#fff}
 </div>
 </div>
 
+<div class="crossx">
+<h3>Crossovers</h3>
+<ul>
+<li><b>Distributed systems · Deletes and replicas</b>: In a distributed database you cannot simply erase a record; you write a "tombstone" and wait for it to reach every replica. A digital footprint has the same shape: once content is screenshotted and forwarded, copies sit on nodes you do not control. The difference is that a database at least knows where its replicas are; the internet keeps no such list.</li>
+<li><b>Buddhism · Karma and seeds</b>: Yogacara teaches that every act plants a "seed" in the storehouse consciousness that ripens later under other conditions. A post works the same way: tossed off today, it bears fruit years later in a very different context. Unlike seeds, which Buddhism says can be transformed, the record never changes; only the context reading it does.</li>
+<li><b>Philosophy of mind · The extended mind</b>: In 1998 Clark and Chalmers argued that Otto's ever-present notebook counts as part of his memory. Using AI as a sparring partner also extends thinking into a tool, but Otto wrote his notebook and can trust it, while AI is confidently wrong and eager to please, so the checking step has to stay.</li>
+<li><b>Ethology · Supernormal stimuli</b>: Tinbergen found birds would abandon their own eggs to brood an absurdly oversized dummy, because the exaggerated signal beats the real one. Games compress competence and connection into dense feedback in a similar way. The difference: the bird has no choice, while a child who finds achievement and friends offline feels the pull of the game weaken.</li>
+</ul>
+</div>
+<div class="tk">
+<h3>Ten takeaways</h3>
+<ol class="takeaways">
+<li>Anything you put online should be treated as permanent, public, and visible to strangers, so pause a second before posting.</li>
+<li>danah boyd identifies four properties of online content absent offline: persistence, replicability, scalability, and searchability.</li>
+<li>Context collapse lets an old joke be screenshotted and sent anywhere out of context; explaining it builds more caution than a ban.</li>
+<li>Parents who share their children online are the biggest source of a child's footprint, building an archive before the child can consent.</li>
+<li>Helen Nissenbaum's contextual integrity says privacy is violated not when information is known but when it flows into the wrong context.</li>
+<li>Privacy is mutual respect: parents who read a child's chats and diary while demanding the child protect privacy destroy trust.</li>
+<li>Cognitive offloading research shows that knowing information is searchable weakens memory and deep processing; effortful thinking is where learning happens.</li>
+<li>Healthy AI use means think first, then ask the AI, then judge whether it is right, because language models hallucinate and flatter.</li>
+<li>The digital Goldilocks hypothesis holds that screen time and well-being follow an inverted U: moderate use is best, and the effects are small.</li>
+<li>Games precisely meet the needs for autonomy, competence, and connection, so meeting those needs offline works better than pulling the plug.</li>
+</ol>
+</div>
 <div class="think-head">Going Deeper</div>
 
 <details>

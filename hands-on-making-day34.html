@@ -31,6 +31,18 @@ header .intro{margin-top:18px;font-size:0.95rem;color:#6a4a5a;font-style:italic;
 .deep summary{font-weight:600;color:#c45a8e;cursor:pointer;font-size:0.95rem}
 .deep details div{margin-top:10px;font-size:0.92rem;color:#5a3a4a;line-height:1.75}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -165,6 +177,32 @@ header .intro{margin-top:18px;font-size:0.95rem;color:#6a4a5a;font-style:italic;
 <div class="practice"><strong>练习：</strong>选一件你一直觉得"还太小"的真工具 (削皮刀、订书机、螺丝刀)，这周教孩子正确用法，陪他完整用一次。<br/><strong>思考：</strong>我的"太危险了"，有多少是孩子真的做不到，有多少是我不敢放手？</div>
 </div>
 </div>
+<div class="crossx">
+<h3>越界 · 跨学科的联想</h3>
+<ul>
+<li><b>神经科学 · Penfield 的皮层小人</b>：Penfield 按运动与感觉皮层的占地画出的人形里，手和嘴唇大得离谱，大脑确实把一大块地盘留给了手，呼应"手是大脑向外延伸的部分"。不像在：地盘大只说明手需要精细控制，练手能否迁移到数学和阅读，仍要靠追踪研究来证。</li>
+<li><b>生物进化 · Jacob 的"进化是修补匠"</b>：François Jacob 1977 年说，进化不是按图纸设计的工程师，而是拿手边现成零件拼凑改装的修补匠，和 tinkering 同一个结构：没有标准答案，在旧东西上试错逼近。不像在：进化不求理解，孩子捣鼓恰恰是为了长出因果模型。</li>
+<li><b>分布式系统 · 混沌工程</b>：Netflix 的 Chaos Monkey 故意随机关掉线上服务器，逼工程师看清系统哪里脆、怎么恢复，和"允许孩子拆坏旧物"是同一种思路：主动弄坏，换来理解。它还强调把"爆炸半径"控制住，正对应留下风险、清除危害。不像在：系统不会疼，孩子的一次割伤需要有人在场陪着复盘。</li>
+<li><b>东方哲学 · 庖丁解牛</b>：《庄子》里庖丁的刀顺着牛的肌理走，用了十九年刃口仍像新磨的，功夫长在手上，是拿真刀反复磨出来的，和"真工具带来胜任"同构。不像在：庄子借它讲养生与顺应，追求的是忘掉技巧的自在，而不是孩子要的那份"我能行"。</li>
+</ul>
+</div>
+
+<div class="tk">
+<h3>十条要点</h3>
+<ol class="takeaways">
+<li>剪、捏、串、折这类精细动作与日后的注意力和学业表现相关，手是大脑向外延伸的部分。</li>
+<li>Grissmer 等人 2010 年发现，入学时的精细动作与注意力能预测日后的数学和阅读成绩。</li>
+<li>捏豆子、揉面团、系扣子都在打精细动作的地基，不必把精细动作窄化成早早练写字。</li>
+<li>拆解与修理让孩子看见东西内部如何运作，培养因果推理，也培养不怕弄坏的探究心。</li>
+<li>"生产性失败"研究显示，先在混乱中自己挣扎、再获得指导的孩子，理解反而更深。</li>
+<li>准备一个专门可以拆的旧物箱，既保护孩子的好奇心，也给拆解划清边界。</li>
+<li>Papert 的建构主义认为，孩子在创造一个对自己有意义的作品时，学习最深。</li>
+<li>积木塔一再倒塌时，用提问代替给答案，把"调试"环节和工程思维还给孩子。</li>
+<li>给孩子真剪刀、真锤子而非塑料仿制品，真实的重量、阻力和后果带来真实的胜任感。</li>
+<li>分清看得见、可学习的风险与看不见的危害：清除危害，留下风险，在场但不接管。</li>
+</ol>
+</div>
+
 <!-- 深入思考 -->
 <div class="deep">
 <h3 data-tts="cb40515de4b70e6e">深入思考</h3>

@@ -36,6 +36,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -185,6 +197,30 @@ nav a:hover{background:#e07a9b;color:#fff}
 <div class="label">【本周练习 + 思考题】</div>
 <div class="practice"><strong>动作：</strong>写下孩子三个具体优势（含被你嫌过的特质的另一面，如"话多"=表达欲强），并当面具体地告诉他一次。<br/><strong>思考：</strong>在我家，孩子收到的正向反馈和负向反馈，大概是几比几？</div>
 </div>
+</div>
+<div class="crossx">
+<h3>越界 · 跨学科的联想</h3>
+<ul>
+<li><b>分布式系统 · 背压（backpressure）</b>：下游处理不过来时，系统让上游按下游的速度放慢，而不是硬塞到崩溃；「十分钟作业 + 两分钟活动」就是按孩子的处理能力给任务限流。不像的是，系统可以丢包重传，孩子被压垮留下的是「我有问题」的自我认知。</li>
+<li><b>西方哲学 · 亚里士多德的 akrasia（意志软弱）</b>：知道什么是对的，却没去做，正是 Barkley 说的「知道该做什么，却难以让自己去做」。不像在于：亚里士多德把它归入品格问题来讨论，正文恰恰要把它从品格里拿出来，交给执行功能和外部支架。</li>
+<li><b>生物进化 · DRD4 与游牧的阿里阿尔人</b>：Dan Eisenberg 等 2008 年研究肯尼亚阿里阿尔人，与 ADHD 相关的 DRD4 7R 等位基因，在游牧者中与较好的营养状况相关，在定居者中却相反。同一组特质，换个环境就从负担变成优势，和 Hallowell 的「引擎」很像。不像的是，这只是一个小样本的关联研究，不能证明 ADHD 是被自然选择留下的适应。</li>
+<li><b>投资 · 格雷厄姆的「投票机与称重机」</b>：市场短期是投票机，长期是称重机；MTA 里药物的短期优势显著，长期随访却收窄，看决策要分清短期读数和长期分量。不像的是，药物优势收窄不说明药物没用，可能是随访期剂量管理、是否坚持服药都变了。</li>
+</ul>
+</div>
+<div class="tk">
+<h3>十条要点</h3>
+<ol class="takeaways">
+<li>注意力是逐步发育出来的能力，一次专注时长的粗略经验是年龄乘以 2 到 5 分钟，个体差异很大。</li>
+<li>支撑注意力的前额叶执行功能网络一直发育到二十多岁，警觉、定向、执行控制三个注意系统成熟速度不同。</li>
+<li>把任务切到孩子当下能力之内，用外部结构帮他专注，比要求孩子靠意志力硬扛更有效。</li>
+<li>现代研究把 ADHD 理解为执行功能与自我调节的发育差异，而不是不想专心或管教不严。</li>
+<li>Barkley 认为 ADHD 的核心是反应抑制受损：孩子常常知道该做什么，却难以让自己去做。</li>
+<li>ADHD 高度遗传，吃糖、看屏幕、管教不严都不是病因；对感兴趣之事的高度专注反而是 ADHD 的常见特征。</li>
+<li>ADHD 过度诊断与诊断不足并存，安静走神型的女孩尤其容易被漏诊，诊断必须由专业评估完成。</li>
+<li>MTA 研究显示药物短期控制症状优于单纯行为治疗，但这一优势在长期随访中收窄，药物加行为的联合方案在功能领域更优。</li>
+<li>Hallowell 把 ADHD 大脑比作法拉利引擎配自行车刹车：要做的是装好刹车，而不是否定引擎。</li>
+<li>至少有一个无条件相信孩子、看得见他闪光点的成年人，是 ADHD 儿童长期心理健康最强的保护因素之一。</li>
+</ol>
 </div>
 <div class="deep-title">深入思考</div>
 <details>

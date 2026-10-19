@@ -33,6 +33,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -201,6 +213,30 @@ nav a:hover{background:#e07a9b;color:#fff}
 <div class="label">【本周练习 + 思考题】</div>
 <div class="practice">本周不谈时长，先观察：孩子从游戏里得到的最强烈的东西是什么——成就感、和谁连接、还是逃避？据此在现实里补一个对应的出口。<strong>思考题：</strong>如果游戏满足的是真实的心理需求，"减少游戏"和"丰富现实"，哪个才是你真正该投入精力的方向？</div>
 </div>
+</div>
+<div class="crossx">
+<h3>越界 · 跨学科的联想</h3>
+<ul>
+<li><b>分布式系统 · 删除与副本</b>：分布式数据库里，删一条记录不能直接抹掉，要写一个“墓碑”标记，等它传遍所有副本才算删干净。网络足迹难删是同一个结构：内容一旦被截图、转发，副本就落在你控制不了的节点上。不同在于，数据库至少知道副本在哪，互联网连副本清单都没有。</li>
+<li><b>佛学 · 业与种子</b>：唯识宗说每个行为都会在阿赖耶识里留下“种子”，日后在别的因缘下成熟。帖子也是这样，当下随手一发，多年后在完全不同的语境里结果。不像的是，佛学认为种子可以转化，数字记录本身却不会变，变的只是读它的语境。</li>
+<li><b>心灵哲学 · 延展心智</b>：Clark 与 Chalmers 1998 年提出“延展心智”，认为 Otto 随身的笔记本可以算他记忆的一部分。把 AI 当陪练也是把思考延伸到工具上；但 Otto 的本子是他自己写的、可靠的，AI 会自信地说错、会迎合，所以必须保留核实这一步。</li>
+<li><b>动物行为学 · 超常刺激</b>：Tinbergen 发现，鸟会舍弃自己的蛋，去孵一个大得离谱的假蛋，因为夸张版信号比真实信号更有吸引力。游戏把胜任感和连接浓缩成高频反馈，结构相似。不同的是，鸟无从选择，孩子在现实里得到成就和朋友后，游戏的引力会下降。</li>
+</ul>
+</div>
+<div class="tk">
+<h3>十条要点</h3>
+<ol class="takeaways">
+<li>在网上留下的东西默认是永久的、公开的、可被陌生人看到的，发布前先停一秒。</li>
+<li>danah boyd 指出网络内容有持久性、可复制性、可扩散性、可检索性四个线下没有的特性。</li>
+<li>“语境坍塌”让多年前的玩笑可被截图、脱离语境传给任何人，讲清它比单纯禁止更能培养谨慎。</li>
+<li>父母晒娃是孩子最大的数字足迹来源，在孩子无法同意的年龄就为他建立了庞大档案。</li>
+<li>Helen Nissenbaum 的“语境完整性”认为，隐私受侵犯不是因为信息被知道，而是因为它流到了错误语境。</li>
+<li>隐私是双向的尊重：父母偷看孩子的私聊和日记，却要求孩子保护隐私，会摧毁信任。</li>
+<li>认知卸载研究显示，知道信息随时可查，记忆和深加工就会减弱，思考的吃力才是学习发生的地方。</li>
+<li>健康用 AI 的顺序是先自己想、再问 AI、再判断它对不对，因为大模型会幻觉也会谄媚。</li>
+<li>数字金发姑娘假说认为屏幕时间与幸福感呈倒 U 型，适量最好，而且效应量很小。</li>
+<li>游戏精准满足自主、胜任、连接三种需求，在现实里补上这些需求，比单纯断电更治本。</li>
+</ol>
 </div>
 <div class="think-head">深入思考</div>
 <details>

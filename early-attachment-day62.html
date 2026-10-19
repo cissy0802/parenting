@@ -39,6 +39,18 @@ nav{text-align:center;margin-top:36px;padding:20px 0}
 nav a{color:#c45a8e;text-decoration:none;font-weight:600;font-size:0.95rem;padding:10px 22px;border:1.5px solid #e07a9b;border-radius:24px;transition:all 0.15s}
 nav a:hover{background:#e07a9b;color:#fff}
 @media(max-width:600px){header h1{font-size:1.45rem}.card{padding:22px 18px}.card h2{font-size:1.15rem}.matrix{grid-template-columns:1fr}}
+.crossx{background:#fff;border-radius:18px;padding:26px 28px;margin-bottom:24px;box-shadow:0 2px 16px rgba(196,90,142,0.09);border-top:4px solid #8a7ab8}
+.crossx h3{color:#6a5a9a;font-size:1.2rem;margin-bottom:10px}
+.crossx ul{list-style:none;padding:0}
+.crossx li{padding:10px 0;font-size:0.93rem;color:#3a2a3a;line-height:1.75;border-bottom:1px dashed #ddd5ec}
+.crossx li:last-child{border-bottom:none}
+.crossx b{color:#6a5a9a}
+.tk{margin-bottom:24px}
+.tk h3{color:#c45a8e;font-size:1.2rem;margin-bottom:14px}
+.takeaways{counter-reset:tk;list-style:none;margin:0;padding:0;border:1px solid #f0c8d8;border-radius:14px;background:#fff}
+.takeaways li{counter-increment:tk;position:relative;margin:0;padding:11px 18px 11px 52px;border-top:1px solid #fce4ed;font-size:0.93rem;line-height:1.75;color:#3a2a3a}
+.takeaways li:first-child{border-top:none}
+.takeaways li::before{content:counter(tk,decimal-leading-zero);position:absolute;left:18px;top:12px;font-family:"SF Mono",Menlo,monospace;font-size:0.78rem;color:#e07a9b}
 </style>
 </head>
 <body>
@@ -215,6 +227,30 @@ nav a:hover{background:#e07a9b;color:#fff}
 </div>
 </div>
 <!-- 深入思考 -->
+<div class="crossx">
+<h3>越界 · 跨学科的联想</h3>
+<ul>
+<li><b>神经科学 · 预测加工</b>：Friston 把大脑看成预测机器：用先验猜世界，用误差修正。内部工作模型是孩子「你在不在」的先验，赢得的安全型是被新证据改写的先验；不像在：关系先验要靠多年体验才改得动。</li>
+<li><b>分布式系统 · 重试与熔断</b>：调用方信不信一个节点，看的是响应可不可预测。时好时坏的节点逼出疯狂重试，像矛盾型孩子放大哭闹；总不响应的节点被熔断、不再调用，像回避型孩子压下求助。不像在：熔断后不再耗资源，回避型孩子的压力激素却仍在升高。</li>
+<li><b>佛学 · 正念觉察</b>：内观练的是看见念头而不被带走，和把童年旧伤从触发按钮变成可观察的记忆是同一个动作。不像在：佛学要放下对自我叙事的执着，依恋研究却要把叙事讲得更连贯。</li>
+<li><b>动物行为学 · 印随</b>：Lorenz 的小灰雁把破壳后见到的第一个移动物体认作母亲，印随的关键期窄且几乎不可逆。依恋同样是进化装上的靠近程序，却没有这种硬窗口，一生都能修订。</li>
+</ul>
+</div>
+<div class="tk">
+<h3>十条要点</h3>
+<ol class="takeaways">
+<li>依恋类型描述的是孩子在压力下如何使用照顾者的策略，不是贴在孩子身上的固定标签。</li>
+<li>Ainsworth 的陌生情境实验，真正的判据不是分离时哭不哭，而是重聚那一刻孩子的反应。</li>
+<li>回避型孩子重聚时看似冷淡，生理压力却很高，他的「独立」可能是防御而不是自主。</li>
+<li>依恋有安全港和安全基地两重功能，被安抚得越好的孩子，敢去探索得越远。</li>
+<li>明尼苏达纵向研究显示，1 岁时的依恋安全度能预测日后的社交与情绪调节，但只是预测，不是决定。</li>
+<li>敏感回应看的是回应准不准而不是多不多，过度包办和回应不足一样会削弱安全感。</li>
+<li>Tronick 的静止脸研究表明，健康互动里同步只占约三成时间，安全感来自错位之后的修复。</li>
+<li>成人依恋访谈发现，预测孩子依恋的不是父母童年幸不幸福，而是父母讲述童年的连贯性。</li>
+<li>童年不安全的父母，只要能连贯地反思过去，也能成为「赢得的安全型」，养出安全的孩子。</li>
+<li>依恋没有动物印随那样的硬性关键期，内部工作模型在童年中期、青春期乃至成年都能修订。</li>
+</ol>
+</div>
 <div class="deep">
 <h3 data-tts="9484f48d448ce0e6">深入思考</h3>
 <details><summary>依恋类型真能预测一生吗？在心理学复制危机下，原始效应量有多大？</summary><div>Sroufe 的纵向研究显示 1 岁依恋对成年有中等预测力，但绝非决定论。后天关系、气质、重大生活事件都会修订内部工作模型；「赢得的安全型」本身就是反决定论的证据。把依恋当作「倾向」而非「命运」——它是一份初稿，不是判决书。</div></details>
